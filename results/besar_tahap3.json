@@ -1,0 +1,31 @@
+{
+ "menit": 1.939475150903066,
+ "hasil": {
+  "LC": {
+   "dipilih": [
+    "ET|sebar|marginal|0.1",
+    "ET|sebar|marginal|0.1",
+    "ET|sebar|mondrian|0.1",
+    "ET|tanpa|marginal|0.1",
+    "ET|sebar|marginal|0.1"
+   ],
+   "cakupan_luar": 0.9053333333333334,
+   "cakupan_luar_sd": 0.022861904265976313,
+   "lebar_luar": 0.05982149077247336,
+   "lebar_luar_sd": 0.04053702953469523
+  },
+  "EM": {
+   "dipilih": [
+    "RF|sebar|marginal|0.1",
+    "ET|sebar|marginal|0.1",
+    "ET|sebar|marginal|0.1",
+    "LGBM|tanpa|marginal|0.1",
+    "RF|sebar|marginal|0.1"
+   ],
+   "cakupan_luar": 0.9102040816326531,
+   "cakupan_luar_sd": 0.030845670880965025,
+   "lebar_luar": 0.15382283051719225,
+   "lebar_luar_sd": 0.11144724086475524
+  }
+ }
+}

@@ -1,0 +1,197 @@
+{
+ "alpha": 0.1,
+ "n_ulang_A": 5,
+ "satuan_lebar": "log10 ppm",
+ "LC": {
+  "A": {
+   "konformal_rf_global": {
+    "cakupan": 0.9026666666666665,
+    "lebar": 0.4138511024316151,
+    "n": 5
+   },
+   "konformal_rf_mondrian": {
+    "cakupan": 0.9173333333333333,
+    "lebar": 0.36452085570494336,
+    "n": 5
+   },
+   "konformal_rf_ternormalkan": {
+    "cakupan": 0.9119999999999999,
+    "lebar": 0.11780316539688877,
+    "n": 5
+   },
+   "konformal_rf_mondrian_ternormalkan": {
+    "cakupan": 0.9173333333333333,
+    "lebar": 0.10441513785597907,
+    "n": 5
+   },
+   "cqr_gbm": {
+    "cakupan": 0.9906666666666666,
+    "lebar": 2.3979399802424375,
+    "n": 5
+   },
+   "ensemble_dalam": {
+    "cakupan": 0.9826666666666666,
+    "lebar": 0.5207126796245575,
+    "n": 5
+   },
+   "ensemble_dalam_konformal": {
+    "cakupan": 0.8960000000000001,
+    "lebar": 0.2842607438564301,
+    "n": 5
+   },
+   "mc_dropout": {
+    "cakupan": 0.9466666666666667,
+    "lebar": 1.07809237241745,
+    "n": 5
+   },
+   "mc_dropout_konformal": {
+    "cakupan": 0.908,
+    "lebar": 0.8073855757713317,
+    "n": 5
+   },
+   "rf_sebar": {
+    "cakupan": 0.9813333333333333,
+    "lebar": 0.30957778505917816,
+    "n": 5
+   }
+  },
+  "B": {
+   "konformal_rf_global": {
+    "cakupan": 0.096,
+    "lebar": 0.241871217250824,
+    "n": 15
+   },
+   "konformal_rf_ternormalkan": {
+    "cakupan": 0.06533333333333333,
+    "lebar": 0.25628574184535863,
+    "n": 15
+   },
+   "cqr_gbm": {
+    "cakupan": 0.8053333333333333,
+    "lebar": 2.3824495202995704,
+    "n": 15
+   },
+   "ensemble_dalam": {
+    "cakupan": 0.36000000000000004,
+    "lebar": 1.1353464722633362,
+    "n": 15
+   },
+   "ensemble_dalam_konformal": {
+    "cakupan": 0.2773333333333333,
+    "lebar": 0.58248064716657,
+    "n": 15
+   },
+   "mc_dropout": {
+    "cakupan": 0.5453333333333334,
+    "lebar": 1.4400315418839456,
+    "n": 15
+   },
+   "mc_dropout_konformal": {
+    "cakupan": 0.35333333333333333,
+    "lebar": 0.9050662944714228,
+    "n": 15
+   },
+   "rf_sebar": {
+    "cakupan": 0.5653333333333334,
+    "lebar": 1.004363460749415,
+    "n": 15
+   }
+  }
+ },
+ "EM": {
+  "A": {
+   "konformal_rf_global": {
+    "cakupan": 0.9102040816326531,
+    "lebar": 0.3690415656963985,
+    "n": 5
+   },
+   "konformal_rf_mondrian": {
+    "cakupan": 0.9183673469387754,
+    "lebar": 0.31861995176474256,
+    "n": 5
+   },
+   "konformal_rf_ternormalkan": {
+    "cakupan": 0.9020408163265307,
+    "lebar": 0.12622476902534913,
+    "n": 5
+   },
+   "konformal_rf_mondrian_ternormalkan": {
+    "cakupan": 0.9129251700680273,
+    "lebar": 0.1358585000026362,
+    "n": 5
+   },
+   "cqr_gbm": {
+    "cakupan": 0.9931972789115646,
+    "lebar": 2.129228753312768,
+    "n": 5
+   },
+   "ensemble_dalam": {
+    "cakupan": 0.9741496598639454,
+    "lebar": 0.4740521967411041,
+    "n": 5
+   },
+   "ensemble_dalam_konformal": {
+    "cakupan": 0.907482993197279,
+    "lebar": 0.32047976851463317,
+    "n": 5
+   },
+   "mc_dropout": {
+    "cakupan": 0.9523809523809522,
+    "lebar": 1.288195300102234,
+    "n": 5
+   },
+   "mc_dropout_konformal": {
+    "cakupan": 0.926530612244898,
+    "lebar": 1.022441029548645,
+    "n": 5
+   },
+   "rf_sebar": {
+    "cakupan": 0.9904761904761905,
+    "lebar": 0.32460055402306537,
+    "n": 5
+   }
+  },
+  "B": {
+   "konformal_rf_global": {
+    "cakupan": 0.24402721088435372,
+    "lebar": 0.24673037840260398,
+    "n": 15
+   },
+   "konformal_rf_ternormalkan": {
+    "cakupan": 0.2709671201814059,
+    "lebar": 0.36665048109102527,
+    "n": 15
+   },
+   "cqr_gbm": {
+    "cakupan": 0.8,
+    "lebar": 2.3733027169915784,
+    "n": 15
+   },
+   "ensemble_dalam": {
+    "cakupan": 0.46938775510204084,
+    "lebar": 1.1720015386740366,
+    "n": 15
+   },
+   "ensemble_dalam_konformal": {
+    "cakupan": 0.3505827664399093,
+    "lebar": 0.6008837521076202,
+    "n": 15
+   },
+   "mc_dropout": {
+    "cakupan": 0.4372777777777778,
+    "lebar": 1.3420028746128083,
+    "n": 15
+   },
+   "mc_dropout_konformal": {
+    "cakupan": 0.36377777777777787,
+    "lebar": 0.9972598850727081,
+    "n": 15
+   },
+   "rf_sebar": {
+    "cakupan": 0.7484081632653061,
+    "lebar": 1.11927279033416,
+    "n": 15
+   }
+  }
+ }
+}

@@ -1,0 +1,5790 @@
+{
+ "alpha": 0.1,
+ "beta": [
+  0.01,
+  0.05,
+  0.1,
+  0.2
+ ],
+ "buang_gerbang": 0.1,
+ "satu_tahap": {
+  "LC": {
+   "cakupan_in_setelah_gerbang": 0.9133333333333332,
+   "cakupan_out_setelah_gerbang": 0.3586666666666666,
+   "gerbang_gugurkan_in": 0.0,
+   "gerbang_gugurkan_out": 0.0,
+   "ringkas": {
+    "jarak_knn": {
+     "auc": 0.9050380952380953,
+     "beta": {
+      "0.01": {
+       "tolak_out": 0.11066666666666668,
+       "tolak_in": 0.013809523809523811,
+       "cakupan_in_diterima": 0.9222102651370176,
+       "cakupan_out_diterima": 0.40243340451837695,
+       "level_tolak_penuh": 1
+      },
+      "0.05": {
+       "tolak_out": 0.324,
+       "tolak_in": 0.056666666666666664,
+       "cakupan_in_diterima": 0.9428351832708431,
+       "cakupan_out_diterima": 0.38367374005305044,
+       "level_tolak_penuh": 2
+      },
+      "0.1": {
+       "tolak_out": 0.7053333333333335,
+       "tolak_in": 0.1057142857142857,
+       "cakupan_in_diterima": 0.9557588791715352,
+       "cakupan_out_diterima": 0.5714285714285714,
+       "level_tolak_penuh": 8
+      },
+      "0.2": {
+       "tolak_out": 0.8613333333333333,
+       "tolak_in": 0.20285714285714285,
+       "cakupan_in_diterima": 0.9693728488826576,
+       "cakupan_out_diterima": 1.0,
+       "level_tolak_penuh": 11
+      }
+     }
+    },
+    "konformal": {
+     "auc": 0.8518761904761906,
+     "beta": {
+      "0.01": {
+       "tolak_out": 0.188,
+       "tolak_in": 0.04142857142857143,
+       "cakupan_in_diterima": 0.9252045496240072,
+       "cakupan_out_diterima": 0.3539927944862155,
+       "level_tolak_penuh": 1
+      },
+      "0.05": {
+       "tolak_out": 0.2533333333333333,
+       "tolak_in": 0.05476190476190476,
+       "cakupan_in_diterima": 0.9284699788636529,
+       "cakupan_out_diterima": 0.3539927944862155,
+       "level_tolak_penuh": 1
+      },
+      "0.1": {
+       "tolak_out": 0.5626666666666668,
+       "tolak_in": 0.11380952380952382,
+       "cakupan_in_diterima": 0.9404532372369966,
+       "cakupan_out_diterima": 0.4204491725768322,
+       "level_tolak_penuh": 3
+      },
+      "0.2": {
+       "tolak_out": 0.8240000000000001,
+       "tolak_in": 0.22857142857142862,
+       "cakupan_in_diterima": 0.9597088216932512,
+       "cakupan_out_diterima": 0.3333333333333333,
+       "level_tolak_penuh": 9
+      }
+     }
+    },
+    "gabungan": {
+     "auc": 0.9054571428571427,
+     "beta": {
+      "0.01": {
+       "tolak_out": 0.16533333333333333,
+       "tolak_in": 0.029523809523809518,
+       "cakupan_in_diterima": 0.9302408020095185,
+       "cakupan_out_diterima": 0.3739056343577621,
+       "level_tolak_penuh": 0
+      },
+      "0.05": {
+       "tolak_out": 0.504,
+       "tolak_in": 0.0719047619047619,
+       "cakupan_in_diterima": 0.9421226069626593,
+       "cakupan_out_diterima": 0.4209700059101655,
+       "level_tolak_penuh": 3
+      },
+      "0.1": {
+       "tolak_out": 0.688,
+       "tolak_in": 0.1223809523809524,
+       "cakupan_in_diterima": 0.9548376246734506,
+       "cakupan_out_diterima": 0.5,
+       "level_tolak_penuh": 7
+      },
+      "0.2": {
+       "tolak_out": 0.9026666666666667,
+       "tolak_in": 0.21428571428571433,
+       "cakupan_in_diterima": 0.974297525453617,
+       "cakupan_out_diterima": 0.5,
+       "level_tolak_penuh": 9
+      }
+     }
+    }
+   },
+   "per_level": {
+    "2": {
+     "jarak_knn": {
+      "auc": 0.9328571428571429,
+      "beta": {
+       "0.01": {
+        "tolak_out": 0.0,
+        "tolak_in": 0.02142857142857143,
+        "cakupan_in_diterima": 0.8759124087591241,
+        "cakupan_out_diterima": 0.02
+       },
+       "0.05": {
+        "tolak_out": 0.98,
+        "tolak_in": 0.07142857142857142,
+        "cakupan_in_diterima": 0.9076923076923077,
+        "cakupan_out_diterima": 0.0
+       },
+       "0.1": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.08571428571428572,
+        "cakupan_in_diterima": 0.9140625,
+        "cakupan_out_diterima": null
+       },
+       "0.2": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.22142857142857142,
+        "cakupan_in_diterima": 0.944954128440367,
+        "cakupan_out_diterima": null
+       }
+      }
+     },
+     "konformal": {
+      "auc": 0.8755714285714286,
+      "beta": {
+       "0.01": {
+        "tolak_out": 0.24,
+        "tolak_in": 0.04285714285714286,
+        "cakupan_in_diterima": 0.8805970149253731,
+        "cakupan_out_diterima": 0.02631578947368421
+       },
+       "0.05": {
+        "tolak_out": 0.24,
+        "tolak_in": 0.04285714285714286,
+        "cakupan_in_diterima": 0.8805970149253731,
+        "cakupan_out_diterima": 0.02631578947368421
+       },
+       "0.1": {
+        "tolak_out": 0.4,
+        "tolak_in": 0.1357142857142857,
+        "cakupan_in_diterima": 0.9173553719008265,
+        "cakupan_out_diterima": 0.03333333333333333
+       },
+       "0.2": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.30714285714285716,
+        "cakupan_in_diterima": 0.9175257731958762,
+        "cakupan_out_diterima": null
+       }
+      }
+     },
+     "gabungan": {
+      "auc": 0.925,
+      "beta": {
+       "0.01": {
+        "tolak_out": 0.2,
+        "tolak_in": 0.05,
+        "cakupan_in_diterima": 0.8947368421052632,
+        "cakupan_out_diterima": 0.025
+       },
+       "0.05": {
+        "tolak_out": 0.52,
+        "tolak_in": 0.09285714285714286,
+        "cakupan_in_diterima": 0.9291338582677166,
+        "cakupan_out_diterima": 0.041666666666666664
+       },
+       "0.1": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.16428571428571428,
+        "cakupan_in_diterima": 0.9316239316239316,
+        "cakupan_out_diterima": null
+       },
+       "0.2": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.2857142857142857,
+        "cakupan_in_diterima": 0.95,
+        "cakupan_out_diterima": null
+       }
+      }
+     }
+    },
+    "4": {
+     "jarak_knn": {
+      "auc": 0.9078571428571428,
+      "beta": {
+       "0.01": {
+        "tolak_out": 0.0,
+        "tolak_in": 0.007142857142857143,
+        "cakupan_in_diterima": 0.8705035971223022,
+        "cakupan_out_diterima": 0.0
+       },
+       "0.05": {
+        "tolak_out": 0.1,
+        "tolak_in": 0.07857142857142857,
+        "cakupan_in_diterima": 0.8992248062015504,
+        "cakupan_out_diterima": 0.0
+       },
+       "0.1": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.12142857142857143,
+        "cakupan_in_diterima": 0.9105691056910569,
+        "cakupan_out_diterima": null
+       },
+       "0.2": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.24285714285714285,
+        "cakupan_in_diterima": 0.9339622641509434,
+        "cakupan_out_diterima": null
+       }
+      }
+     },
+     "konformal": {
+      "auc": 0.8720714285714285,
+      "beta": {
+       "0.01": {
+        "tolak_out": 0.06,
+        "tolak_in": 0.03571428571428571,
+        "cakupan_in_diterima": 0.9037037037037037,
+        "cakupan_out_diterima": 0.0
+       },
+       "0.05": {
+        "tolak_out": 0.06,
+        "tolak_in": 0.03571428571428571,
+        "cakupan_in_diterima": 0.9037037037037037,
+        "cakupan_out_diterima": 0.0
+       },
+       "0.1": {
+        "tolak_out": 0.4,
+        "tolak_in": 0.08571428571428572,
+        "cakupan_in_diterima": 0.8984375,
+        "cakupan_out_diterima": 0.0
+       },
+       "0.2": {
+        "tolak_out": 0.9,
+        "tolak_in": 0.20714285714285716,
+        "cakupan_in_diterima": 0.9009009009009009,
+        "cakupan_out_diterima": 0.0
+       }
+      }
+     },
+     "gabungan": {
+      "auc": 0.9207142857142857,
+      "beta": {
+       "0.01": {
+        "tolak_out": 0.0,
+        "tolak_in": 0.02142857142857143,
+        "cakupan_in_diterima": 0.8832116788321168,
+        "cakupan_out_diterima": 0.0
+       },
+       "0.05": {
+        "tolak_out": 0.46,
+        "tolak_in": 0.05,
+        "cakupan_in_diterima": 0.8796992481203008,
+        "cakupan_out_diterima": 0.0
+       },
+       "0.1": {
+        "tolak_out": 0.78,
+        "tolak_in": 0.11428571428571428,
+        "cakupan_in_diterima": 0.9112903225806451,
+        "cakupan_out_diterima": 0.0
+       },
+       "0.2": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.2357142857142857,
+        "cakupan_in_diterima": 0.9532710280373832,
+        "cakupan_out_diterima": null
+       }
+      }
+     }
+    },
+    "6": {
+     "jarak_knn": {
+      "auc": 0.7908571428571429,
+      "beta": {
+       "0.01": {
+        "tolak_out": 0.0,
+        "tolak_in": 0.0,
+        "cakupan_in_diterima": 0.95,
+        "cakupan_out_diterima": 0.94
+       },
+       "0.05": {
+        "tolak_out": 0.06,
+        "tolak_in": 0.02142857142857143,
+        "cakupan_in_diterima": 0.9562043795620438,
+        "cakupan_out_diterima": 1.0
+       },
+       "0.1": {
+        "tolak_out": 0.08,
+        "tolak_in": 0.07857142857142857,
+        "cakupan_in_diterima": 0.9612403100775194,
+        "cakupan_out_diterima": 1.0
+       },
+       "0.2": {
+        "tolak_out": 0.12,
+        "tolak_in": 0.19285714285714287,
+        "cakupan_in_diterima": 0.9823008849557522,
+        "cakupan_out_diterima": 1.0
+       }
+      }
+     },
+     "konformal": {
+      "auc": 0.8133571428571429,
+      "beta": {
+       "0.01": {
+        "tolak_out": 0.04,
+        "tolak_in": 0.02142857142857143,
+        "cakupan_in_diterima": 0.948905109489051,
+        "cakupan_out_diterima": 0.9583333333333334
+       },
+       "0.05": {
+        "tolak_out": 0.04,
+        "tolak_in": 0.02142857142857143,
+        "cakupan_in_diterima": 0.948905109489051,
+        "cakupan_out_diterima": 0.9583333333333334
+       },
+       "0.1": {
+        "tolak_out": 0.06,
+        "tolak_in": 0.11428571428571428,
+        "cakupan_in_diterima": 0.9516129032258065,
+        "cakupan_out_diterima": 0.9787234042553191
+       },
+       "0.2": {
+        "tolak_out": 0.64,
+        "tolak_in": 0.2,
+        "cakupan_in_diterima": 0.9732142857142857,
+        "cakupan_out_diterima": 1.0
+       }
+      }
+     },
+     "gabungan": {
+      "auc": 0.8581428571428571,
+      "beta": {
+       "0.01": {
+        "tolak_out": 0.06,
+        "tolak_in": 0.014285714285714285,
+        "cakupan_in_diterima": 0.9492753623188406,
+        "cakupan_out_diterima": 0.9787234042553191
+       },
+       "0.05": {
+        "tolak_out": 0.06,
+        "tolak_in": 0.05,
+        "cakupan_in_diterima": 0.9624060150375939,
+        "cakupan_out_diterima": 0.9787234042553191
+       },
+       "0.1": {
+        "tolak_out": 0.1,
+        "tolak_in": 0.07142857142857142,
+        "cakupan_in_diterima": 0.9692307692307692,
+        "cakupan_out_diterima": 1.0
+       },
+       "0.2": {
+        "tolak_out": 0.78,
+        "tolak_in": 0.15714285714285714,
+        "cakupan_in_diterima": 0.9830508474576272,
+        "cakupan_out_diterima": 1.0
+       }
+      }
+     }
+    },
+    "8": {
+     "jarak_knn": {
+      "auc": 0.9888571428571429,
+      "beta": {
+       "0.01": {
+        "tolak_out": 0.38,
+        "tolak_in": 0.007142857142857143,
+        "cakupan_in_diterima": 0.9424460431654677,
+        "cakupan_out_diterima": 0.7096774193548387
+       },
+       "0.05": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.05714285714285714,
+        "cakupan_in_diterima": 0.9696969696969697,
+        "cakupan_out_diterima": null
+       },
+       "0.1": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.09285714285714286,
+        "cakupan_in_diterima": 0.9763779527559056,
+        "cakupan_out_diterima": null
+       },
+       "0.2": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.15714285714285714,
+        "cakupan_in_diterima": 0.9745762711864406,
+        "cakupan_out_diterima": null
+       }
+      }
+     },
+     "konformal": {
+      "auc": 0.9606428571428571,
+      "beta": {
+       "0.01": {
+        "tolak_out": 0.0,
+        "tolak_in": 0.0,
+        "cakupan_in_diterima": 0.9357142857142857,
+        "cakupan_out_diterima": 0.44
+       },
+       "0.05": {
+        "tolak_out": 0.0,
+        "tolak_in": 0.0,
+        "cakupan_in_diterima": 0.9357142857142857,
+        "cakupan_out_diterima": 0.44
+       },
+       "0.1": {
+        "tolak_out": 0.94,
+        "tolak_in": 0.07142857142857142,
+        "cakupan_in_diterima": 0.9538461538461539,
+        "cakupan_out_diterima": 0.0
+       },
+       "0.2": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.18571428571428572,
+        "cakupan_in_diterima": 0.9649122807017544,
+        "cakupan_out_diterima": null
+       }
+      }
+     },
+     "gabungan": {
+      "auc": 0.9784285714285714,
+      "beta": {
+       "0.01": {
+        "tolak_out": 0.28,
+        "tolak_in": 0.007142857142857143,
+        "cakupan_in_diterima": 0.9424460431654677,
+        "cakupan_out_diterima": 0.6111111111111112
+       },
+       "0.05": {
+        "tolak_out": 0.96,
+        "tolak_in": 0.04285714285714286,
+        "cakupan_in_diterima": 0.9477611940298507,
+        "cakupan_out_diterima": 1.0
+       },
+       "0.1": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.10714285714285714,
+        "cakupan_in_diterima": 0.968,
+        "cakupan_out_diterima": null
+       },
+       "0.2": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.2,
+        "cakupan_in_diterima": 0.9910714285714286,
+        "cakupan_out_diterima": null
+       }
+      }
+     }
+    },
+    "10": {
+     "jarak_knn": {
+      "auc": 0.8437142857142856,
+      "beta": {
+       "0.01": {
+        "tolak_out": 0.0,
+        "tolak_in": 0.007142857142857143,
+        "cakupan_in_diterima": 0.935251798561151,
+        "cakupan_out_diterima": 1.0
+       },
+       "0.05": {
+        "tolak_out": 0.02,
+        "tolak_in": 0.05,
+        "cakupan_in_diterima": 0.9398496240601504,
+        "cakupan_out_diterima": 1.0
+       },
+       "0.1": {
+        "tolak_out": 0.04,
+        "tolak_in": 0.10714285714285714,
+        "cakupan_in_diterima": 0.976,
+        "cakupan_out_diterima": 1.0
+       },
+       "0.2": {
+        "tolak_out": 0.86,
+        "tolak_in": 0.20714285714285716,
+        "cakupan_in_diterima": 0.990990990990991,
+        "cakupan_out_diterima": 1.0
+       }
+      }
+     },
+     "konformal": {
+      "auc": 0.9377142857142857,
+      "beta": {
+       "0.01": {
+        "tolak_out": 0.0,
+        "tolak_in": 0.02857142857142857,
+        "cakupan_in_diterima": 0.9264705882352942,
+        "cakupan_out_diterima": 1.0
+       },
+       "0.05": {
+        "tolak_out": 0.94,
+        "tolak_in": 0.08571428571428572,
+        "cakupan_in_diterima": 0.9375,
+        "cakupan_out_diterima": 1.0
+       },
+       "0.1": {
+        "tolak_out": 0.94,
+        "tolak_in": 0.08571428571428572,
+        "cakupan_in_diterima": 0.9375,
+        "cakupan_out_diterima": 1.0
+       },
+       "0.2": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.2785714285714286,
+        "cakupan_in_diterima": 0.9900990099009901,
+        "cakupan_out_diterima": null
+       }
+      }
+     },
+     "gabungan": {
+      "auc": 0.933,
+      "beta": {
+       "0.01": {
+        "tolak_out": 0.0,
+        "tolak_in": 0.014285714285714285,
+        "cakupan_in_diterima": 0.9347826086956522,
+        "cakupan_out_diterima": 1.0
+       },
+       "0.05": {
+        "tolak_out": 0.14,
+        "tolak_in": 0.04285714285714286,
+        "cakupan_in_diterima": 0.9328358208955224,
+        "cakupan_out_diterima": 1.0
+       },
+       "0.1": {
+        "tolak_out": 0.86,
+        "tolak_in": 0.07142857142857142,
+        "cakupan_in_diterima": 0.9461538461538461,
+        "cakupan_out_diterima": 1.0
+       },
+       "0.2": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.20714285714285716,
+        "cakupan_in_diterima": 1.0,
+        "cakupan_out_diterima": null
+       }
+      }
+     }
+    },
+    "20": {
+     "jarak_knn": {
+      "auc": 0.8432857142857143,
+      "beta": {
+       "0.01": {
+        "tolak_out": 0.0,
+        "tolak_in": 0.02857142857142857,
+        "cakupan_in_diterima": 0.9632352941176471,
+        "cakupan_out_diterima": 1.0
+       },
+       "0.05": {
+        "tolak_out": 0.02,
+        "tolak_in": 0.05,
+        "cakupan_in_diterima": 0.9699248120300752,
+        "cakupan_out_diterima": 1.0
+       },
+       "0.1": {
+        "tolak_out": 0.06,
+        "tolak_in": 0.08571428571428572,
+        "cakupan_in_diterima": 0.9921875,
+        "cakupan_out_diterima": 1.0
+       },
+       "0.2": {
+        "tolak_out": 0.6,
+        "tolak_in": 0.17142857142857143,
+        "cakupan_in_diterima": 1.0,
+        "cakupan_out_diterima": 1.0
+       }
+      }
+     },
+     "konformal": {
+      "auc": 0.8296428571428571,
+      "beta": {
+       "0.01": {
+        "tolak_out": 0.0,
+        "tolak_in": 0.0,
+        "cakupan_in_diterima": 0.95,
+        "cakupan_out_diterima": 1.0
+       },
+       "0.05": {
+        "tolak_out": 0.0,
+        "tolak_in": 0.09285714285714286,
+        "cakupan_in_diterima": 0.9763779527559056,
+        "cakupan_out_diterima": 1.0
+       },
+       "0.1": {
+        "tolak_out": 0.0,
+        "tolak_in": 0.09285714285714286,
+        "cakupan_in_diterima": 0.9763779527559056,
+        "cakupan_out_diterima": 1.0
+       },
+       "0.2": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.2,
+        "cakupan_in_diterima": 0.9910714285714286,
+        "cakupan_out_diterima": null
+       }
+      }
+     },
+     "gabungan": {
+      "auc": 0.8581428571428572,
+      "beta": {
+       "0.01": {
+        "tolak_out": 0.0,
+        "tolak_in": 0.04285714285714286,
+        "cakupan_in_diterima": 0.9701492537313433,
+        "cakupan_out_diterima": 1.0
+       },
+       "0.05": {
+        "tolak_out": 0.02,
+        "tolak_in": 0.05,
+        "cakupan_in_diterima": 0.9774436090225563,
+        "cakupan_out_diterima": 1.0
+       },
+       "0.1": {
+        "tolak_out": 0.08,
+        "tolak_in": 0.11428571428571428,
+        "cakupan_in_diterima": 0.9919354838709677,
+        "cakupan_out_diterima": 1.0
+       },
+       "0.2": {
+        "tolak_out": 0.88,
+        "tolak_in": 0.18571428571428572,
+        "cakupan_in_diterima": 0.9912280701754386,
+        "cakupan_out_diterima": 1.0
+       }
+      }
+     }
+    },
+    "40": {
+     "jarak_knn": {
+      "auc": 0.7934285714285715,
+      "beta": {
+       "0.01": {
+        "tolak_out": 0.0,
+        "tolak_in": 0.007142857142857143,
+        "cakupan_in_diterima": 0.8992805755395683,
+        "cakupan_out_diterima": 1.0
+       },
+       "0.05": {
+        "tolak_out": 0.02,
+        "tolak_in": 0.05714285714285714,
+        "cakupan_in_diterima": 0.9318181818181818,
+        "cakupan_out_diterima": 1.0
+       },
+       "0.1": {
+        "tolak_out": 0.04,
+        "tolak_in": 0.10714285714285714,
+        "cakupan_in_diterima": 0.952,
+        "cakupan_out_diterima": 1.0
+       },
+       "0.2": {
+        "tolak_out": 0.34,
+        "tolak_in": 0.19285714285714287,
+        "cakupan_in_diterima": 0.9646017699115044,
+        "cakupan_out_diterima": 1.0
+       }
+      }
+     },
+     "konformal": {
+      "auc": 0.7684285714285715,
+      "beta": {
+       "0.01": {
+        "tolak_out": 0.02,
+        "tolak_in": 0.08571428571428572,
+        "cakupan_in_diterima": 0.9453125,
+        "cakupan_out_diterima": 1.0
+       },
+       "0.05": {
+        "tolak_out": 0.02,
+        "tolak_in": 0.08571428571428572,
+        "cakupan_in_diterima": 0.9453125,
+        "cakupan_out_diterima": 1.0
+       },
+       "0.1": {
+        "tolak_out": 0.26,
+        "tolak_in": 0.12857142857142856,
+        "cakupan_in_diterima": 0.9426229508196722,
+        "cakupan_out_diterima": 1.0
+       },
+       "0.2": {
+        "tolak_out": 0.52,
+        "tolak_in": 0.22142857142857142,
+        "cakupan_in_diterima": 0.9541284403669725,
+        "cakupan_out_diterima": 1.0
+       }
+      }
+     },
+     "gabungan": {
+      "auc": 0.8304285714285714,
+      "beta": {
+       "0.01": {
+        "tolak_out": 0.02,
+        "tolak_in": 0.05,
+        "cakupan_in_diterima": 0.9323308270676691,
+        "cakupan_out_diterima": 1.0
+       },
+       "0.05": {
+        "tolak_out": 0.06,
+        "tolak_in": 0.07857142857142857,
+        "cakupan_in_diterima": 0.937984496124031,
+        "cakupan_out_diterima": 1.0
+       },
+       "0.1": {
+        "tolak_out": 0.14,
+        "tolak_in": 0.11428571428571428,
+        "cakupan_in_diterima": 0.9435483870967742,
+        "cakupan_out_diterima": 1.0
+       },
+       "0.2": {
+        "tolak_out": 0.6,
+        "tolak_in": 0.20714285714285716,
+        "cakupan_in_diterima": 0.972972972972973,
+        "cakupan_out_diterima": 1.0
+       }
+      }
+     }
+    },
+    "60": {
+     "jarak_knn": {
+      "auc": 0.9484285714285715,
+      "beta": {
+       "0.01": {
+        "tolak_out": 0.0,
+        "tolak_in": 0.007142857142857143,
+        "cakupan_in_diterima": 0.9136690647482014,
+        "cakupan_out_diterima": 0.0
+       },
+       "0.05": {
+        "tolak_out": 0.4,
+        "tolak_in": 0.05,
+        "cakupan_in_diterima": 0.9398496240601504,
+        "cakupan_out_diterima": 0.0
+       },
+       "0.1": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.1,
+        "cakupan_in_diterima": 0.9523809523809523,
+        "cakupan_out_diterima": null
+       },
+       "0.2": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.22142857142857142,
+        "cakupan_in_diterima": 0.9541284403669725,
+        "cakupan_out_diterima": null
+       }
+      }
+     },
+     "konformal": {
+      "auc": 0.9071428571428571,
+      "beta": {
+       "0.01": {
+        "tolak_out": 0.0,
+        "tolak_in": 0.05714285714285714,
+        "cakupan_in_diterima": 0.9393939393939394,
+        "cakupan_out_diterima": 0.0
+       },
+       "0.05": {
+        "tolak_out": 0.0,
+        "tolak_in": 0.05714285714285714,
+        "cakupan_in_diterima": 0.9393939393939394,
+        "cakupan_out_diterima": 0.0
+       },
+       "0.1": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.12857142857142856,
+        "cakupan_in_diterima": 0.9508196721311475,
+        "cakupan_out_diterima": null
+       },
+       "0.2": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.20714285714285716,
+        "cakupan_in_diterima": 0.972972972972973,
+        "cakupan_out_diterima": null
+       }
+      }
+     },
+     "gabungan": {
+      "auc": 0.9425714285714286,
+      "beta": {
+       "0.01": {
+        "tolak_out": 0.08,
+        "tolak_in": 0.02142857142857143,
+        "cakupan_in_diterima": 0.927007299270073,
+        "cakupan_out_diterima": 0.0
+       },
+       "0.05": {
+        "tolak_out": 0.96,
+        "tolak_in": 0.09285714285714286,
+        "cakupan_in_diterima": 0.952755905511811,
+        "cakupan_out_diterima": 0.0
+       },
+       "0.1": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.11428571428571428,
+        "cakupan_in_diterima": 0.9596774193548387,
+        "cakupan_out_diterima": null
+       },
+       "0.2": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.2357142857142857,
+        "cakupan_in_diterima": 0.9813084112149533,
+        "cakupan_out_diterima": null
+       }
+      }
+     }
+    },
+    "80": {
+     "jarak_knn": {
+      "auc": 0.8838571428571429,
+      "beta": {
+       "0.01": {
+        "tolak_out": 0.0,
+        "tolak_in": 0.02142857142857143,
+        "cakupan_in_diterima": 0.9124087591240876,
+        "cakupan_out_diterima": 0.46
+       },
+       "0.05": {
+        "tolak_out": 0.42,
+        "tolak_in": 0.11428571428571428,
+        "cakupan_in_diterima": 0.9516129032258065,
+        "cakupan_out_diterima": 0.4827586206896552
+       },
+       "0.1": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.16428571428571428,
+        "cakupan_in_diterima": 0.9572649572649573,
+        "cakupan_out_diterima": null
+       },
+       "0.2": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.2571428571428571,
+        "cakupan_in_diterima": 0.9711538461538461,
+        "cakupan_out_diterima": null
+       }
+      }
+     },
+     "konformal": {
+      "auc": 0.9495,
+      "beta": {
+       "0.01": {
+        "tolak_out": 0.96,
+        "tolak_in": 0.09285714285714286,
+        "cakupan_in_diterima": 0.9291338582677166,
+        "cakupan_out_diterima": 0.5
+       },
+       "0.05": {
+        "tolak_out": 0.96,
+        "tolak_in": 0.09285714285714286,
+        "cakupan_in_diterima": 0.9291338582677166,
+        "cakupan_out_diterima": 0.5
+       },
+       "0.1": {
+        "tolak_out": 0.98,
+        "tolak_in": 0.15,
+        "cakupan_in_diterima": 0.9411764705882353,
+        "cakupan_out_diterima": 1.0
+       },
+       "0.2": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.2357142857142857,
+        "cakupan_in_diterima": 0.9532710280373832,
+        "cakupan_out_diterima": null
+       }
+      }
+     },
+     "gabungan": {
+      "auc": 0.9371428571428572,
+      "beta": {
+       "0.01": {
+        "tolak_out": 0.36,
+        "tolak_in": 0.06428571428571428,
+        "cakupan_in_diterima": 0.9312977099236641,
+        "cakupan_out_diterima": 0.46875
+       },
+       "0.05": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.12142857142857143,
+        "cakupan_in_diterima": 0.9349593495934959,
+        "cakupan_out_diterima": null
+       },
+       "0.1": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.17142857142857143,
+        "cakupan_in_diterima": 0.9396551724137931,
+        "cakupan_out_diterima": null
+       },
+       "0.2": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.22142857142857142,
+        "cakupan_in_diterima": 0.9541284403669725,
+        "cakupan_out_diterima": null
+       }
+      }
+     }
+    },
+    "100": {
+     "jarak_knn": {
+      "auc": 0.9267142857142857,
+      "beta": {
+       "0.01": {
+        "tolak_out": 0.0,
+        "tolak_in": 0.02142857142857143,
+        "cakupan_in_diterima": 0.9343065693430657,
+        "cakupan_out_diterima": 0.48
+       },
+       "0.05": {
+        "tolak_out": 0.0,
+        "tolak_in": 0.05,
+        "cakupan_in_diterima": 0.9398496240601504,
+        "cakupan_out_diterima": 0.48
+       },
+       "0.1": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.09285714285714286,
+        "cakupan_in_diterima": 0.9448818897637795,
+        "cakupan_out_diterima": null
+       },
+       "0.2": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.19285714285714287,
+        "cakupan_in_diterima": 0.9557522123893806,
+        "cakupan_out_diterima": null
+       }
+      }
+     },
+     "konformal": {
+      "auc": 0.9785714285714285,
+      "beta": {
+       "0.01": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.04285714285714286,
+        "cakupan_in_diterima": 0.9253731343283582,
+        "cakupan_out_diterima": null
+       },
+       "0.05": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.04285714285714286,
+        "cakupan_in_diterima": 0.9253731343283582,
+        "cakupan_out_diterima": null
+       },
+       "0.1": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.14285714285714285,
+        "cakupan_in_diterima": 0.925,
+        "cakupan_out_diterima": null
+       },
+       "0.2": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.2857142857142857,
+        "cakupan_in_diterima": 0.96,
+        "cakupan_out_diterima": null
+       }
+      }
+     },
+     "gabungan": {
+      "auc": 0.9762857142857143,
+      "beta": {
+       "0.01": {
+        "tolak_out": 0.56,
+        "tolak_in": 0.02142857142857143,
+        "cakupan_in_diterima": 0.927007299270073,
+        "cakupan_out_diterima": 0.5
+       },
+       "0.05": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.07142857142857142,
+        "cakupan_in_diterima": 0.9384615384615385,
+        "cakupan_out_diterima": null
+       },
+       "0.1": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.17857142857142858,
+        "cakupan_in_diterima": 0.9478260869565217,
+        "cakupan_out_diterima": null
+       },
+       "0.2": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.24285714285714285,
+        "cakupan_in_diterima": 0.9622641509433962,
+        "cakupan_out_diterima": null
+       }
+      }
+     }
+    },
+    "200": {
+     "jarak_knn": {
+      "auc": 0.9324285714285714,
+      "beta": {
+       "0.01": {
+        "tolak_out": 0.0,
+        "tolak_in": 0.0,
+        "cakupan_in_diterima": 0.9285714285714286,
+        "cakupan_out_diterima": 0.0
+       },
+       "0.05": {
+        "tolak_out": 0.1,
+        "tolak_in": 0.03571428571428571,
+        "cakupan_in_diterima": 0.9481481481481482,
+        "cakupan_out_diterima": 0.0
+       },
+       "0.1": {
+        "tolak_out": 0.6,
+        "tolak_in": 0.07857142857142857,
+        "cakupan_in_diterima": 0.9612403100775194,
+        "cakupan_out_diterima": 0.0
+       },
+       "0.2": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.17857142857142858,
+        "cakupan_in_diterima": 0.991304347826087,
+        "cakupan_out_diterima": null
+       }
+      }
+     },
+     "konformal": {
+      "auc": 0.6295714285714286,
+      "beta": {
+       "0.01": {
+        "tolak_out": 0.0,
+        "tolak_in": 0.07857142857142857,
+        "cakupan_in_diterima": 0.9302325581395349,
+        "cakupan_out_diterima": 0.0
+       },
+       "0.05": {
+        "tolak_out": 0.0,
+        "tolak_in": 0.07857142857142857,
+        "cakupan_in_diterima": 0.9302325581395349,
+        "cakupan_out_diterima": 0.0
+       },
+       "0.1": {
+        "tolak_out": 0.0,
+        "tolak_in": 0.11428571428571428,
+        "cakupan_in_diterima": 0.9435483870967742,
+        "cakupan_out_diterima": 0.0
+       },
+       "0.2": {
+        "tolak_out": 0.06,
+        "tolak_in": 0.22857142857142856,
+        "cakupan_in_diterima": 0.9629629629629629,
+        "cakupan_out_diterima": 0.0
+       }
+      }
+     },
+     "gabungan": {
+      "auc": 0.8457142857142858,
+      "beta": {
+       "0.01": {
+        "tolak_out": 0.0,
+        "tolak_in": 0.02142857142857143,
+        "cakupan_in_diterima": 0.9343065693430657,
+        "cakupan_out_diterima": 0.0
+       },
+       "0.05": {
+        "tolak_out": 0.06,
+        "tolak_in": 0.05714285714285714,
+        "cakupan_in_diterima": 0.946969696969697,
+        "cakupan_out_diterima": 0.0
+       },
+       "0.1": {
+        "tolak_out": 0.14,
+        "tolak_in": 0.12857142857142856,
+        "cakupan_in_diterima": 0.9672131147540983,
+        "cakupan_out_diterima": 0.0
+       },
+       "0.2": {
+        "tolak_out": 0.88,
+        "tolak_in": 0.17142857142857143,
+        "cakupan_in_diterima": 0.9741379310344828,
+        "cakupan_out_diterima": 0.0
+       }
+      }
+     }
+    },
+    "400": {
+     "jarak_knn": {
+      "auc": 0.9327142857142857,
+      "beta": {
+       "0.01": {
+        "tolak_out": 0.18,
+        "tolak_in": 0.014285714285714285,
+        "cakupan_in_diterima": 0.9492753623188406,
+        "cakupan_out_diterima": 0.024390243902439025
+       },
+       "0.05": {
+        "tolak_out": 0.2,
+        "tolak_in": 0.04285714285714286,
+        "cakupan_in_diterima": 0.9701492537313433,
+        "cakupan_out_diterima": 0.025
+       },
+       "0.1": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.10714285714285714,
+        "cakupan_in_diterima": 0.976,
+        "cakupan_out_diterima": null
+       },
+       "0.2": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.17857142857142858,
+        "cakupan_in_diterima": 1.0,
+        "cakupan_out_diterima": null
+       }
+      }
+     },
+     "konformal": {
+      "auc": 0.8995714285714286,
+      "beta": {
+       "0.01": {
+        "tolak_out": 0.36,
+        "tolak_in": 0.03571428571428571,
+        "cakupan_in_diterima": 0.9407407407407408,
+        "cakupan_out_diterima": 0.03125
+       },
+       "0.05": {
+        "tolak_out": 0.36,
+        "tolak_in": 0.03571428571428571,
+        "cakupan_in_diterima": 0.9407407407407408,
+        "cakupan_out_diterima": 0.03125
+       },
+       "0.1": {
+        "tolak_out": 0.4,
+        "tolak_in": 0.11428571428571428,
+        "cakupan_in_diterima": 0.9596774193548387,
+        "cakupan_out_diterima": 0.03333333333333333
+       },
+       "0.2": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.20714285714285716,
+        "cakupan_in_diterima": 0.990990990990991,
+        "cakupan_out_diterima": null
+       }
+      }
+     },
+     "gabungan": {
+      "auc": 0.9274285714285715,
+      "beta": {
+       "0.01": {
+        "tolak_out": 0.2,
+        "tolak_in": 0.02857142857142857,
+        "cakupan_in_diterima": 0.9558823529411765,
+        "cakupan_out_diterima": 0.025
+       },
+       "0.05": {
+        "tolak_out": 0.36,
+        "tolak_in": 0.07857142857142857,
+        "cakupan_in_diterima": 0.9689922480620154,
+        "cakupan_out_diterima": 0.03125
+       },
+       "0.1": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.10714285714285714,
+        "cakupan_in_diterima": 0.976,
+        "cakupan_out_diterima": null
+       },
+       "0.2": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.20714285714285716,
+        "cakupan_in_diterima": 1.0,
+        "cakupan_out_diterima": null
+       }
+      }
+     }
+    },
+    "600": {
+     "jarak_knn": {
+      "auc": 0.9212857142857143,
+      "beta": {
+       "0.01": {
+        "tolak_out": 0.06,
+        "tolak_in": 0.014285714285714285,
+        "cakupan_in_diterima": 0.9492753623188406,
+        "cakupan_out_diterima": 0.0
+       },
+       "0.05": {
+        "tolak_out": 0.48,
+        "tolak_in": 0.07142857142857142,
+        "cakupan_in_diterima": 0.9692307692307692,
+        "cakupan_out_diterima": 0.0
+       },
+       "0.1": {
+        "tolak_out": 0.8,
+        "tolak_in": 0.12142857142857143,
+        "cakupan_in_diterima": 0.975609756097561,
+        "cakupan_out_diterima": 0.0
+       },
+       "0.2": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.21428571428571427,
+        "cakupan_in_diterima": 0.990909090909091,
+        "cakupan_out_diterima": null
+       }
+      }
+     },
+     "konformal": {
+      "auc": 0.8730714285714286,
+      "beta": {
+       "0.01": {
+        "tolak_out": 0.04,
+        "tolak_in": 0.06428571428571428,
+        "cakupan_in_diterima": 0.9465648854961832,
+        "cakupan_out_diterima": 0.0
+       },
+       "0.05": {
+        "tolak_out": 0.04,
+        "tolak_in": 0.06428571428571428,
+        "cakupan_in_diterima": 0.9465648854961832,
+        "cakupan_out_diterima": 0.0
+       },
+       "0.1": {
+        "tolak_out": 0.92,
+        "tolak_in": 0.16428571428571428,
+        "cakupan_in_diterima": 0.9658119658119658,
+        "cakupan_out_diterima": 0.0
+       },
+       "0.2": {
+        "tolak_out": 0.96,
+        "tolak_in": 0.25,
+        "cakupan_in_diterima": 0.9809523809523809,
+        "cakupan_out_diterima": 0.0
+       }
+      }
+     },
+     "gabungan": {
+      "auc": 0.9145714285714286,
+      "beta": {
+       "0.01": {
+        "tolak_out": 0.04,
+        "tolak_in": 0.02142857142857143,
+        "cakupan_in_diterima": 0.948905109489051,
+        "cakupan_out_diterima": 0.0
+       },
+       "0.05": {
+        "tolak_out": 0.82,
+        "tolak_in": 0.12142857142857143,
+        "cakupan_in_diterima": 0.975609756097561,
+        "cakupan_out_diterima": 0.0
+       },
+       "0.1": {
+        "tolak_out": 0.94,
+        "tolak_in": 0.14285714285714285,
+        "cakupan_in_diterima": 0.975,
+        "cakupan_out_diterima": 0.0
+       },
+       "0.2": {
+        "tolak_out": 0.98,
+        "tolak_in": 0.20714285714285716,
+        "cakupan_in_diterima": 0.9819819819819819,
+        "cakupan_out_diterima": 0.0
+       }
+      }
+     }
+    },
+    "800": {
+     "jarak_knn": {
+      "auc": 0.9292857142857144,
+      "beta": {
+       "0.01": {
+        "tolak_out": 0.04,
+        "tolak_in": 0.014285714285714285,
+        "cakupan_in_diterima": 0.927536231884058,
+        "cakupan_out_diterima": 0.0
+       },
+       "0.05": {
+        "tolak_out": 0.06,
+        "tolak_in": 0.04285714285714286,
+        "cakupan_in_diterima": 0.9477611940298507,
+        "cakupan_out_diterima": 0.0
+       },
+       "0.1": {
+        "tolak_out": 0.96,
+        "tolak_in": 0.12857142857142856,
+        "cakupan_in_diterima": 0.9672131147540983,
+        "cakupan_out_diterima": 0.0
+       },
+       "0.2": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.25,
+        "cakupan_in_diterima": 0.9714285714285714,
+        "cakupan_out_diterima": null
+       }
+      }
+     },
+     "konformal": {
+      "auc": 0.5297142857142857,
+      "beta": {
+       "0.01": {
+        "tolak_out": 0.1,
+        "tolak_in": 0.03571428571428571,
+        "cakupan_in_diterima": 0.9259259259259259,
+        "cakupan_out_diterima": 0.0
+       },
+       "0.05": {
+        "tolak_out": 0.14,
+        "tolak_in": 0.08571428571428572,
+        "cakupan_in_diterima": 0.9375,
+        "cakupan_out_diterima": 0.0
+       },
+       "0.1": {
+        "tolak_out": 0.14,
+        "tolak_in": 0.08571428571428572,
+        "cakupan_in_diterima": 0.9375,
+        "cakupan_out_diterima": 0.0
+       },
+       "0.2": {
+        "tolak_out": 0.28,
+        "tolak_in": 0.2,
+        "cakupan_in_diterima": 0.9553571428571429,
+        "cakupan_out_diterima": 0.0
+       }
+      }
+     },
+     "gabungan": {
+      "auc": 0.7704285714285714,
+      "beta": {
+       "0.01": {
+        "tolak_out": 0.06,
+        "tolak_in": 0.014285714285714285,
+        "cakupan_in_diterima": 0.927536231884058,
+        "cakupan_out_diterima": 0.0
+       },
+       "0.05": {
+        "tolak_out": 0.14,
+        "tolak_in": 0.05,
+        "cakupan_in_diterima": 0.9398496240601504,
+        "cakupan_out_diterima": 0.0
+       },
+       "0.1": {
+        "tolak_out": 0.28,
+        "tolak_in": 0.12857142857142856,
+        "cakupan_in_diterima": 0.9754098360655737,
+        "cakupan_out_diterima": 0.0
+       },
+       "0.2": {
+        "tolak_out": 0.42,
+        "tolak_in": 0.25,
+        "cakupan_in_diterima": 0.9904761904761905,
+        "cakupan_out_diterima": 0.0
+       }
+      }
+     }
+    },
+    "1000": {
+     "jarak_knn": {
+      "auc": 1.0,
+      "beta": {
+       "0.01": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.03571428571428571,
+        "cakupan_in_diterima": 0.8814814814814815,
+        "cakupan_out_diterima": null
+       },
+       "0.05": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.05714285714285714,
+        "cakupan_in_diterima": 0.9015151515151515,
+        "cakupan_out_diterima": null
+       },
+       "0.1": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.11428571428571428,
+        "cakupan_in_diterima": 0.9193548387096774,
+        "cakupan_out_diterima": null
+       },
+       "0.2": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.16428571428571428,
+        "cakupan_in_diterima": 0.9145299145299145,
+        "cakupan_out_diterima": null
+       }
+      }
+     },
+     "konformal": {
+      "auc": 0.9535714285714285,
+      "beta": {
+       "0.01": {
+        "tolak_out": 0.0,
+        "tolak_in": 0.0,
+        "cakupan_in_diterima": 0.85,
+        "cakupan_out_diterima": 0.0
+       },
+       "0.05": {
+        "tolak_out": 0.0,
+        "tolak_in": 0.0,
+        "cakupan_in_diterima": 0.85,
+        "cakupan_out_diterima": 0.0
+       },
+       "0.1": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.09285714285714286,
+        "cakupan_in_diterima": 0.905511811023622,
+        "cakupan_out_diterima": null
+       },
+       "0.2": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.21428571428571427,
+        "cakupan_in_diterima": 0.9272727272727272,
+        "cakupan_out_diterima": null
+       }
+      }
+     },
+     "gabungan": {
+      "auc": 0.9638571428571429,
+      "beta": {
+       "0.01": {
+        "tolak_out": 0.62,
+        "tolak_in": 0.05,
+        "cakupan_in_diterima": 0.8947368421052632,
+        "cakupan_out_diterima": 0.0
+       },
+       "0.05": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.07857142857142857,
+        "cakupan_in_diterima": 0.9069767441860465,
+        "cakupan_out_diterima": null
+       },
+       "0.1": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.10714285714285714,
+        "cakupan_in_diterima": 0.92,
+        "cakupan_out_diterima": null
+       },
+       "0.2": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.2,
+        "cakupan_in_diterima": 0.9285714285714286,
+        "cakupan_out_diterima": null
+       }
+      }
+     }
+    }
+   }
+  },
+  "EM": {
+   "cakupan_in_setelah_gerbang": 0.899385981535305,
+   "cakupan_out_setelah_gerbang": 0.5520873015873016,
+   "gerbang_gugurkan_in": 0.0,
+   "gerbang_gugurkan_out": 0.0,
+   "ringkas": {
+    "jarak_knn": {
+     "auc": 0.8722122740359775,
+     "beta": {
+      "0.01": {
+       "tolak_out": 0.10533333333333333,
+       "tolak_in": 0.011185161677069006,
+       "cakupan_in_diterima": 0.9059682770319616,
+       "cakupan_out_diterima": 0.5835717982845311,
+       "level_tolak_penuh": 1
+      },
+      "0.05": {
+       "tolak_out": 0.17200000000000001,
+       "tolak_in": 0.04910978231061613,
+       "cakupan_in_diterima": 0.918102374433164,
+       "cakupan_out_diterima": 0.5758078231292517,
+       "level_tolak_penuh": 1
+      },
+      "0.1": {
+       "tolak_out": 0.4037006802721088,
+       "tolak_in": 0.10983517850904932,
+       "cakupan_in_diterima": 0.9391203158901601,
+       "cakupan_out_diterima": 0.7722889445913762,
+       "level_tolak_penuh": 4
+      },
+      "0.2": {
+       "tolak_out": 0.8372777777777778,
+       "tolak_in": 0.2045395609884672,
+       "cakupan_in_diterima": 0.968913136765019,
+       "cakupan_out_diterima": 0.7777777777777778,
+       "level_tolak_penuh": 6
+      }
+     }
+    },
+    "konformal": {
+     "auc": 0.848489428036713,
+     "beta": {
+      "0.01": {
+       "tolak_out": 0.17376870748299317,
+       "tolak_in": 0.031097914432655714,
+       "cakupan_in_diterima": 0.9068145280180293,
+       "cakupan_out_diterima": 0.5471761970488679,
+       "level_tolak_penuh": 0
+      },
+      "0.05": {
+       "tolak_out": 0.39055782312925175,
+       "tolak_in": 0.07776402806666122,
+       "cakupan_in_diterima": 0.9191126758031387,
+       "cakupan_out_diterima": 0.5863058266784975,
+       "level_tolak_penuh": 0
+      },
+      "0.1": {
+       "tolak_out": 0.4942800453514739,
+       "tolak_in": 0.11809030718934847,
+       "cakupan_in_diterima": 0.9299260806178145,
+       "cakupan_out_diterima": 0.5954066392128611,
+       "level_tolak_penuh": 1
+      },
+      "0.2": {
+       "tolak_out": 0.7946394557823129,
+       "tolak_in": 0.23565878493650652,
+       "cakupan_in_diterima": 0.9504617328322815,
+       "cakupan_out_diterima": 0.7447916666666667,
+       "level_tolak_penuh": 7
+      }
+     }
+    },
+    "gabungan": {
+     "auc": 0.9032500523509459,
+     "beta": {
+      "0.01": {
+       "tolak_out": 0.19621768707482992,
+       "tolak_in": 0.023333132922414845,
+       "cakupan_in_diterima": 0.9132329185532065,
+       "cakupan_out_diterima": 0.607559822852381,
+       "level_tolak_penuh": 1
+      },
+      "0.05": {
+       "tolak_out": 0.5621689342403627,
+       "tolak_in": 0.07726688214645676,
+       "cakupan_in_diterima": 0.9364276303588766,
+       "cakupan_out_diterima": 0.7086112744402318,
+       "level_tolak_penuh": 3
+      },
+      "0.1": {
+       "tolak_out": 0.733750566893424,
+       "tolak_in": 0.13656416028713048,
+       "cakupan_in_diterima": 0.9479357330737211,
+       "cakupan_out_diterima": 0.7774038461538462,
+       "level_tolak_penuh": 5
+      },
+      "0.2": {
+       "tolak_out": 0.92,
+       "tolak_in": 0.2278552657715148,
+       "cakupan_in_diterima": 0.9704617637048909,
+       "cakupan_out_diterima": 0.8333333333333334,
+       "level_tolak_penuh": 9
+      }
+     }
+    }
+   },
+   "per_level": {
+    "2": {
+     "jarak_knn": {
+      "auc": 0.8700729927007299,
+      "beta": {
+       "0.01": {
+        "tolak_out": 0.0,
+        "tolak_in": 0.0072992700729927005,
+        "cakupan_in_diterima": 0.9191176470588235,
+        "cakupan_out_diterima": 1.0
+       },
+       "0.05": {
+        "tolak_out": 0.0,
+        "tolak_in": 0.029197080291970802,
+        "cakupan_in_diterima": 0.924812030075188,
+        "cakupan_out_diterima": 1.0
+       },
+       "0.1": {
+        "tolak_out": 0.0,
+        "tolak_in": 0.051094890510948905,
+        "cakupan_in_diterima": 0.9307692307692308,
+        "cakupan_out_diterima": 1.0
+       },
+       "0.2": {
+        "tolak_out": 0.96,
+        "tolak_in": 0.18248175182481752,
+        "cakupan_in_diterima": 0.9732142857142857,
+        "cakupan_out_diterima": 1.0
+       }
+      }
+     },
+     "konformal": {
+      "auc": 0.7596350364963503,
+      "beta": {
+       "0.01": {
+        "tolak_out": 0.0,
+        "tolak_in": 0.014598540145985401,
+        "cakupan_in_diterima": 0.9185185185185185,
+        "cakupan_out_diterima": 1.0
+       },
+       "0.05": {
+        "tolak_out": 0.0,
+        "tolak_in": 0.0948905109489051,
+        "cakupan_in_diterima": 0.9274193548387096,
+        "cakupan_out_diterima": 1.0
+       },
+       "0.1": {
+        "tolak_out": 0.0,
+        "tolak_in": 0.0948905109489051,
+        "cakupan_in_diterima": 0.9274193548387096,
+        "cakupan_out_diterima": 1.0
+       },
+       "0.2": {
+        "tolak_out": 0.26,
+        "tolak_in": 0.20437956204379562,
+        "cakupan_in_diterima": 0.963302752293578,
+        "cakupan_out_diterima": 1.0
+       }
+      }
+     },
+     "gabungan": {
+      "auc": 0.8627737226277372,
+      "beta": {
+       "0.01": {
+        "tolak_out": 0.0,
+        "tolak_in": 0.0,
+        "cakupan_in_diterima": 0.9197080291970803,
+        "cakupan_out_diterima": 1.0
+       },
+       "0.05": {
+        "tolak_out": 0.0,
+        "tolak_in": 0.021897810218978103,
+        "cakupan_in_diterima": 0.9253731343283582,
+        "cakupan_out_diterima": 1.0
+       },
+       "0.1": {
+        "tolak_out": 0.14,
+        "tolak_in": 0.0948905109489051,
+        "cakupan_in_diterima": 0.9435483870967742,
+        "cakupan_out_diterima": 1.0
+       },
+       "0.2": {
+        "tolak_out": 0.94,
+        "tolak_in": 0.18248175182481752,
+        "cakupan_in_diterima": 0.9821428571428571,
+        "cakupan_out_diterima": 1.0
+       }
+      }
+     }
+    },
+    "4": {
+     "jarak_knn": {
+      "auc": 0.8944525547445255,
+      "beta": {
+       "0.01": {
+        "tolak_out": 0.0,
+        "tolak_in": 0.0072992700729927005,
+        "cakupan_in_diterima": 0.9411764705882353,
+        "cakupan_out_diterima": 1.0
+       },
+       "0.05": {
+        "tolak_out": 0.0,
+        "tolak_in": 0.06569343065693431,
+        "cakupan_in_diterima": 0.9375,
+        "cakupan_out_diterima": 1.0
+       },
+       "0.1": {
+        "tolak_out": 0.54,
+        "tolak_in": 0.10218978102189781,
+        "cakupan_in_diterima": 0.943089430894309,
+        "cakupan_out_diterima": 1.0
+       },
+       "0.2": {
+        "tolak_out": 0.94,
+        "tolak_in": 0.19708029197080293,
+        "cakupan_in_diterima": 0.9636363636363636,
+        "cakupan_out_diterima": 1.0
+       }
+      }
+     },
+     "konformal": {
+      "auc": 0.9098540145985401,
+      "beta": {
+       "0.01": {
+        "tolak_out": 0.2,
+        "tolak_in": 0.051094890510948905,
+        "cakupan_in_diterima": 0.9384615384615385,
+        "cakupan_out_diterima": 1.0
+       },
+       "0.05": {
+        "tolak_out": 0.7,
+        "tolak_in": 0.11678832116788321,
+        "cakupan_in_diterima": 0.9504132231404959,
+        "cakupan_out_diterima": 1.0
+       },
+       "0.1": {
+        "tolak_out": 0.7,
+        "tolak_in": 0.11678832116788321,
+        "cakupan_in_diterima": 0.9504132231404959,
+        "cakupan_out_diterima": 1.0
+       },
+       "0.2": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.1897810218978102,
+        "cakupan_in_diterima": 0.954954954954955,
+        "cakupan_out_diterima": null
+       }
+      }
+     },
+     "gabungan": {
+      "auc": 0.9573722627737227,
+      "beta": {
+       "0.01": {
+        "tolak_out": 0.18,
+        "tolak_in": 0.029197080291970802,
+        "cakupan_in_diterima": 0.9473684210526315,
+        "cakupan_out_diterima": 1.0
+       },
+       "0.05": {
+        "tolak_out": 0.78,
+        "tolak_in": 0.043795620437956206,
+        "cakupan_in_diterima": 0.9541984732824428,
+        "cakupan_out_diterima": 1.0
+       },
+       "0.1": {
+        "tolak_out": 0.96,
+        "tolak_in": 0.10218978102189781,
+        "cakupan_in_diterima": 0.9512195121951219,
+        "cakupan_out_diterima": 1.0
+       },
+       "0.2": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.1897810218978102,
+        "cakupan_in_diterima": 0.963963963963964,
+        "cakupan_out_diterima": null
+       }
+      }
+     }
+    },
+    "6": {
+     "jarak_knn": {
+      "auc": 0.7401459854014598,
+      "beta": {
+       "0.01": {
+        "tolak_out": 0.0,
+        "tolak_in": 0.0072992700729927005,
+        "cakupan_in_diterima": 0.9558823529411765,
+        "cakupan_out_diterima": 1.0
+       },
+       "0.05": {
+        "tolak_out": 0.0,
+        "tolak_in": 0.0364963503649635,
+        "cakupan_in_diterima": 0.9696969696969697,
+        "cakupan_out_diterima": 1.0
+       },
+       "0.1": {
+        "tolak_out": 0.0,
+        "tolak_in": 0.10218978102189781,
+        "cakupan_in_diterima": 0.983739837398374,
+        "cakupan_out_diterima": 1.0
+       },
+       "0.2": {
+        "tolak_out": 0.22,
+        "tolak_in": 0.18248175182481752,
+        "cakupan_in_diterima": 0.9910714285714286,
+        "cakupan_out_diterima": 1.0
+       }
+      }
+     },
+     "konformal": {
+      "auc": 0.7727737226277372,
+      "beta": {
+       "0.01": {
+        "tolak_out": 0.04,
+        "tolak_in": 0.043795620437956206,
+        "cakupan_in_diterima": 0.9618320610687023,
+        "cakupan_out_diterima": 1.0
+       },
+       "0.05": {
+        "tolak_out": 0.04,
+        "tolak_in": 0.043795620437956206,
+        "cakupan_in_diterima": 0.9618320610687023,
+        "cakupan_out_diterima": 1.0
+       },
+       "0.1": {
+        "tolak_out": 0.12,
+        "tolak_in": 0.11678832116788321,
+        "cakupan_in_diterima": 0.9669421487603306,
+        "cakupan_out_diterima": 1.0
+       },
+       "0.2": {
+        "tolak_out": 0.74,
+        "tolak_in": 0.24087591240875914,
+        "cakupan_in_diterima": 0.9807692307692307,
+        "cakupan_out_diterima": 1.0
+       }
+      }
+     },
+     "gabungan": {
+      "auc": 0.8032116788321169,
+      "beta": {
+       "0.01": {
+        "tolak_out": 0.0,
+        "tolak_in": 0.021897810218978103,
+        "cakupan_in_diterima": 0.9626865671641791,
+        "cakupan_out_diterima": 1.0
+       },
+       "0.05": {
+        "tolak_out": 0.06,
+        "tolak_in": 0.058394160583941604,
+        "cakupan_in_diterima": 0.9612403100775194,
+        "cakupan_out_diterima": 1.0
+       },
+       "0.1": {
+        "tolak_out": 0.3,
+        "tolak_in": 0.12408759124087591,
+        "cakupan_in_diterima": 0.975,
+        "cakupan_out_diterima": 1.0
+       },
+       "0.2": {
+        "tolak_out": 0.66,
+        "tolak_in": 0.2116788321167883,
+        "cakupan_in_diterima": 0.9907407407407407,
+        "cakupan_out_diterima": 1.0
+       }
+      }
+     }
+    },
+    "8": {
+     "jarak_knn": {
+      "auc": 0.9291970802919709,
+      "beta": {
+       "0.01": {
+        "tolak_out": 0.02,
+        "tolak_in": 0.0,
+        "cakupan_in_diterima": 0.8540145985401459,
+        "cakupan_out_diterima": 0.0
+       },
+       "0.05": {
+        "tolak_out": 0.06,
+        "tolak_in": 0.014598540145985401,
+        "cakupan_in_diterima": 0.8666666666666667,
+        "cakupan_out_diterima": 0.0
+       },
+       "0.1": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.1678832116788321,
+        "cakupan_in_diterima": 0.9298245614035088,
+        "cakupan_out_diterima": null
+       },
+       "0.2": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.24817518248175183,
+        "cakupan_in_diterima": 0.970873786407767,
+        "cakupan_out_diterima": null
+       }
+      }
+     },
+     "konformal": {
+      "auc": 0.7761313868613139,
+      "beta": {
+       "0.01": {
+        "tolak_out": 0.0,
+        "tolak_in": 0.08759124087591241,
+        "cakupan_in_diterima": 0.888,
+        "cakupan_out_diterima": 0.0
+       },
+       "0.05": {
+        "tolak_out": 0.02,
+        "tolak_in": 0.145985401459854,
+        "cakupan_in_diterima": 0.8974358974358975,
+        "cakupan_out_diterima": 0.0
+       },
+       "0.1": {
+        "tolak_out": 0.02,
+        "tolak_in": 0.145985401459854,
+        "cakupan_in_diterima": 0.8974358974358975,
+        "cakupan_out_diterima": 0.0
+       },
+       "0.2": {
+        "tolak_out": 0.5,
+        "tolak_in": 0.20437956204379562,
+        "cakupan_in_diterima": 0.8990825688073395,
+        "cakupan_out_diterima": 0.0
+       }
+      }
+     },
+     "gabungan": {
+      "auc": 0.9049635036496351,
+      "beta": {
+       "0.01": {
+        "tolak_out": 0.04,
+        "tolak_in": 0.021897810218978103,
+        "cakupan_in_diterima": 0.8731343283582089,
+        "cakupan_out_diterima": 0.0
+       },
+       "0.05": {
+        "tolak_out": 0.48,
+        "tolak_in": 0.10218978102189781,
+        "cakupan_in_diterima": 0.9105691056910569,
+        "cakupan_out_diterima": 0.0
+       },
+       "0.1": {
+        "tolak_out": 0.88,
+        "tolak_in": 0.12408759124087591,
+        "cakupan_in_diterima": 0.9333333333333333,
+        "cakupan_out_diterima": 0.0
+       },
+       "0.2": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.20437956204379562,
+        "cakupan_in_diterima": 0.9541284403669725,
+        "cakupan_out_diterima": null
+       }
+      }
+     }
+    },
+    "10": {
+     "jarak_knn": {
+      "auc": 0.7166423357664233,
+      "beta": {
+       "0.01": {
+        "tolak_out": 0.0,
+        "tolak_in": 0.0072992700729927005,
+        "cakupan_in_diterima": 0.8676470588235294,
+        "cakupan_out_diterima": 1.0
+       },
+       "0.05": {
+        "tolak_out": 0.0,
+        "tolak_in": 0.06569343065693431,
+        "cakupan_in_diterima": 0.875,
+        "cakupan_out_diterima": 1.0
+       },
+       "0.1": {
+        "tolak_out": 0.0,
+        "tolak_in": 0.13138686131386862,
+        "cakupan_in_diterima": 0.8991596638655462,
+        "cakupan_out_diterima": 1.0
+       },
+       "0.2": {
+        "tolak_out": 0.16,
+        "tolak_in": 0.2116788321167883,
+        "cakupan_in_diterima": 0.9259259259259259,
+        "cakupan_out_diterima": 1.0
+       }
+      }
+     },
+     "konformal": {
+      "auc": 0.67,
+      "beta": {
+       "0.01": {
+        "tolak_out": 0.0,
+        "tolak_in": 0.0,
+        "cakupan_in_diterima": 0.8613138686131386,
+        "cakupan_out_diterima": 1.0
+       },
+       "0.05": {
+        "tolak_out": 0.0,
+        "tolak_in": 0.0,
+        "cakupan_in_diterima": 0.8613138686131386,
+        "cakupan_out_diterima": 1.0
+       },
+       "0.1": {
+        "tolak_out": 0.24,
+        "tolak_in": 0.145985401459854,
+        "cakupan_in_diterima": 0.905982905982906,
+        "cakupan_out_diterima": 1.0
+       },
+       "0.2": {
+        "tolak_out": 0.62,
+        "tolak_in": 0.2846715328467153,
+        "cakupan_in_diterima": 0.9183673469387755,
+        "cakupan_out_diterima": 1.0
+       }
+      }
+     },
+     "gabungan": {
+      "auc": 0.7181021897810219,
+      "beta": {
+       "0.01": {
+        "tolak_out": 0.0,
+        "tolak_in": 0.029197080291970802,
+        "cakupan_in_diterima": 0.8872180451127819,
+        "cakupan_out_diterima": 1.0
+       },
+       "0.05": {
+        "tolak_out": 0.12,
+        "tolak_in": 0.08029197080291971,
+        "cakupan_in_diterima": 0.9126984126984127,
+        "cakupan_out_diterima": 1.0
+       },
+       "0.1": {
+        "tolak_out": 0.3,
+        "tolak_in": 0.16058394160583941,
+        "cakupan_in_diterima": 0.9130434782608695,
+        "cakupan_out_diterima": 1.0
+       },
+       "0.2": {
+        "tolak_out": 0.62,
+        "tolak_in": 0.29927007299270075,
+        "cakupan_in_diterima": 0.9166666666666666,
+        "cakupan_out_diterima": 1.0
+       }
+      }
+     }
+    },
+    "20": {
+     "jarak_knn": {
+      "auc": 0.8465693430656933,
+      "beta": {
+       "0.01": {
+        "tolak_out": 0.0,
+        "tolak_in": 0.021897810218978103,
+        "cakupan_in_diterima": 0.9477611940298507,
+        "cakupan_out_diterima": 0.98
+       },
+       "0.05": {
+        "tolak_out": 0.0,
+        "tolak_in": 0.058394160583941604,
+        "cakupan_in_diterima": 0.9534883720930233,
+        "cakupan_out_diterima": 0.98
+       },
+       "0.1": {
+        "tolak_out": 0.02,
+        "tolak_in": 0.08759124087591241,
+        "cakupan_in_diterima": 0.96,
+        "cakupan_out_diterima": 0.9795918367346939
+       },
+       "0.2": {
+        "tolak_out": 0.66,
+        "tolak_in": 0.145985401459854,
+        "cakupan_in_diterima": 0.9743589743589743,
+        "cakupan_out_diterima": 1.0
+       }
+      }
+     },
+     "konformal": {
+      "auc": 0.737956204379562,
+      "beta": {
+       "0.01": {
+        "tolak_out": 0.08,
+        "tolak_in": 0.021897810218978103,
+        "cakupan_in_diterima": 0.9402985074626866,
+        "cakupan_out_diterima": 0.9782608695652174
+       },
+       "0.05": {
+        "tolak_out": 0.08,
+        "tolak_in": 0.08759124087591241,
+        "cakupan_in_diterima": 0.96,
+        "cakupan_out_diterima": 0.9782608695652174
+       },
+       "0.1": {
+        "tolak_out": 0.08,
+        "tolak_in": 0.08759124087591241,
+        "cakupan_in_diterima": 0.96,
+        "cakupan_out_diterima": 0.9782608695652174
+       },
+       "0.2": {
+        "tolak_out": 0.52,
+        "tolak_in": 0.21897810218978103,
+        "cakupan_in_diterima": 0.9906542056074766,
+        "cakupan_out_diterima": 0.9583333333333334
+       }
+      }
+     },
+     "gabungan": {
+      "auc": 0.853138686131387,
+      "beta": {
+       "0.01": {
+        "tolak_out": 0.04,
+        "tolak_in": 0.029197080291970802,
+        "cakupan_in_diterima": 0.9473684210526315,
+        "cakupan_out_diterima": 0.9791666666666666
+       },
+       "0.05": {
+        "tolak_out": 0.14,
+        "tolak_in": 0.058394160583941604,
+        "cakupan_in_diterima": 0.9689922480620154,
+        "cakupan_out_diterima": 0.9767441860465116
+       },
+       "0.1": {
+        "tolak_out": 0.48,
+        "tolak_in": 0.11678832116788321,
+        "cakupan_in_diterima": 0.9917355371900827,
+        "cakupan_out_diterima": 0.9615384615384616
+       },
+       "0.2": {
+        "tolak_out": 0.72,
+        "tolak_in": 0.1386861313868613,
+        "cakupan_in_diterima": 0.9915254237288136,
+        "cakupan_out_diterima": 1.0
+       }
+      }
+     }
+    },
+    "40": {
+     "jarak_knn": {
+      "auc": 0.8512408759124088,
+      "beta": {
+       "0.01": {
+        "tolak_out": 0.0,
+        "tolak_in": 0.014598540145985401,
+        "cakupan_in_diterima": 0.8962962962962963,
+        "cakupan_out_diterima": 0.8
+       },
+       "0.05": {
+        "tolak_out": 0.0,
+        "tolak_in": 0.0364963503649635,
+        "cakupan_in_diterima": 0.9090909090909091,
+        "cakupan_out_diterima": 0.8
+       },
+       "0.1": {
+        "tolak_out": 0.06,
+        "tolak_in": 0.12408759124087591,
+        "cakupan_in_diterima": 0.9583333333333334,
+        "cakupan_out_diterima": 0.8297872340425532
+       },
+       "0.2": {
+        "tolak_out": 0.9,
+        "tolak_in": 0.18248175182481752,
+        "cakupan_in_diterima": 0.9910714285714286,
+        "cakupan_out_diterima": 1.0
+       }
+      }
+     },
+     "konformal": {
+      "auc": 0.7359124087591241,
+      "beta": {
+       "0.01": {
+        "tolak_out": 0.02,
+        "tolak_in": 0.029197080291970802,
+        "cakupan_in_diterima": 0.9022556390977443,
+        "cakupan_out_diterima": 0.8163265306122449
+       },
+       "0.05": {
+        "tolak_out": 0.02,
+        "tolak_in": 0.029197080291970802,
+        "cakupan_in_diterima": 0.9022556390977443,
+        "cakupan_out_diterima": 0.8163265306122449
+       },
+       "0.1": {
+        "tolak_out": 0.12,
+        "tolak_in": 0.145985401459854,
+        "cakupan_in_diterima": 0.9230769230769231,
+        "cakupan_out_diterima": 0.8409090909090909
+       },
+       "0.2": {
+        "tolak_out": 0.34,
+        "tolak_in": 0.22627737226277372,
+        "cakupan_in_diterima": 0.9245283018867925,
+        "cakupan_out_diterima": 1.0
+       }
+      }
+     },
+     "gabungan": {
+      "auc": 0.8287591240875913,
+      "beta": {
+       "0.01": {
+        "tolak_out": 0.0,
+        "tolak_in": 0.014598540145985401,
+        "cakupan_in_diterima": 0.8962962962962963,
+        "cakupan_out_diterima": 0.8
+       },
+       "0.05": {
+        "tolak_out": 0.26,
+        "tolak_in": 0.072992700729927,
+        "cakupan_in_diterima": 0.9212598425196851,
+        "cakupan_out_diterima": 0.9459459459459459
+       },
+       "0.1": {
+        "tolak_out": 0.36,
+        "tolak_in": 0.18248175182481752,
+        "cakupan_in_diterima": 0.9375,
+        "cakupan_out_diterima": 1.0
+       },
+       "0.2": {
+        "tolak_out": 0.88,
+        "tolak_in": 0.25547445255474455,
+        "cakupan_in_diterima": 0.9705882352941176,
+        "cakupan_out_diterima": 1.0
+       }
+      }
+     }
+    },
+    "60": {
+     "jarak_knn": {
+      "auc": 0.8911564625850341,
+      "beta": {
+       "0.01": {
+        "tolak_out": 0.0,
+        "tolak_in": 0.014492753623188406,
+        "cakupan_in_diterima": 0.9044117647058824,
+        "cakupan_out_diterima": 0.8571428571428571
+       },
+       "0.05": {
+        "tolak_out": 0.0,
+        "tolak_in": 0.036231884057971016,
+        "cakupan_in_diterima": 0.9172932330827067,
+        "cakupan_out_diterima": 0.8571428571428571
+       },
+       "0.1": {
+        "tolak_out": 0.7755102040816326,
+        "tolak_in": 0.13043478260869565,
+        "cakupan_in_diterima": 0.925,
+        "cakupan_out_diterima": 1.0
+       },
+       "0.2": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.2971014492753623,
+        "cakupan_in_diterima": 0.9896907216494846,
+        "cakupan_out_diterima": null
+       }
+      }
+     },
+     "konformal": {
+      "auc": 0.9383318544809228,
+      "beta": {
+       "0.01": {
+        "tolak_out": 0.32653061224489793,
+        "tolak_in": 0.036231884057971016,
+        "cakupan_in_diterima": 0.9097744360902256,
+        "cakupan_out_diterima": 1.0
+       },
+       "0.05": {
+        "tolak_out": 0.9183673469387755,
+        "tolak_in": 0.09420289855072464,
+        "cakupan_in_diterima": 0.92,
+        "cakupan_out_diterima": 1.0
+       },
+       "0.1": {
+        "tolak_out": 0.9183673469387755,
+        "tolak_in": 0.09420289855072464,
+        "cakupan_in_diterima": 0.92,
+        "cakupan_out_diterima": 1.0
+       },
+       "0.2": {
+        "tolak_out": 0.9795918367346939,
+        "tolak_in": 0.2463768115942029,
+        "cakupan_in_diterima": 0.9326923076923077,
+        "cakupan_out_diterima": 1.0
+       }
+      }
+     },
+     "gabungan": {
+      "auc": 0.9551907719609583,
+      "beta": {
+       "0.01": {
+        "tolak_out": 0.16326530612244897,
+        "tolak_in": 0.007246376811594203,
+        "cakupan_in_diterima": 0.8978102189781022,
+        "cakupan_out_diterima": 0.9512195121951219
+       },
+       "0.05": {
+        "tolak_out": 0.9183673469387755,
+        "tolak_in": 0.10144927536231885,
+        "cakupan_in_diterima": 0.9354838709677419,
+        "cakupan_out_diterima": 1.0
+       },
+       "0.1": {
+        "tolak_out": 0.9795918367346939,
+        "tolak_in": 0.13043478260869565,
+        "cakupan_in_diterima": 0.9416666666666667,
+        "cakupan_out_diterima": 1.0
+       },
+       "0.2": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.2826086956521739,
+        "cakupan_in_diterima": 0.9595959595959596,
+        "cakupan_out_diterima": null
+       }
+      }
+     }
+    },
+    "80": {
+     "jarak_knn": {
+      "auc": 0.8673561151079137,
+      "beta": {
+       "0.01": {
+        "tolak_out": 0.0,
+        "tolak_in": 0.0,
+        "cakupan_in_diterima": 0.935251798561151,
+        "cakupan_out_diterima": 0.6041666666666666
+       },
+       "0.05": {
+        "tolak_out": 0.0,
+        "tolak_in": 0.02158273381294964,
+        "cakupan_in_diterima": 0.9411764705882353,
+        "cakupan_out_diterima": 0.6041666666666666
+       },
+       "0.1": {
+        "tolak_out": 0.0,
+        "tolak_in": 0.07913669064748201,
+        "cakupan_in_diterima": 0.953125,
+        "cakupan_out_diterima": 0.6041666666666666
+       },
+       "0.2": {
+        "tolak_out": 0.9791666666666666,
+        "tolak_in": 0.18705035971223022,
+        "cakupan_in_diterima": 0.9734513274336283,
+        "cakupan_out_diterima": 1.0
+       }
+      }
+     },
+     "konformal": {
+      "auc": 0.8607613908872901,
+      "beta": {
+       "0.01": {
+        "tolak_out": 0.0,
+        "tolak_in": 0.02877697841726619,
+        "cakupan_in_diterima": 0.9481481481481482,
+        "cakupan_out_diterima": 0.6041666666666666
+       },
+       "0.05": {
+        "tolak_out": 0.0,
+        "tolak_in": 0.050359712230215826,
+        "cakupan_in_diterima": 0.946969696969697,
+        "cakupan_out_diterima": 0.6041666666666666
+       },
+       "0.1": {
+        "tolak_out": 0.3958333333333333,
+        "tolak_in": 0.11510791366906475,
+        "cakupan_in_diterima": 0.959349593495935,
+        "cakupan_out_diterima": 0.6206896551724138
+       },
+       "0.2": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.23741007194244604,
+        "cakupan_in_diterima": 0.9622641509433962,
+        "cakupan_out_diterima": null
+       }
+      }
+     },
+     "gabungan": {
+      "auc": 0.9094724220623502,
+      "beta": {
+       "0.01": {
+        "tolak_out": 0.0,
+        "tolak_in": 0.02158273381294964,
+        "cakupan_in_diterima": 0.9485294117647058,
+        "cakupan_out_diterima": 0.6041666666666666
+       },
+       "0.05": {
+        "tolak_out": 0.3541666666666667,
+        "tolak_in": 0.05755395683453238,
+        "cakupan_in_diterima": 0.9541984732824428,
+        "cakupan_out_diterima": 0.5806451612903226
+       },
+       "0.1": {
+        "tolak_out": 0.6666666666666666,
+        "tolak_in": 0.11510791366906475,
+        "cakupan_in_diterima": 0.9512195121951219,
+        "cakupan_out_diterima": 0.8125
+       },
+       "0.2": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.23741007194244604,
+        "cakupan_in_diterima": 0.9905660377358491,
+        "cakupan_out_diterima": null
+       }
+      }
+     }
+    },
+    "100": {
+     "jarak_knn": {
+      "auc": 0.8591240875912409,
+      "beta": {
+       "0.01": {
+        "tolak_out": 0.0,
+        "tolak_in": 0.0,
+        "cakupan_in_diterima": 0.927007299270073,
+        "cakupan_out_diterima": 0.0
+       },
+       "0.05": {
+        "tolak_out": 0.08,
+        "tolak_in": 0.06569343065693431,
+        "cakupan_in_diterima": 0.9296875,
+        "cakupan_out_diterima": 0.0
+       },
+       "0.1": {
+        "tolak_out": 0.28,
+        "tolak_in": 0.10218978102189781,
+        "cakupan_in_diterima": 0.943089430894309,
+        "cakupan_out_diterima": 0.0
+       },
+       "0.2": {
+        "tolak_out": 0.78,
+        "tolak_in": 0.18248175182481752,
+        "cakupan_in_diterima": 0.9732142857142857,
+        "cakupan_out_diterima": 0.0
+       }
+      }
+     },
+     "konformal": {
+      "auc": 0.8914598540145986,
+      "beta": {
+       "0.01": {
+        "tolak_out": 0.14,
+        "tolak_in": 0.0364963503649635,
+        "cakupan_in_diterima": 0.9242424242424242,
+        "cakupan_out_diterima": 0.0
+       },
+       "0.05": {
+        "tolak_out": 0.48,
+        "tolak_in": 0.11678832116788321,
+        "cakupan_in_diterima": 0.9421487603305785,
+        "cakupan_out_diterima": 0.0
+       },
+       "0.1": {
+        "tolak_out": 0.96,
+        "tolak_in": 0.1678832116788321,
+        "cakupan_in_diterima": 0.9385964912280702,
+        "cakupan_out_diterima": 0.0
+       },
+       "0.2": {
+        "tolak_out": 0.96,
+        "tolak_in": 0.20437956204379562,
+        "cakupan_in_diterima": 0.9357798165137615,
+        "cakupan_out_diterima": 0.0
+       }
+      }
+     },
+     "gabungan": {
+      "auc": 0.9721167883211679,
+      "beta": {
+       "0.01": {
+        "tolak_out": 0.18,
+        "tolak_in": 0.0072992700729927005,
+        "cakupan_in_diterima": 0.9264705882352942,
+        "cakupan_out_diterima": 0.0
+       },
+       "0.05": {
+        "tolak_out": 0.8,
+        "tolak_in": 0.051094890510948905,
+        "cakupan_in_diterima": 0.9461538461538461,
+        "cakupan_out_diterima": 0.0
+       },
+       "0.1": {
+        "tolak_out": 0.94,
+        "tolak_in": 0.10948905109489052,
+        "cakupan_in_diterima": 0.9508196721311475,
+        "cakupan_out_diterima": 0.0
+       },
+       "0.2": {
+        "tolak_out": 0.98,
+        "tolak_in": 0.19708029197080293,
+        "cakupan_in_diterima": 0.9727272727272728,
+        "cakupan_out_diterima": 0.0
+       }
+      }
+     }
+    },
+    "200": {
+     "jarak_knn": {
+      "auc": 0.8043795620437956,
+      "beta": {
+       "0.01": {
+        "tolak_out": 0.0,
+        "tolak_in": 0.0,
+        "cakupan_in_diterima": 0.8978102189781022,
+        "cakupan_out_diterima": 0.08
+       },
+       "0.05": {
+        "tolak_out": 0.0,
+        "tolak_in": 0.058394160583941604,
+        "cakupan_in_diterima": 0.9147286821705426,
+        "cakupan_out_diterima": 0.08
+       },
+       "0.1": {
+        "tolak_out": 0.02,
+        "tolak_in": 0.11678832116788321,
+        "cakupan_in_diterima": 0.9421487603305785,
+        "cakupan_out_diterima": 0.08163265306122448
+       },
+       "0.2": {
+        "tolak_out": 0.96,
+        "tolak_in": 0.24817518248175183,
+        "cakupan_in_diterima": 0.9611650485436893,
+        "cakupan_out_diterima": 0.0
+       }
+      }
+     },
+     "konformal": {
+      "auc": 0.9518978102189781,
+      "beta": {
+       "0.01": {
+        "tolak_out": 0.1,
+        "tolak_in": 0.014598540145985401,
+        "cakupan_in_diterima": 0.8962962962962963,
+        "cakupan_out_diterima": 0.08888888888888889
+       },
+       "0.05": {
+        "tolak_out": 0.98,
+        "tolak_in": 0.08759124087591241,
+        "cakupan_in_diterima": 0.904,
+        "cakupan_out_diterima": 0.0
+       },
+       "0.1": {
+        "tolak_out": 0.98,
+        "tolak_in": 0.08759124087591241,
+        "cakupan_in_diterima": 0.904,
+        "cakupan_out_diterima": 0.0
+       },
+       "0.2": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.21897810218978103,
+        "cakupan_in_diterima": 0.9532710280373832,
+        "cakupan_out_diterima": null
+       }
+      }
+     },
+     "gabungan": {
+      "auc": 0.9297810218978102,
+      "beta": {
+       "0.01": {
+        "tolak_out": 0.0,
+        "tolak_in": 0.029197080291970802,
+        "cakupan_in_diterima": 0.9022556390977443,
+        "cakupan_out_diterima": 0.08
+       },
+       "0.05": {
+        "tolak_out": 0.56,
+        "tolak_in": 0.072992700729927,
+        "cakupan_in_diterima": 0.9291338582677166,
+        "cakupan_out_diterima": 0.0
+       },
+       "0.1": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.1678832116788321,
+        "cakupan_in_diterima": 0.956140350877193,
+        "cakupan_out_diterima": null
+       },
+       "0.2": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.23357664233576642,
+        "cakupan_in_diterima": 0.9619047619047619,
+        "cakupan_out_diterima": null
+       }
+      }
+     }
+    },
+    "400": {
+     "jarak_knn": {
+      "auc": 0.9112408759124088,
+      "beta": {
+       "0.01": {
+        "tolak_out": 0.0,
+        "tolak_in": 0.014598540145985401,
+        "cakupan_in_diterima": 0.9259259259259259,
+        "cakupan_out_diterima": 0.74
+       },
+       "0.05": {
+        "tolak_out": 0.0,
+        "tolak_in": 0.021897810218978103,
+        "cakupan_in_diterima": 0.9253731343283582,
+        "cakupan_out_diterima": 0.74
+       },
+       "0.1": {
+        "tolak_out": 0.36,
+        "tolak_in": 0.072992700729927,
+        "cakupan_in_diterima": 0.952755905511811,
+        "cakupan_out_diterima": 1.0
+       },
+       "0.2": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.1386861313868613,
+        "cakupan_in_diterima": 0.9661016949152542,
+        "cakupan_out_diterima": null
+       }
+      }
+     },
+     "konformal": {
+      "auc": 0.9716788321167884,
+      "beta": {
+       "0.01": {
+        "tolak_out": 0.88,
+        "tolak_in": 0.0364963503649635,
+        "cakupan_in_diterima": 0.9393939393939394,
+        "cakupan_out_diterima": 0.5
+       },
+       "0.05": {
+        "tolak_out": 0.88,
+        "tolak_in": 0.0364963503649635,
+        "cakupan_in_diterima": 0.9393939393939394,
+        "cakupan_out_diterima": 0.5
+       },
+       "0.1": {
+        "tolak_out": 0.96,
+        "tolak_in": 0.10218978102189781,
+        "cakupan_in_diterima": 0.9512195121951219,
+        "cakupan_out_diterima": 0.0
+       },
+       "0.2": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.30656934306569344,
+        "cakupan_in_diterima": 0.9789473684210527,
+        "cakupan_out_diterima": null
+       }
+      }
+     },
+     "gabungan": {
+      "auc": 0.9781021897810219,
+      "beta": {
+       "0.01": {
+        "tolak_out": 0.54,
+        "tolak_in": 0.014598540145985401,
+        "cakupan_in_diterima": 0.9407407407407408,
+        "cakupan_out_diterima": 0.8695652173913043
+       },
+       "0.05": {
+        "tolak_out": 0.96,
+        "tolak_in": 0.06569343065693431,
+        "cakupan_in_diterima": 0.9609375,
+        "cakupan_out_diterima": 1.0
+       },
+       "0.1": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.10948905109489052,
+        "cakupan_in_diterima": 0.9590163934426229,
+        "cakupan_out_diterima": null
+       },
+       "0.2": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.19708029197080293,
+        "cakupan_in_diterima": 0.9818181818181818,
+        "cakupan_out_diterima": null
+       }
+      }
+     }
+    },
+    "600": {
+     "jarak_knn": {
+      "auc": 0.9805839416058394,
+      "beta": {
+       "0.01": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.0364963503649635,
+        "cakupan_in_diterima": 0.8257575757575758,
+        "cakupan_out_diterima": null
+       },
+       "0.05": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.10218978102189781,
+        "cakupan_in_diterima": 0.8780487804878049,
+        "cakupan_out_diterima": null
+       },
+       "0.1": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.145985401459854,
+        "cakupan_in_diterima": 0.9145299145299145,
+        "cakupan_out_diterima": null
+       },
+       "0.2": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.25547445255474455,
+        "cakupan_in_diterima": 0.9607843137254902,
+        "cakupan_out_diterima": null
+       }
+      }
+     },
+     "konformal": {
+      "auc": 0.8537226277372263,
+      "beta": {
+       "0.01": {
+        "tolak_out": 0.0,
+        "tolak_in": 0.021897810218978103,
+        "cakupan_in_diterima": 0.7910447761194029,
+        "cakupan_out_diterima": 0.06
+       },
+       "0.05": {
+        "tolak_out": 0.04,
+        "tolak_in": 0.10948905109489052,
+        "cakupan_in_diterima": 0.8524590163934426,
+        "cakupan_out_diterima": 0.0625
+       },
+       "0.1": {
+        "tolak_out": 0.04,
+        "tolak_in": 0.10948905109489052,
+        "cakupan_in_diterima": 0.8524590163934426,
+        "cakupan_out_diterima": 0.0625
+       },
+       "0.2": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.25547445255474455,
+        "cakupan_in_diterima": 0.9019607843137255,
+        "cakupan_out_diterima": null
+       }
+      }
+     },
+     "gabungan": {
+      "auc": 0.9245255474452554,
+      "beta": {
+       "0.01": {
+        "tolak_out": 0.32,
+        "tolak_in": 0.043795620437956206,
+        "cakupan_in_diterima": 0.8320610687022901,
+        "cakupan_out_diterima": 0.029411764705882353
+       },
+       "0.05": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.15328467153284672,
+        "cakupan_in_diterima": 0.896551724137931,
+        "cakupan_out_diterima": null
+       },
+       "0.1": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.1897810218978102,
+        "cakupan_in_diterima": 0.9009009009009009,
+        "cakupan_out_diterima": null
+       },
+       "0.2": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.25547445255474455,
+        "cakupan_in_diterima": 0.9411764705882353,
+        "cakupan_out_diterima": null
+       }
+      }
+     }
+    },
+    "800": {
+     "jarak_knn": {
+      "auc": 0.9500729927007299,
+      "beta": {
+       "0.01": {
+        "tolak_out": 0.08,
+        "tolak_in": 0.0072992700729927005,
+        "cakupan_in_diterima": 0.9117647058823529,
+        "cakupan_out_diterima": 0.10869565217391304
+       },
+       "0.05": {
+        "tolak_out": 0.54,
+        "tolak_in": 0.06569343065693431,
+        "cakupan_in_diterima": 0.9375,
+        "cakupan_out_diterima": 0.0
+       },
+       "0.1": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.11678832116788321,
+        "cakupan_in_diterima": 0.9504132231404959,
+        "cakupan_out_diterima": null
+       },
+       "0.2": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.22627737226277372,
+        "cakupan_in_diterima": 0.9905660377358491,
+        "cakupan_out_diterima": null
+       }
+      }
+     },
+     "konformal": {
+      "auc": 0.930948905109489,
+      "beta": {
+       "0.01": {
+        "tolak_out": 0.0,
+        "tolak_in": 0.0,
+        "cakupan_in_diterima": 0.9124087591240876,
+        "cakupan_out_diterima": 0.16
+       },
+       "0.05": {
+        "tolak_out": 0.88,
+        "tolak_in": 0.10948905109489052,
+        "cakupan_in_diterima": 0.9508196721311475,
+        "cakupan_out_diterima": 0.8333333333333334
+       },
+       "0.1": {
+        "tolak_out": 0.88,
+        "tolak_in": 0.10948905109489052,
+        "cakupan_in_diterima": 0.9508196721311475,
+        "cakupan_out_diterima": 0.8333333333333334
+       },
+       "0.2": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.2773722627737226,
+        "cakupan_in_diterima": 0.9696969696969697,
+        "cakupan_out_diterima": null
+       }
+      }
+     },
+     "gabungan": {
+      "auc": 0.9607299270072993,
+      "beta": {
+       "0.01": {
+        "tolak_out": 0.48,
+        "tolak_in": 0.021897810218978103,
+        "cakupan_in_diterima": 0.9253731343283582,
+        "cakupan_out_diterima": 0.19230769230769232
+       },
+       "0.05": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.12408759124087591,
+        "cakupan_in_diterima": 0.9583333333333334,
+        "cakupan_out_diterima": null
+       },
+       "0.1": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.18248175182481752,
+        "cakupan_in_diterima": 0.9732142857142857,
+        "cakupan_out_diterima": null
+       },
+       "0.2": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.291970802919708,
+        "cakupan_in_diterima": 0.979381443298969,
+        "cakupan_out_diterima": null
+       }
+      }
+     }
+    },
+    "1000": {
+     "jarak_knn": {
+      "auc": 0.9709489051094891,
+      "beta": {
+       "0.01": {
+        "tolak_out": 0.48,
+        "tolak_in": 0.029197080291970802,
+        "cakupan_in_diterima": 0.8796992481203008,
+        "cakupan_out_diterima": 0.0
+       },
+       "0.05": {
+        "tolak_out": 0.9,
+        "tolak_in": 0.058394160583941604,
+        "cakupan_in_diterima": 0.8914728682170543,
+        "cakupan_out_diterima": 0.0
+       },
+       "0.1": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.11678832116788321,
+        "cakupan_in_diterima": 0.9008264462809917,
+        "cakupan_out_diterima": null
+       },
+       "0.2": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.18248175182481752,
+        "cakupan_in_diterima": 0.9285714285714286,
+        "cakupan_out_diterima": null
+       }
+      }
+     },
+     "konformal": {
+      "auc": 0.9662773722627738,
+      "beta": {
+       "0.01": {
+        "tolak_out": 0.82,
+        "tolak_in": 0.043795620437956206,
+        "cakupan_in_diterima": 0.8702290076335878,
+        "cakupan_out_diterima": 0.0
+       },
+       "0.05": {
+        "tolak_out": 0.82,
+        "tolak_in": 0.043795620437956206,
+        "cakupan_in_diterima": 0.8702290076335878,
+        "cakupan_out_diterima": 0.0
+       },
+       "0.1": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.13138686131386862,
+        "cakupan_in_diterima": 0.9411764705882353,
+        "cakupan_out_diterima": null
+       },
+       "0.2": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.21897810218978103,
+        "cakupan_in_diterima": 0.9906542056074766,
+        "cakupan_out_diterima": null
+       }
+      }
+     },
+     "gabungan": {
+      "auc": 0.9905109489051095,
+      "beta": {
+       "0.01": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.058394160583941604,
+        "cakupan_in_diterima": 0.8914728682170543,
+        "cakupan_out_diterima": null
+       },
+       "0.05": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.0948905109489051,
+        "cakupan_in_diterima": 0.9112903225806451,
+        "cakupan_out_diterima": null
+       },
+       "0.1": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.1386861313868613,
+        "cakupan_in_diterima": 0.940677966101695,
+        "cakupan_out_diterima": null
+       },
+       "0.2": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.24087591240875914,
+        "cakupan_in_diterima": 1.0,
+        "cakupan_out_diterima": null
+       }
+      }
+     }
+    }
+   }
+  }
+ },
+ "dua_tahap": {
+  "LC": {
+   "cakupan_in_setelah_gerbang": 0.9246799506165799,
+   "cakupan_out_setelah_gerbang": 0.6666666666666666,
+   "gerbang_gugurkan_in": 0.11714285714285715,
+   "gerbang_gugurkan_out": 0.9813333333333333,
+   "ringkas": {
+    "jarak_knn": {
+     "auc": 0.9215964649120858,
+     "beta": {
+      "0.01": {
+       "tolak_out": 0.984,
+       "tolak_in": 0.1295238095238095,
+       "cakupan_in_diterima": 0.9294855839195576,
+       "cakupan_out_diterima": 0.6666666666666666,
+       "level_tolak_penuh": 12
+      },
+      "0.05": {
+       "tolak_out": 0.9960000000000001,
+       "tolak_in": 0.15523809523809523,
+       "cakupan_in_diterima": 0.9351510257610597,
+       "cakupan_out_diterima": 0.5,
+       "level_tolak_penuh": 13
+      },
+      "0.1": {
+       "tolak_out": 0.9973333333333334,
+       "tolak_in": 0.20190476190476186,
+       "cakupan_in_diterima": 0.9440031797976911,
+       "cakupan_out_diterima": 1.0,
+       "level_tolak_penuh": 14
+      },
+      "0.2": {
+       "tolak_out": 1.0,
+       "tolak_in": 0.2861904761904761,
+       "cakupan_in_diterima": 0.9539811317080286,
+       "cakupan_out_diterima": NaN,
+       "level_tolak_penuh": 15
+      }
+     }
+    },
+    "konformal": {
+     "auc": 0.8834342085224591,
+     "beta": {
+      "0.01": {
+       "tolak_out": 0.9906666666666666,
+       "tolak_in": 0.14952380952380953,
+       "cakupan_in_diterima": 0.9323445301580572,
+       "cakupan_out_diterima": 0.6666666666666666,
+       "level_tolak_penuh": 12
+      },
+      "0.05": {
+       "tolak_out": 0.9933333333333334,
+       "tolak_in": 0.19714285714285715,
+       "cakupan_in_diterima": 0.9406591981478365,
+       "cakupan_out_diterima": 0.5,
+       "level_tolak_penuh": 13
+      },
+      "0.1": {
+       "tolak_out": 0.9933333333333334,
+       "tolak_in": 0.23333333333333334,
+       "cakupan_in_diterima": 0.9462817254453436,
+       "cakupan_out_diterima": 0.5,
+       "level_tolak_penuh": 13
+      },
+      "0.2": {
+       "tolak_out": 0.9973333333333334,
+       "tolak_in": 0.32523809523809527,
+       "cakupan_in_diterima": 0.9598412815546988,
+       "cakupan_out_diterima": 0.0,
+       "level_tolak_penuh": 14
+      }
+     }
+    },
+    "gabungan": {
+     "auc": 0.9470438473214274,
+     "beta": {
+      "0.01": {
+       "tolak_out": 0.9920000000000001,
+       "tolak_in": 0.13476190476190475,
+       "cakupan_in_diterima": 0.9324677923030026,
+       "cakupan_out_diterima": 0.5,
+       "level_tolak_penuh": 13
+      },
+      "0.05": {
+       "tolak_out": 0.9946666666666668,
+       "tolak_in": 0.16571428571428568,
+       "cakupan_in_diterima": 0.9430745571015192,
+       "cakupan_out_diterima": 0.5,
+       "level_tolak_penuh": 13
+      },
+      "0.1": {
+       "tolak_out": 0.9960000000000001,
+       "tolak_in": 0.21761904761904757,
+       "cakupan_in_diterima": 0.9518338407606997,
+       "cakupan_out_diterima": 0.5,
+       "level_tolak_penuh": 13
+      },
+      "0.2": {
+       "tolak_out": 0.9986666666666667,
+       "tolak_in": 0.31047619047619046,
+       "cakupan_in_diterima": 0.9690148164456521,
+       "cakupan_out_diterima": 0.0,
+       "level_tolak_penuh": 14
+      }
+     }
+    }
+   },
+   "per_level": {
+    "2": {
+     "jarak_knn": {
+      "auc": null,
+      "beta": {
+       "0.01": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.1357142857142857,
+        "cakupan_in_diterima": 0.9090909090909091,
+        "cakupan_out_diterima": null
+       },
+       "0.05": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.17142857142857143,
+        "cakupan_in_diterima": 0.9310344827586207,
+        "cakupan_out_diterima": null
+       },
+       "0.1": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.21428571428571427,
+        "cakupan_in_diterima": 0.9363636363636364,
+        "cakupan_out_diterima": null
+       },
+       "0.2": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.3,
+        "cakupan_in_diterima": 0.9387755102040817,
+        "cakupan_out_diterima": null
+       }
+      }
+     },
+     "konformal": {
+      "auc": null,
+      "beta": {
+       "0.01": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.17142857142857143,
+        "cakupan_in_diterima": 0.896551724137931,
+        "cakupan_out_diterima": null
+       },
+       "0.05": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.22142857142857142,
+        "cakupan_in_diterima": 0.908256880733945,
+        "cakupan_out_diterima": null
+       },
+       "0.1": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.2785714285714286,
+        "cakupan_in_diterima": 0.9306930693069307,
+        "cakupan_out_diterima": null
+       },
+       "0.2": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.4,
+        "cakupan_in_diterima": 0.9523809523809523,
+        "cakupan_out_diterima": null
+       }
+      }
+     },
+     "gabungan": {
+      "auc": null,
+      "beta": {
+       "0.01": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.14285714285714285,
+        "cakupan_in_diterima": 0.9166666666666666,
+        "cakupan_out_diterima": null
+       },
+       "0.05": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.16428571428571428,
+        "cakupan_in_diterima": 0.9316239316239316,
+        "cakupan_out_diterima": null
+       },
+       "0.1": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.2714285714285714,
+        "cakupan_in_diterima": 0.9411764705882353,
+        "cakupan_out_diterima": null
+       },
+       "0.2": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.38571428571428573,
+        "cakupan_in_diterima": 0.9534883720930233,
+        "cakupan_out_diterima": null
+       }
+      }
+     }
+    },
+    "4": {
+     "jarak_knn": {
+      "auc": null,
+      "beta": {
+       "0.01": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.15,
+        "cakupan_in_diterima": 0.8907563025210085,
+        "cakupan_out_diterima": null
+       },
+       "0.05": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.17857142857142858,
+        "cakupan_in_diterima": 0.8956521739130435,
+        "cakupan_out_diterima": null
+       },
+       "0.1": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.2714285714285714,
+        "cakupan_in_diterima": 0.9411764705882353,
+        "cakupan_out_diterima": null
+       },
+       "0.2": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.35,
+        "cakupan_in_diterima": 0.967032967032967,
+        "cakupan_out_diterima": null
+       }
+      }
+     },
+     "konformal": {
+      "auc": null,
+      "beta": {
+       "0.01": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.18571428571428572,
+        "cakupan_in_diterima": 0.9122807017543859,
+        "cakupan_out_diterima": null
+       },
+       "0.05": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.20714285714285716,
+        "cakupan_in_diterima": 0.918918918918919,
+        "cakupan_out_diterima": null
+       },
+       "0.1": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.2357142857142857,
+        "cakupan_in_diterima": 0.9158878504672897,
+        "cakupan_out_diterima": null
+       },
+       "0.2": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.32857142857142857,
+        "cakupan_in_diterima": 0.9468085106382979,
+        "cakupan_out_diterima": null
+       }
+      }
+     },
+     "gabungan": {
+      "auc": null,
+      "beta": {
+       "0.01": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.15,
+        "cakupan_in_diterima": 0.8907563025210085,
+        "cakupan_out_diterima": null
+       },
+       "0.05": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.2,
+        "cakupan_in_diterima": 0.9285714285714286,
+        "cakupan_out_diterima": null
+       },
+       "0.1": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.2642857142857143,
+        "cakupan_in_diterima": 0.9514563106796117,
+        "cakupan_out_diterima": null
+       },
+       "0.2": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.32857142857142857,
+        "cakupan_in_diterima": 0.9787234042553191,
+        "cakupan_out_diterima": null
+       }
+      }
+     }
+    },
+    "6": {
+     "jarak_knn": {
+      "auc": 0.8425196850393701,
+      "beta": {
+       "0.01": {
+        "tolak_out": 0.96,
+        "tolak_in": 0.10714285714285714,
+        "cakupan_in_diterima": 0.912,
+        "cakupan_out_diterima": 1.0
+       },
+       "0.05": {
+        "tolak_out": 0.96,
+        "tolak_in": 0.1357142857142857,
+        "cakupan_in_diterima": 0.9338842975206612,
+        "cakupan_out_diterima": 1.0
+       },
+       "0.1": {
+        "tolak_out": 0.96,
+        "tolak_in": 0.2,
+        "cakupan_in_diterima": 0.9464285714285714,
+        "cakupan_out_diterima": 1.0
+       },
+       "0.2": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.2714285714285714,
+        "cakupan_in_diterima": 0.9509803921568627,
+        "cakupan_out_diterima": null
+       }
+      }
+     },
+     "konformal": {
+      "auc": 0.7952755905511811,
+      "beta": {
+       "0.01": {
+        "tolak_out": 0.96,
+        "tolak_in": 0.16428571428571428,
+        "cakupan_in_diterima": 0.9230769230769231,
+        "cakupan_out_diterima": 1.0
+       },
+       "0.05": {
+        "tolak_out": 0.96,
+        "tolak_in": 0.2,
+        "cakupan_in_diterima": 0.9375,
+        "cakupan_out_diterima": 1.0
+       },
+       "0.1": {
+        "tolak_out": 0.96,
+        "tolak_in": 0.2642857142857143,
+        "cakupan_in_diterima": 0.9514563106796117,
+        "cakupan_out_diterima": 1.0
+       },
+       "0.2": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.29285714285714287,
+        "cakupan_in_diterima": 0.9494949494949495,
+        "cakupan_out_diterima": null
+       }
+      }
+     },
+     "gabungan": {
+      "auc": 0.889763779527559,
+      "beta": {
+       "0.01": {
+        "tolak_out": 0.96,
+        "tolak_in": 0.12857142857142856,
+        "cakupan_in_diterima": 0.9344262295081968,
+        "cakupan_out_diterima": 1.0
+       },
+       "0.05": {
+        "tolak_out": 0.96,
+        "tolak_in": 0.15,
+        "cakupan_in_diterima": 0.9411764705882353,
+        "cakupan_out_diterima": 1.0
+       },
+       "0.1": {
+        "tolak_out": 0.96,
+        "tolak_in": 0.18571428571428572,
+        "cakupan_in_diterima": 0.9473684210526315,
+        "cakupan_out_diterima": 1.0
+       },
+       "0.2": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.2857142857142857,
+        "cakupan_in_diterima": 0.96,
+        "cakupan_out_diterima": null
+       }
+      }
+     }
+    },
+    "8": {
+     "jarak_knn": {
+      "auc": null,
+      "beta": {
+       "0.01": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.1357142857142857,
+        "cakupan_in_diterima": 0.9338842975206612,
+        "cakupan_out_diterima": null
+       },
+       "0.05": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.15714285714285714,
+        "cakupan_in_diterima": 0.940677966101695,
+        "cakupan_out_diterima": null
+       },
+       "0.1": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.19285714285714287,
+        "cakupan_in_diterima": 0.9380530973451328,
+        "cakupan_out_diterima": null
+       },
+       "0.2": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.2714285714285714,
+        "cakupan_in_diterima": 0.9705882352941176,
+        "cakupan_out_diterima": null
+       }
+      }
+     },
+     "konformal": {
+      "auc": null,
+      "beta": {
+       "0.01": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.14285714285714285,
+        "cakupan_in_diterima": 0.9333333333333333,
+        "cakupan_out_diterima": null
+       },
+       "0.05": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.17142857142857143,
+        "cakupan_in_diterima": 0.9310344827586207,
+        "cakupan_out_diterima": null
+       },
+       "0.1": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.20714285714285716,
+        "cakupan_in_diterima": 0.9459459459459459,
+        "cakupan_out_diterima": null
+       },
+       "0.2": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.32142857142857145,
+        "cakupan_in_diterima": 0.9578947368421052,
+        "cakupan_out_diterima": null
+       }
+      }
+     },
+     "gabungan": {
+      "auc": null,
+      "beta": {
+       "0.01": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.14285714285714285,
+        "cakupan_in_diterima": 0.9333333333333333,
+        "cakupan_out_diterima": null
+       },
+       "0.05": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.17857142857142858,
+        "cakupan_in_diterima": 0.9565217391304348,
+        "cakupan_out_diterima": null
+       },
+       "0.1": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.22857142857142856,
+        "cakupan_in_diterima": 0.9629629629629629,
+        "cakupan_out_diterima": null
+       },
+       "0.2": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.2857142857142857,
+        "cakupan_in_diterima": 0.97,
+        "cakupan_out_diterima": null
+       }
+      }
+     }
+    },
+    "10": {
+     "jarak_knn": {
+      "auc": null,
+      "beta": {
+       "0.01": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.12857142857142856,
+        "cakupan_in_diterima": 0.9426229508196722,
+        "cakupan_out_diterima": null
+       },
+       "0.05": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.12857142857142856,
+        "cakupan_in_diterima": 0.9426229508196722,
+        "cakupan_out_diterima": null
+       },
+       "0.1": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.2,
+        "cakupan_in_diterima": 0.9732142857142857,
+        "cakupan_out_diterima": null
+       },
+       "0.2": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.2571428571428571,
+        "cakupan_in_diterima": 0.9711538461538461,
+        "cakupan_out_diterima": null
+       }
+      }
+     },
+     "konformal": {
+      "auc": null,
+      "beta": {
+       "0.01": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.17142857142857143,
+        "cakupan_in_diterima": 0.9482758620689655,
+        "cakupan_out_diterima": null
+       },
+       "0.05": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.19285714285714287,
+        "cakupan_in_diterima": 0.9646017699115044,
+        "cakupan_out_diterima": null
+       },
+       "0.1": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.22142857142857142,
+        "cakupan_in_diterima": 0.963302752293578,
+        "cakupan_out_diterima": null
+       },
+       "0.2": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.37142857142857144,
+        "cakupan_in_diterima": 0.9772727272727273,
+        "cakupan_out_diterima": null
+       }
+      }
+     },
+     "gabungan": {
+      "auc": null,
+      "beta": {
+       "0.01": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.1357142857142857,
+        "cakupan_in_diterima": 0.9504132231404959,
+        "cakupan_out_diterima": null
+       },
+       "0.05": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.14285714285714285,
+        "cakupan_in_diterima": 0.9583333333333334,
+        "cakupan_out_diterima": null
+       },
+       "0.1": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.20714285714285716,
+        "cakupan_in_diterima": 0.972972972972973,
+        "cakupan_out_diterima": null
+       },
+       "0.2": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.3142857142857143,
+        "cakupan_in_diterima": 0.9791666666666666,
+        "cakupan_out_diterima": null
+       }
+      }
+     }
+    },
+    "20": {
+     "jarak_knn": {
+      "auc": null,
+      "beta": {
+       "0.01": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.14285714285714285,
+        "cakupan_in_diterima": 0.9583333333333334,
+        "cakupan_out_diterima": null
+       },
+       "0.05": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.17142857142857143,
+        "cakupan_in_diterima": 0.9568965517241379,
+        "cakupan_out_diterima": null
+       },
+       "0.1": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.19285714285714287,
+        "cakupan_in_diterima": 0.9557522123893806,
+        "cakupan_out_diterima": null
+       },
+       "0.2": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.32857142857142857,
+        "cakupan_in_diterima": 0.9893617021276596,
+        "cakupan_out_diterima": null
+       }
+      }
+     },
+     "konformal": {
+      "auc": null,
+      "beta": {
+       "0.01": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.1357142857142857,
+        "cakupan_in_diterima": 0.9586776859504132,
+        "cakupan_out_diterima": null
+       },
+       "0.05": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.2357142857142857,
+        "cakupan_in_diterima": 0.9626168224299065,
+        "cakupan_out_diterima": null
+       },
+       "0.1": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.2857142857142857,
+        "cakupan_in_diterima": 0.96,
+        "cakupan_out_diterima": null
+       },
+       "0.2": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.35714285714285715,
+        "cakupan_in_diterima": 0.9666666666666667,
+        "cakupan_out_diterima": null
+       }
+      }
+     },
+     "gabungan": {
+      "auc": null,
+      "beta": {
+       "0.01": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.14285714285714285,
+        "cakupan_in_diterima": 0.9583333333333334,
+        "cakupan_out_diterima": null
+       },
+       "0.05": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.16428571428571428,
+        "cakupan_in_diterima": 0.9572649572649573,
+        "cakupan_out_diterima": null
+       },
+       "0.1": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.22857142857142856,
+        "cakupan_in_diterima": 0.9629629629629629,
+        "cakupan_out_diterima": null
+       },
+       "0.2": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.37857142857142856,
+        "cakupan_in_diterima": 0.9885057471264368,
+        "cakupan_out_diterima": null
+       }
+      }
+     }
+    },
+    "40": {
+     "jarak_knn": {
+      "auc": 0.9508196721311475,
+      "beta": {
+       "0.01": {
+        "tolak_out": 0.98,
+        "tolak_in": 0.14285714285714285,
+        "cakupan_in_diterima": 0.9416666666666667,
+        "cakupan_out_diterima": 1.0
+       },
+       "0.05": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.17142857142857143,
+        "cakupan_in_diterima": 0.9396551724137931,
+        "cakupan_out_diterima": null
+       },
+       "0.1": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.21428571428571427,
+        "cakupan_in_diterima": 0.9545454545454546,
+        "cakupan_out_diterima": null
+       },
+       "0.2": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.2642857142857143,
+        "cakupan_in_diterima": 0.9514563106796117,
+        "cakupan_out_diterima": null
+       }
+      }
+     },
+     "konformal": {
+      "auc": 0.9508196721311475,
+      "beta": {
+       "0.01": {
+        "tolak_out": 0.98,
+        "tolak_in": 0.12857142857142856,
+        "cakupan_in_diterima": 0.9344262295081968,
+        "cakupan_out_diterima": 1.0
+       },
+       "0.05": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.22857142857142856,
+        "cakupan_in_diterima": 0.9444444444444444,
+        "cakupan_out_diterima": null
+       },
+       "0.1": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.2571428571428571,
+        "cakupan_in_diterima": 0.9519230769230769,
+        "cakupan_out_diterima": null
+       },
+       "0.2": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.3142857142857143,
+        "cakupan_in_diterima": 0.9791666666666666,
+        "cakupan_out_diterima": null
+       }
+      }
+     },
+     "gabungan": {
+      "auc": 0.9754098360655737,
+      "beta": {
+       "0.01": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.15,
+        "cakupan_in_diterima": 0.9411764705882353,
+        "cakupan_out_diterima": null
+       },
+       "0.05": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.15714285714285714,
+        "cakupan_in_diterima": 0.940677966101695,
+        "cakupan_out_diterima": null
+       },
+       "0.1": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.2,
+        "cakupan_in_diterima": 0.9642857142857143,
+        "cakupan_out_diterima": null
+       },
+       "0.2": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.2785714285714286,
+        "cakupan_in_diterima": 0.9801980198019802,
+        "cakupan_out_diterima": null
+       }
+      }
+     }
+    },
+    "60": {
+     "jarak_knn": {
+      "auc": null,
+      "beta": {
+       "0.01": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.08571428571428572,
+        "cakupan_in_diterima": 0.9140625,
+        "cakupan_out_diterima": null
+       },
+       "0.05": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.10714285714285714,
+        "cakupan_in_diterima": 0.92,
+        "cakupan_out_diterima": null
+       },
+       "0.1": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.16428571428571428,
+        "cakupan_in_diterima": 0.9145299145299145,
+        "cakupan_out_diterima": null
+       },
+       "0.2": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.30714285714285716,
+        "cakupan_in_diterima": 0.9175257731958762,
+        "cakupan_out_diterima": null
+       }
+      }
+     },
+     "konformal": {
+      "auc": null,
+      "beta": {
+       "0.01": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.1357142857142857,
+        "cakupan_in_diterima": 0.9173553719008265,
+        "cakupan_out_diterima": null
+       },
+       "0.05": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.15714285714285714,
+        "cakupan_in_diterima": 0.923728813559322,
+        "cakupan_out_diterima": null
+       },
+       "0.1": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.17142857142857143,
+        "cakupan_in_diterima": 0.9310344827586207,
+        "cakupan_out_diterima": null
+       },
+       "0.2": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.2357142857142857,
+        "cakupan_in_diterima": 0.9439252336448598,
+        "cakupan_out_diterima": null
+       }
+      }
+     },
+     "gabungan": {
+      "auc": null,
+      "beta": {
+       "0.01": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.1,
+        "cakupan_in_diterima": 0.9126984126984127,
+        "cakupan_out_diterima": null
+       },
+       "0.05": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.12142857142857143,
+        "cakupan_in_diterima": 0.9186991869918699,
+        "cakupan_out_diterima": null
+       },
+       "0.1": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.18571428571428572,
+        "cakupan_in_diterima": 0.9210526315789473,
+        "cakupan_out_diterima": null
+       },
+       "0.2": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.2714285714285714,
+        "cakupan_in_diterima": 0.9607843137254902,
+        "cakupan_out_diterima": null
+       }
+      }
+     }
+    },
+    "80": {
+     "jarak_knn": {
+      "auc": null,
+      "beta": {
+       "0.01": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.15,
+        "cakupan_in_diterima": 0.9327731092436975,
+        "cakupan_out_diterima": null
+       },
+       "0.05": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.2,
+        "cakupan_in_diterima": 0.9464285714285714,
+        "cakupan_out_diterima": null
+       },
+       "0.1": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.2357142857142857,
+        "cakupan_in_diterima": 0.9532710280373832,
+        "cakupan_out_diterima": null
+       },
+       "0.2": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.2785714285714286,
+        "cakupan_in_diterima": 0.9504950495049505,
+        "cakupan_out_diterima": null
+       }
+      }
+     },
+     "konformal": {
+      "auc": null,
+      "beta": {
+       "0.01": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.18571428571428572,
+        "cakupan_in_diterima": 0.9385964912280702,
+        "cakupan_out_diterima": null
+       },
+       "0.05": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.22857142857142856,
+        "cakupan_in_diterima": 0.9444444444444444,
+        "cakupan_out_diterima": null
+       },
+       "0.1": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.22857142857142856,
+        "cakupan_in_diterima": 0.9444444444444444,
+        "cakupan_out_diterima": null
+       },
+       "0.2": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.32142857142857145,
+        "cakupan_in_diterima": 0.968421052631579,
+        "cakupan_out_diterima": null
+       }
+      }
+     },
+     "gabungan": {
+      "auc": null,
+      "beta": {
+       "0.01": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.16428571428571428,
+        "cakupan_in_diterima": 0.9401709401709402,
+        "cakupan_out_diterima": null
+       },
+       "0.05": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.20714285714285716,
+        "cakupan_in_diterima": 0.9459459459459459,
+        "cakupan_out_diterima": null
+       },
+       "0.1": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.24285714285714285,
+        "cakupan_in_diterima": 0.9528301886792453,
+        "cakupan_out_diterima": null
+       },
+       "0.2": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.2785714285714286,
+        "cakupan_in_diterima": 0.9603960396039604,
+        "cakupan_out_diterima": null
+       }
+      }
+     }
+    },
+    "100": {
+     "jarak_knn": {
+      "auc": null,
+      "beta": {
+       "0.01": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.1,
+        "cakupan_in_diterima": 0.9285714285714286,
+        "cakupan_out_diterima": null
+       },
+       "0.05": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.11428571428571428,
+        "cakupan_in_diterima": 0.9274193548387096,
+        "cakupan_out_diterima": null
+       },
+       "0.1": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.16428571428571428,
+        "cakupan_in_diterima": 0.9230769230769231,
+        "cakupan_out_diterima": null
+       },
+       "0.2": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.22142857142857142,
+        "cakupan_in_diterima": 0.9357798165137615,
+        "cakupan_out_diterima": null
+       }
+      }
+     },
+     "konformal": {
+      "auc": null,
+      "beta": {
+       "0.01": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.1,
+        "cakupan_in_diterima": 0.9285714285714286,
+        "cakupan_out_diterima": null
+       },
+       "0.05": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.1,
+        "cakupan_in_diterima": 0.9285714285714286,
+        "cakupan_out_diterima": null
+       },
+       "0.1": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.22857142857142856,
+        "cakupan_in_diterima": 0.9351851851851852,
+        "cakupan_out_diterima": null
+       },
+       "0.2": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.34285714285714286,
+        "cakupan_in_diterima": 0.9456521739130435,
+        "cakupan_out_diterima": null
+       }
+      }
+     },
+     "gabungan": {
+      "auc": null,
+      "beta": {
+       "0.01": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.11428571428571428,
+        "cakupan_in_diterima": 0.9274193548387096,
+        "cakupan_out_diterima": null
+       },
+       "0.05": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.15714285714285714,
+        "cakupan_in_diterima": 0.9322033898305084,
+        "cakupan_out_diterima": null
+       },
+       "0.1": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.22142857142857142,
+        "cakupan_in_diterima": 0.944954128440367,
+        "cakupan_out_diterima": null
+       },
+       "0.2": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.2785714285714286,
+        "cakupan_in_diterima": 0.9504950495049505,
+        "cakupan_out_diterima": null
+       }
+      }
+     }
+    },
+    "200": {
+     "jarak_knn": {
+      "auc": null,
+      "beta": {
+       "0.01": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.08571428571428572,
+        "cakupan_in_diterima": 0.9453125,
+        "cakupan_out_diterima": null
+       },
+       "0.05": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.11428571428571428,
+        "cakupan_in_diterima": 0.9596774193548387,
+        "cakupan_out_diterima": null
+       },
+       "0.1": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.17142857142857143,
+        "cakupan_in_diterima": 0.9741379310344828,
+        "cakupan_out_diterima": null
+       },
+       "0.2": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.2642857142857143,
+        "cakupan_in_diterima": 0.9805825242718447,
+        "cakupan_out_diterima": null
+       }
+      }
+     },
+     "konformal": {
+      "auc": null,
+      "beta": {
+       "0.01": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.07142857142857142,
+        "cakupan_in_diterima": 0.9307692307692308,
+        "cakupan_out_diterima": null
+       },
+       "0.05": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.17142857142857143,
+        "cakupan_in_diterima": 0.9568965517241379,
+        "cakupan_out_diterima": null
+       },
+       "0.1": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.18571428571428572,
+        "cakupan_in_diterima": 0.956140350877193,
+        "cakupan_out_diterima": null
+       },
+       "0.2": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.3,
+        "cakupan_in_diterima": 0.9693877551020408,
+        "cakupan_out_diterima": null
+       }
+      }
+     },
+     "gabungan": {
+      "auc": null,
+      "beta": {
+       "0.01": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.07857142857142857,
+        "cakupan_in_diterima": 0.937984496124031,
+        "cakupan_out_diterima": null
+       },
+       "0.05": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.14285714285714285,
+        "cakupan_in_diterima": 0.9583333333333334,
+        "cakupan_out_diterima": null
+       },
+       "0.1": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.17857142857142858,
+        "cakupan_in_diterima": 0.9565217391304348,
+        "cakupan_out_diterima": null
+       },
+       "0.2": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.2714285714285714,
+        "cakupan_in_diterima": 0.9803921568627451,
+        "cakupan_out_diterima": null
+       }
+      }
+     }
+    },
+    "400": {
+     "jarak_knn": {
+      "auc": null,
+      "beta": {
+       "0.01": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.12857142857142856,
+        "cakupan_in_diterima": 0.9754098360655737,
+        "cakupan_out_diterima": null
+       },
+       "0.05": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.1357142857142857,
+        "cakupan_in_diterima": 0.9752066115702479,
+        "cakupan_out_diterima": null
+       },
+       "0.1": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.17142857142857143,
+        "cakupan_in_diterima": 0.9913793103448276,
+        "cakupan_out_diterima": null
+       },
+       "0.2": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.2785714285714286,
+        "cakupan_in_diterima": 1.0,
+        "cakupan_out_diterima": null
+       }
+      }
+     },
+     "konformal": {
+      "auc": null,
+      "beta": {
+       "0.01": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.14285714285714285,
+        "cakupan_in_diterima": 0.975,
+        "cakupan_out_diterima": null
+       },
+       "0.05": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.21428571428571427,
+        "cakupan_in_diterima": 0.9818181818181818,
+        "cakupan_out_diterima": null
+       },
+       "0.1": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.24285714285714285,
+        "cakupan_in_diterima": 0.9811320754716981,
+        "cakupan_out_diterima": null
+       },
+       "0.2": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.2714285714285714,
+        "cakupan_in_diterima": 1.0,
+        "cakupan_out_diterima": null
+       }
+      }
+     },
+     "gabungan": {
+      "auc": null,
+      "beta": {
+       "0.01": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.1357142857142857,
+        "cakupan_in_diterima": 0.9752066115702479,
+        "cakupan_out_diterima": null
+       },
+       "0.05": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.15714285714285714,
+        "cakupan_in_diterima": 0.9915254237288136,
+        "cakupan_out_diterima": null
+       },
+       "0.1": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.17142857142857143,
+        "cakupan_in_diterima": 0.9913793103448276,
+        "cakupan_out_diterima": null
+       },
+       "0.2": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.3142857142857143,
+        "cakupan_in_diterima": 1.0,
+        "cakupan_out_diterima": null
+       }
+      }
+     }
+    },
+    "600": {
+     "jarak_knn": {
+      "auc": 0.97145003756574,
+      "beta": {
+       "0.01": {
+        "tolak_out": 0.82,
+        "tolak_in": 0.1357142857142857,
+        "cakupan_in_diterima": 0.9586776859504132,
+        "cakupan_out_diterima": 0.0
+       },
+       "0.05": {
+        "tolak_out": 0.98,
+        "tolak_in": 0.17142857142857143,
+        "cakupan_in_diterima": 0.9655172413793104,
+        "cakupan_out_diterima": 0.0
+       },
+       "0.1": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.20714285714285716,
+        "cakupan_in_diterima": 0.972972972972973,
+        "cakupan_out_diterima": null
+       },
+       "0.2": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.29285714285714287,
+        "cakupan_in_diterima": 0.9696969696969697,
+        "cakupan_out_diterima": null
+       }
+      }
+     },
+     "konformal": {
+      "auc": 0.9042073628850489,
+      "beta": {
+       "0.01": {
+        "tolak_out": 0.92,
+        "tolak_in": 0.16428571428571428,
+        "cakupan_in_diterima": 0.9572649572649573,
+        "cakupan_out_diterima": 0.0
+       },
+       "0.05": {
+        "tolak_out": 0.94,
+        "tolak_in": 0.21428571428571427,
+        "cakupan_in_diterima": 0.9545454545454546,
+        "cakupan_out_diterima": 0.0
+       },
+       "0.1": {
+        "tolak_out": 0.94,
+        "tolak_in": 0.22142857142857142,
+        "cakupan_in_diterima": 0.9541284403669725,
+        "cakupan_out_diterima": 0.0
+       },
+       "0.2": {
+        "tolak_out": 0.96,
+        "tolak_in": 0.32142857142857145,
+        "cakupan_in_diterima": 0.9578947368421052,
+        "cakupan_out_diterima": 0.0
+       }
+      }
+     },
+     "gabungan": {
+      "auc": 0.9759579263711495,
+      "beta": {
+       "0.01": {
+        "tolak_out": 0.92,
+        "tolak_in": 0.14285714285714285,
+        "cakupan_in_diterima": 0.9583333333333334,
+        "cakupan_out_diterima": 0.0
+       },
+       "0.05": {
+        "tolak_out": 0.96,
+        "tolak_in": 0.16428571428571428,
+        "cakupan_in_diterima": 0.9658119658119658,
+        "cakupan_out_diterima": 0.0
+       },
+       "0.1": {
+        "tolak_out": 0.98,
+        "tolak_in": 0.17142857142857143,
+        "cakupan_in_diterima": 0.9655172413793104,
+        "cakupan_out_diterima": 0.0
+       },
+       "0.2": {
+        "tolak_out": 0.98,
+        "tolak_in": 0.2714285714285714,
+        "cakupan_in_diterima": 0.9705882352941176,
+        "cakupan_out_diterima": 0.0
+       }
+      }
+     }
+    },
+    "800": {
+     "jarak_knn": {
+      "auc": null,
+      "beta": {
+       "0.01": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.19285714285714287,
+        "cakupan_in_diterima": 0.9292035398230089,
+        "cakupan_out_diterima": null
+       },
+       "0.05": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.22857142857142856,
+        "cakupan_in_diterima": 0.9259259259259259,
+        "cakupan_out_diterima": null
+       },
+       "0.1": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.2571428571428571,
+        "cakupan_in_diterima": 0.9230769230769231,
+        "cakupan_out_diterima": null
+       },
+       "0.2": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.3142857142857143,
+        "cakupan_in_diterima": 0.9375,
+        "cakupan_out_diterima": null
+       }
+      }
+     },
+     "konformal": {
+      "auc": null,
+      "beta": {
+       "0.01": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.20714285714285716,
+        "cakupan_in_diterima": 0.954954954954955,
+        "cakupan_out_diterima": null
+       },
+       "0.05": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.2571428571428571,
+        "cakupan_in_diterima": 0.9711538461538461,
+        "cakupan_out_diterima": null
+       },
+       "0.1": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.2785714285714286,
+        "cakupan_in_diterima": 0.9702970297029703,
+        "cakupan_out_diterima": null
+       },
+       "0.2": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.4,
+        "cakupan_in_diterima": 0.9642857142857143,
+        "cakupan_out_diterima": null
+       }
+      }
+     },
+     "gabungan": {
+      "auc": null,
+      "beta": {
+       "0.01": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.17857142857142858,
+        "cakupan_in_diterima": 0.9391304347826087,
+        "cakupan_out_diterima": null
+       },
+       "0.05": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.24285714285714285,
+        "cakupan_in_diterima": 0.9433962264150944,
+        "cakupan_out_diterima": null
+       },
+       "0.1": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.3,
+        "cakupan_in_diterima": 0.9591836734693877,
+        "cakupan_out_diterima": null
+       },
+       "0.2": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.37857142857142856,
+        "cakupan_in_diterima": 0.9885057471264368,
+        "cakupan_out_diterima": null
+       }
+      }
+     }
+    },
+    "1000": {
+     "jarak_knn": {
+      "auc": null,
+      "beta": {
+       "0.01": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.12142857142857143,
+        "cakupan_in_diterima": 0.8699186991869918,
+        "cakupan_out_diterima": null
+       },
+       "0.05": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.14285714285714285,
+        "cakupan_in_diterima": 0.8666666666666667,
+        "cakupan_out_diterima": null
+       },
+       "0.1": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.17142857142857143,
+        "cakupan_in_diterima": 0.8620689655172413,
+        "cakupan_out_diterima": null
+       },
+       "0.2": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.29285714285714287,
+        "cakupan_in_diterima": 0.8787878787878788,
+        "cakupan_out_diterima": null
+       }
+      }
+     },
+     "konformal": {
+      "auc": null,
+      "beta": {
+       "0.01": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.1357142857142857,
+        "cakupan_in_diterima": 0.8760330578512396,
+        "cakupan_out_diterima": null
+       },
+       "0.05": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.15714285714285714,
+        "cakupan_in_diterima": 0.8813559322033898,
+        "cakupan_out_diterima": null
+       },
+       "0.1": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.19285714285714287,
+        "cakupan_in_diterima": 0.9026548672566371,
+        "cakupan_out_diterima": null
+       },
+       "0.2": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.3,
+        "cakupan_in_diterima": 0.9183673469387755,
+        "cakupan_out_diterima": null
+       }
+      }
+     },
+     "gabungan": {
+      "auc": null,
+      "beta": {
+       "0.01": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.11428571428571428,
+        "cakupan_in_diterima": 0.8709677419354839,
+        "cakupan_out_diterima": null
+       },
+       "0.05": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.1357142857142857,
+        "cakupan_in_diterima": 0.8760330578512396,
+        "cakupan_out_diterima": null
+       },
+       "0.1": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.20714285714285716,
+        "cakupan_in_diterima": 0.8828828828828829,
+        "cakupan_out_diterima": null
+       },
+       "0.2": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.3357142857142857,
+        "cakupan_in_diterima": 0.9139784946236559,
+        "cakupan_out_diterima": null
+       }
+      }
+     }
+    }
+   }
+  },
+  "EM": {
+   "cakupan_in_setelah_gerbang": 0.9043582868136217,
+   "cakupan_out_setelah_gerbang": 0.4916666666666667,
+   "gerbang_gugurkan_in": 0.08890365333883322,
+   "gerbang_gugurkan_out": 0.8519444444444445,
+   "ringkas": {
+    "jarak_knn": {
+     "auc": 0.8678405078876859,
+     "beta": {
+      "0.01": {
+       "tolak_out": 0.8519444444444445,
+       "tolak_in": 0.09814939543129063,
+       "cakupan_in_diterima": 0.9071989013120852,
+       "cakupan_out_diterima": 0.4916666666666667,
+       "level_tolak_penuh": 7
+      },
+      "0.05": {
+       "tolak_out": 0.8599444444444444,
+       "tolak_in": 0.14671639394292246,
+       "cakupan_in_diterima": 0.9194951861786063,
+       "cakupan_out_diterima": 0.5,
+       "level_tolak_penuh": 7
+      },
+      "0.1": {
+       "tolak_out": 0.884,
+       "tolak_in": 0.18365719991445753,
+       "cakupan_in_diterima": 0.9366341220301443,
+       "cakupan_out_diterima": 0.6,
+       "level_tolak_penuh": 10
+      },
+      "0.2": {
+       "tolak_out": 0.9626666666666668,
+       "tolak_in": 0.27546313314312054,
+       "cakupan_in_diterima": 0.9538903207105371,
+       "cakupan_out_diterima": 0.75,
+       "level_tolak_penuh": 11
+      }
+     }
+    },
+    "konformal": {
+     "auc": 0.7971247784317237,
+     "beta": {
+      "0.01": {
+       "tolak_out": 0.8519444444444445,
+       "tolak_in": 0.09814939543129064,
+       "cakupan_in_diterima": 0.909310353394338,
+       "cakupan_out_diterima": 0.4916666666666667,
+       "level_tolak_penuh": 7
+      },
+      "0.05": {
+       "tolak_out": 0.8532777777777778,
+       "tolak_in": 0.14376167742416665,
+       "cakupan_in_diterima": 0.9225617561129298,
+       "cakupan_out_diterima": 0.4916666666666667,
+       "level_tolak_penuh": 7
+      },
+      "0.1": {
+       "tolak_out": 0.9146111111111112,
+       "tolak_in": 0.1826771144176376,
+       "cakupan_in_diterima": 0.9282941116673958,
+       "cakupan_out_diterima": 0.4916666666666667,
+       "level_tolak_penuh": 7
+      },
+      "0.2": {
+       "tolak_out": 0.9346666666666666,
+       "tolak_in": 0.2773956017667618,
+       "cakupan_in_diterima": 0.9438811095295473,
+       "cakupan_out_diterima": 0.7866666666666667,
+       "level_tolak_penuh": 10
+      }
+     }
+    },
+    "gabungan": {
+     "auc": 0.8847642549075888,
+     "beta": {
+      "0.01": {
+       "tolak_out": 0.8546111111111111,
+       "tolak_in": 0.11123886672952973,
+       "cakupan_in_diterima": 0.9181137073883112,
+       "cakupan_out_diterima": 0.4910714285714286,
+       "level_tolak_penuh": 7
+      },
+      "0.05": {
+       "tolak_out": 0.9106666666666666,
+       "tolak_in": 0.15691436695137698,
+       "cakupan_in_diterima": 0.932274059562947,
+       "cakupan_out_diterima": 0.6547619047619048,
+       "level_tolak_penuh": 9
+      },
+      "0.1": {
+       "tolak_out": 0.9346666666666666,
+       "tolak_in": 0.20357700510489737,
+       "cakupan_in_diterima": 0.9455173228026761,
+       "cakupan_out_diterima": 0.8,
+       "level_tolak_penuh": 10
+      },
+      "0.2": {
+       "tolak_out": 0.9626666666666667,
+       "tolak_in": 0.28371110791468374,
+       "cakupan_in_diterima": 0.9651389739658421,
+       "cakupan_out_diterima": 1.0,
+       "level_tolak_penuh": 11
+      }
+     }
+    }
+   },
+   "per_level": {
+    "2": {
+     "jarak_knn": {
+      "auc": 0.9613445378151261,
+      "beta": {
+       "0.01": {
+        "tolak_out": 0.9,
+        "tolak_in": 0.13138686131386862,
+        "cakupan_in_diterima": 0.9243697478991597,
+        "cakupan_out_diterima": 1.0
+       },
+       "0.05": {
+        "tolak_out": 0.9,
+        "tolak_in": 0.145985401459854,
+        "cakupan_in_diterima": 0.9230769230769231,
+        "cakupan_out_diterima": 1.0
+       },
+       "0.1": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.19708029197080293,
+        "cakupan_in_diterima": 0.9363636363636364,
+        "cakupan_out_diterima": null
+       },
+       "0.2": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.26277372262773724,
+        "cakupan_in_diterima": 0.9405940594059405,
+        "cakupan_out_diterima": null
+       }
+      }
+     },
+     "konformal": {
+      "auc": 0.7773109243697479,
+      "beta": {
+       "0.01": {
+        "tolak_out": 0.9,
+        "tolak_in": 0.13138686131386862,
+        "cakupan_in_diterima": 0.9243697478991597,
+        "cakupan_out_diterima": 1.0
+       },
+       "0.05": {
+        "tolak_out": 0.9,
+        "tolak_in": 0.13138686131386862,
+        "cakupan_in_diterima": 0.9243697478991597,
+        "cakupan_out_diterima": 1.0
+       },
+       "0.1": {
+        "tolak_out": 0.9,
+        "tolak_in": 0.13138686131386862,
+        "cakupan_in_diterima": 0.9243697478991597,
+        "cakupan_out_diterima": 1.0
+       },
+       "0.2": {
+        "tolak_out": 0.9,
+        "tolak_in": 0.13138686131386862,
+        "cakupan_in_diterima": 0.9243697478991597,
+        "cakupan_out_diterima": 1.0
+       }
+      }
+     },
+     "gabungan": {
+      "auc": 0.946218487394958,
+      "beta": {
+       "0.01": {
+        "tolak_out": 0.92,
+        "tolak_in": 0.13138686131386862,
+        "cakupan_in_diterima": 0.9243697478991597,
+        "cakupan_out_diterima": 1.0
+       },
+       "0.05": {
+        "tolak_out": 0.94,
+        "tolak_in": 0.13138686131386862,
+        "cakupan_in_diterima": 0.9243697478991597,
+        "cakupan_out_diterima": 1.0
+       },
+       "0.1": {
+        "tolak_out": 0.94,
+        "tolak_in": 0.1386861313868613,
+        "cakupan_in_diterima": 0.923728813559322,
+        "cakupan_out_diterima": 1.0
+       },
+       "0.2": {
+        "tolak_out": 0.96,
+        "tolak_in": 0.1897810218978102,
+        "cakupan_in_diterima": 0.9369369369369369,
+        "cakupan_out_diterima": 1.0
+       }
+      }
+     }
+    },
+    "4": {
+     "jarak_knn": {
+      "auc": null,
+      "beta": {
+       "0.01": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.051094890510948905,
+        "cakupan_in_diterima": 0.9076923076923077,
+        "cakupan_out_diterima": null
+       },
+       "0.05": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.10218978102189781,
+        "cakupan_in_diterima": 0.9186991869918699,
+        "cakupan_out_diterima": null
+       },
+       "0.1": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.1386861313868613,
+        "cakupan_in_diterima": 0.9322033898305084,
+        "cakupan_out_diterima": null
+       },
+       "0.2": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.25547445255474455,
+        "cakupan_in_diterima": 0.9509803921568627,
+        "cakupan_out_diterima": null
+       }
+      }
+     },
+     "konformal": {
+      "auc": null,
+      "beta": {
+       "0.01": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.10218978102189781,
+        "cakupan_in_diterima": 0.926829268292683,
+        "cakupan_out_diterima": null
+       },
+       "0.05": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.1678832116788321,
+        "cakupan_in_diterima": 0.9298245614035088,
+        "cakupan_out_diterima": null
+       },
+       "0.1": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.2116788321167883,
+        "cakupan_in_diterima": 0.9351851851851852,
+        "cakupan_out_diterima": null
+       },
+       "0.2": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.25547445255474455,
+        "cakupan_in_diterima": 0.9411764705882353,
+        "cakupan_out_diterima": null
+       }
+      }
+     },
+     "gabungan": {
+      "auc": null,
+      "beta": {
+       "0.01": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.072992700729927,
+        "cakupan_in_diterima": 0.9212598425196851,
+        "cakupan_out_diterima": null
+       },
+       "0.05": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.12408759124087591,
+        "cakupan_in_diterima": 0.925,
+        "cakupan_out_diterima": null
+       },
+       "0.1": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.1678832116788321,
+        "cakupan_in_diterima": 0.9298245614035088,
+        "cakupan_out_diterima": null
+       },
+       "0.2": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.2773722627737226,
+        "cakupan_in_diterima": 0.9797979797979798,
+        "cakupan_out_diterima": null
+       }
+      }
+     }
+    },
+    "6": {
+     "jarak_knn": {
+      "auc": 0.749862258953168,
+      "beta": {
+       "0.01": {
+        "tolak_out": 0.7,
+        "tolak_in": 0.12408759124087591,
+        "cakupan_in_diterima": 0.9166666666666666,
+        "cakupan_out_diterima": 0.9333333333333333
+       },
+       "0.05": {
+        "tolak_out": 0.72,
+        "tolak_in": 0.18248175182481752,
+        "cakupan_in_diterima": 0.9196428571428571,
+        "cakupan_out_diterima": 1.0
+       },
+       "0.1": {
+        "tolak_out": 0.76,
+        "tolak_in": 0.19708029197080293,
+        "cakupan_in_diterima": 0.9363636363636364,
+        "cakupan_out_diterima": 1.0
+       },
+       "0.2": {
+        "tolak_out": 0.84,
+        "tolak_in": 0.3284671532846715,
+        "cakupan_in_diterima": 0.9782608695652174,
+        "cakupan_out_diterima": 1.0
+       }
+      }
+     },
+     "konformal": {
+      "auc": 0.7165289256198347,
+      "beta": {
+       "0.01": {
+        "tolak_out": 0.7,
+        "tolak_in": 0.11678832116788321,
+        "cakupan_in_diterima": 0.9173553719008265,
+        "cakupan_out_diterima": 0.9333333333333333
+       },
+       "0.05": {
+        "tolak_out": 0.7,
+        "tolak_in": 0.11678832116788321,
+        "cakupan_in_diterima": 0.9173553719008265,
+        "cakupan_out_diterima": 0.9333333333333333
+       },
+       "0.1": {
+        "tolak_out": 0.7,
+        "tolak_in": 0.11678832116788321,
+        "cakupan_in_diterima": 0.9173553719008265,
+        "cakupan_out_diterima": 0.9333333333333333
+       },
+       "0.2": {
+        "tolak_out": 0.7,
+        "tolak_in": 0.11678832116788321,
+        "cakupan_in_diterima": 0.9173553719008265,
+        "cakupan_out_diterima": 0.9333333333333333
+       }
+      }
+     },
+     "gabungan": {
+      "auc": 0.7482093663911846,
+      "beta": {
+       "0.01": {
+        "tolak_out": 0.72,
+        "tolak_in": 0.12408759124087591,
+        "cakupan_in_diterima": 0.9166666666666666,
+        "cakupan_out_diterima": 0.9285714285714286
+       },
+       "0.05": {
+        "tolak_out": 0.72,
+        "tolak_in": 0.15328467153284672,
+        "cakupan_in_diterima": 0.9224137931034483,
+        "cakupan_out_diterima": 0.9285714285714286
+       },
+       "0.1": {
+        "tolak_out": 0.74,
+        "tolak_in": 0.21897810218978103,
+        "cakupan_in_diterima": 0.9532710280373832,
+        "cakupan_out_diterima": 1.0
+       },
+       "0.2": {
+        "tolak_out": 0.88,
+        "tolak_in": 0.32116788321167883,
+        "cakupan_in_diterima": 0.989247311827957,
+        "cakupan_out_diterima": 1.0
+       }
+      }
+     }
+    },
+    "8": {
+     "jarak_knn": {
+      "auc": null,
+      "beta": {
+       "0.01": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.15328467153284672,
+        "cakupan_in_diterima": 0.9224137931034483,
+        "cakupan_out_diterima": null
+       },
+       "0.05": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.19708029197080293,
+        "cakupan_in_diterima": 0.9454545454545454,
+        "cakupan_out_diterima": null
+       },
+       "0.1": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.22627737226277372,
+        "cakupan_in_diterima": 0.9528301886792453,
+        "cakupan_out_diterima": null
+       },
+       "0.2": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.27007299270072993,
+        "cakupan_in_diterima": 0.97,
+        "cakupan_out_diterima": null
+       }
+      }
+     },
+     "konformal": {
+      "auc": null,
+      "beta": {
+       "0.01": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.12408759124087591,
+        "cakupan_in_diterima": 0.9083333333333333,
+        "cakupan_out_diterima": null
+       },
+       "0.05": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.24817518248175183,
+        "cakupan_in_diterima": 0.941747572815534,
+        "cakupan_out_diterima": null
+       },
+       "0.1": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.26277372262773724,
+        "cakupan_in_diterima": 0.9405940594059405,
+        "cakupan_out_diterima": null
+       },
+       "0.2": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.291970802919708,
+        "cakupan_in_diterima": 0.9381443298969072,
+        "cakupan_out_diterima": null
+       }
+      }
+     },
+     "gabungan": {
+      "auc": null,
+      "beta": {
+       "0.01": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.16058394160583941,
+        "cakupan_in_diterima": 0.9304347826086956,
+        "cakupan_out_diterima": null
+       },
+       "0.05": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.1897810218978102,
+        "cakupan_in_diterima": 0.9459459459459459,
+        "cakupan_out_diterima": null
+       },
+       "0.1": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.2116788321167883,
+        "cakupan_in_diterima": 0.9722222222222222,
+        "cakupan_out_diterima": null
+       },
+       "0.2": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.27007299270072993,
+        "cakupan_in_diterima": 0.98,
+        "cakupan_out_diterima": null
+       }
+      }
+     }
+    },
+    "10": {
+     "jarak_knn": {
+      "auc": 0.7819854514334617,
+      "beta": {
+       "0.01": {
+        "tolak_out": 0.24,
+        "tolak_in": 0.10948905109489052,
+        "cakupan_in_diterima": 0.9016393442622951,
+        "cakupan_out_diterima": 1.0
+       },
+       "0.05": {
+        "tolak_out": 0.24,
+        "tolak_in": 0.16058394160583941,
+        "cakupan_in_diterima": 0.8956521739130435,
+        "cakupan_out_diterima": 1.0
+       },
+       "0.1": {
+        "tolak_out": 0.24,
+        "tolak_in": 0.17518248175182483,
+        "cakupan_in_diterima": 0.8938053097345132,
+        "cakupan_out_diterima": 1.0
+       },
+       "0.2": {
+        "tolak_out": 0.72,
+        "tolak_in": 0.29927007299270075,
+        "cakupan_in_diterima": 0.9166666666666666,
+        "cakupan_out_diterima": 1.0
+       }
+      }
+     },
+     "konformal": {
+      "auc": 0.6507274283269149,
+      "beta": {
+       "0.01": {
+        "tolak_out": 0.24,
+        "tolak_in": 0.10218978102189781,
+        "cakupan_in_diterima": 0.9024390243902439,
+        "cakupan_out_diterima": 1.0
+       },
+       "0.05": {
+        "tolak_out": 0.24,
+        "tolak_in": 0.10218978102189781,
+        "cakupan_in_diterima": 0.9024390243902439,
+        "cakupan_out_diterima": 1.0
+       },
+       "0.1": {
+        "tolak_out": 0.6,
+        "tolak_in": 0.26277372262773724,
+        "cakupan_in_diterima": 0.9405940594059405,
+        "cakupan_out_diterima": 1.0
+       },
+       "0.2": {
+        "tolak_out": 0.66,
+        "tolak_in": 0.3284671532846715,
+        "cakupan_in_diterima": 0.9347826086956522,
+        "cakupan_out_diterima": 1.0
+       }
+      }
+     },
+     "gabungan": {
+      "auc": 0.7518185708172871,
+      "beta": {
+       "0.01": {
+        "tolak_out": 0.24,
+        "tolak_in": 0.10948905109489052,
+        "cakupan_in_diterima": 0.9016393442622951,
+        "cakupan_out_diterima": 1.0
+       },
+       "0.05": {
+        "tolak_out": 0.42,
+        "tolak_in": 0.15328467153284672,
+        "cakupan_in_diterima": 0.9137931034482759,
+        "cakupan_out_diterima": 1.0
+       },
+       "0.1": {
+        "tolak_out": 0.58,
+        "tolak_in": 0.21897810218978103,
+        "cakupan_in_diterima": 0.9158878504672897,
+        "cakupan_out_diterima": 1.0
+       },
+       "0.2": {
+        "tolak_out": 0.7,
+        "tolak_in": 0.35036496350364965,
+        "cakupan_in_diterima": 0.9438202247191011,
+        "cakupan_out_diterima": 1.0
+       }
+      }
+     }
+    },
+    "20": {
+     "jarak_knn": {
+      "auc": 0.8571428571428571,
+      "beta": {
+       "0.01": {
+        "tolak_out": 0.58,
+        "tolak_in": 0.08029197080291971,
+        "cakupan_in_diterima": 0.9285714285714286,
+        "cakupan_out_diterima": 1.0
+       },
+       "0.05": {
+        "tolak_out": 0.58,
+        "tolak_in": 0.10218978102189781,
+        "cakupan_in_diterima": 0.9349593495934959,
+        "cakupan_out_diterima": 1.0
+       },
+       "0.1": {
+        "tolak_out": 0.68,
+        "tolak_in": 0.145985401459854,
+        "cakupan_in_diterima": 0.9658119658119658,
+        "cakupan_out_diterima": 1.0
+       },
+       "0.2": {
+        "tolak_out": 0.92,
+        "tolak_in": 0.20437956204379562,
+        "cakupan_in_diterima": 0.9724770642201835,
+        "cakupan_out_diterima": 1.0
+       }
+      }
+     },
+     "konformal": {
+      "auc": 0.7111235119047619,
+      "beta": {
+       "0.01": {
+        "tolak_out": 0.58,
+        "tolak_in": 0.06569343065693431,
+        "cakupan_in_diterima": 0.9296875,
+        "cakupan_out_diterima": 1.0
+       },
+       "0.05": {
+        "tolak_out": 0.6,
+        "tolak_in": 0.15328467153284672,
+        "cakupan_in_diterima": 0.9482758620689655,
+        "cakupan_out_diterima": 1.0
+       },
+       "0.1": {
+        "tolak_out": 0.68,
+        "tolak_in": 0.23357664233576642,
+        "cakupan_in_diterima": 0.9714285714285714,
+        "cakupan_out_diterima": 1.0
+       },
+       "0.2": {
+        "tolak_out": 0.8,
+        "tolak_in": 0.2773722627737226,
+        "cakupan_in_diterima": 0.9696969696969697,
+        "cakupan_out_diterima": 1.0
+       }
+      }
+     },
+     "gabungan": {
+      "auc": 0.8456101190476191,
+      "beta": {
+       "0.01": {
+        "tolak_out": 0.58,
+        "tolak_in": 0.0948905109489051,
+        "cakupan_in_diterima": 0.9516129032258065,
+        "cakupan_out_diterima": 1.0
+       },
+       "0.05": {
+        "tolak_out": 0.68,
+        "tolak_in": 0.10948905109489052,
+        "cakupan_in_diterima": 0.9508196721311475,
+        "cakupan_out_diterima": 1.0
+       },
+       "0.1": {
+        "tolak_out": 0.8,
+        "tolak_in": 0.145985401459854,
+        "cakupan_in_diterima": 0.9658119658119658,
+        "cakupan_out_diterima": 1.0
+       },
+       "0.2": {
+        "tolak_out": 0.9,
+        "tolak_in": 0.19708029197080293,
+        "cakupan_in_diterima": 0.9727272727272728,
+        "cakupan_out_diterima": 1.0
+       }
+      }
+     }
+    },
+    "40": {
+     "jarak_knn": {
+      "auc": null,
+      "beta": {
+       "0.01": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.06569343065693431,
+        "cakupan_in_diterima": 0.8984375,
+        "cakupan_out_diterima": null
+       },
+       "0.05": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.13138686131386862,
+        "cakupan_in_diterima": 0.9327731092436975,
+        "cakupan_out_diterima": null
+       },
+       "0.1": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.145985401459854,
+        "cakupan_in_diterima": 0.9401709401709402,
+        "cakupan_out_diterima": null
+       },
+       "0.2": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.24817518248175183,
+        "cakupan_in_diterima": 0.970873786407767,
+        "cakupan_out_diterima": null
+       }
+      }
+     },
+     "konformal": {
+      "auc": null,
+      "beta": {
+       "0.01": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.0948905109489051,
+        "cakupan_in_diterima": 0.9193548387096774,
+        "cakupan_out_diterima": null
+       },
+       "0.05": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.18248175182481752,
+        "cakupan_in_diterima": 0.9464285714285714,
+        "cakupan_out_diterima": null
+       },
+       "0.1": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.24817518248175183,
+        "cakupan_in_diterima": 0.9514563106796117,
+        "cakupan_out_diterima": null
+       },
+       "0.2": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.2846715328467153,
+        "cakupan_in_diterima": 0.9693877551020408,
+        "cakupan_out_diterima": null
+       }
+      }
+     },
+     "gabungan": {
+      "auc": null,
+      "beta": {
+       "0.01": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.0948905109489051,
+        "cakupan_in_diterima": 0.9274193548387096,
+        "cakupan_out_diterima": null
+       },
+       "0.05": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.18248175182481752,
+        "cakupan_in_diterima": 0.9553571428571429,
+        "cakupan_out_diterima": null
+       },
+       "0.1": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.22627737226277372,
+        "cakupan_in_diterima": 0.9622641509433962,
+        "cakupan_out_diterima": null
+       },
+       "0.2": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.2773722627737226,
+        "cakupan_in_diterima": 0.9797979797979798,
+        "cakupan_out_diterima": null
+       }
+      }
+     }
+    },
+    "60": {
+     "jarak_knn": {
+      "auc": null,
+      "beta": {
+       "0.01": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.11594202898550725,
+        "cakupan_in_diterima": 0.8524590163934426,
+        "cakupan_out_diterima": null
+       },
+       "0.05": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.1956521739130435,
+        "cakupan_in_diterima": 0.8648648648648649,
+        "cakupan_out_diterima": null
+       },
+       "0.1": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.2391304347826087,
+        "cakupan_in_diterima": 0.8857142857142857,
+        "cakupan_out_diterima": null
+       },
+       "0.2": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.3333333333333333,
+        "cakupan_in_diterima": 0.9021739130434783,
+        "cakupan_out_diterima": null
+       }
+      }
+     },
+     "konformal": {
+      "auc": null,
+      "beta": {
+       "0.01": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.11594202898550725,
+        "cakupan_in_diterima": 0.8524590163934426,
+        "cakupan_out_diterima": null
+       },
+       "0.05": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.1956521739130435,
+        "cakupan_in_diterima": 0.8828828828828829,
+        "cakupan_out_diterima": null
+       },
+       "0.1": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.1956521739130435,
+        "cakupan_in_diterima": 0.8828828828828829,
+        "cakupan_out_diterima": null
+       },
+       "0.2": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.3333333333333333,
+        "cakupan_in_diterima": 0.8586956521739131,
+        "cakupan_out_diterima": null
+       }
+      }
+     },
+     "gabungan": {
+      "auc": null,
+      "beta": {
+       "0.01": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.17391304347826086,
+        "cakupan_in_diterima": 0.8771929824561403,
+        "cakupan_out_diterima": null
+       },
+       "0.05": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.1956521739130435,
+        "cakupan_in_diterima": 0.8828828828828829,
+        "cakupan_out_diterima": null
+       },
+       "0.1": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.2463768115942029,
+        "cakupan_in_diterima": 0.8846153846153846,
+        "cakupan_out_diterima": null
+       },
+       "0.2": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.34057971014492755,
+        "cakupan_in_diterima": 0.9010989010989011,
+        "cakupan_out_diterima": null
+       }
+      }
+     }
+    },
+    "80": {
+     "jarak_knn": {
+      "auc": 0.9285714285714286,
+      "beta": {
+       "0.01": {
+        "tolak_out": 0.9791666666666666,
+        "tolak_in": 0.09352517985611511,
+        "cakupan_in_diterima": 0.9285714285714286,
+        "cakupan_out_diterima": 0.0
+       },
+       "0.05": {
+        "tolak_out": 0.9791666666666666,
+        "tolak_in": 0.1510791366906475,
+        "cakupan_in_diterima": 0.9322033898305084,
+        "cakupan_out_diterima": 0.0
+       },
+       "0.1": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.17266187050359713,
+        "cakupan_in_diterima": 0.9565217391304348,
+        "cakupan_out_diterima": null
+       },
+       "0.2": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.2949640287769784,
+        "cakupan_in_diterima": 0.9693877551020408,
+        "cakupan_out_diterima": null
+       }
+      }
+     },
+     "konformal": {
+      "auc": 0.8134920634920635,
+      "beta": {
+       "0.01": {
+        "tolak_out": 0.9791666666666666,
+        "tolak_in": 0.09352517985611511,
+        "cakupan_in_diterima": 0.9285714285714286,
+        "cakupan_out_diterima": 0.0
+       },
+       "0.05": {
+        "tolak_out": 0.9791666666666666,
+        "tolak_in": 0.18705035971223022,
+        "cakupan_in_diterima": 0.9380530973451328,
+        "cakupan_out_diterima": 0.0
+       },
+       "0.1": {
+        "tolak_out": 0.9791666666666666,
+        "tolak_in": 0.2014388489208633,
+        "cakupan_in_diterima": 0.9369369369369369,
+        "cakupan_out_diterima": 0.0
+       },
+       "0.2": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.30935251798561153,
+        "cakupan_in_diterima": 0.9479166666666666,
+        "cakupan_out_diterima": null
+       }
+      }
+     },
+     "gabungan": {
+      "auc": 0.9126984126984127,
+      "beta": {
+       "0.01": {
+        "tolak_out": 0.9791666666666666,
+        "tolak_in": 0.11510791366906475,
+        "cakupan_in_diterima": 0.9349593495934959,
+        "cakupan_out_diterima": 0.0
+       },
+       "0.05": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.17266187050359713,
+        "cakupan_in_diterima": 0.9304347826086956,
+        "cakupan_out_diterima": null
+       },
+       "0.1": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.2014388489208633,
+        "cakupan_in_diterima": 0.9459459459459459,
+        "cakupan_out_diterima": null
+       },
+       "0.2": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.31654676258992803,
+        "cakupan_in_diterima": 0.968421052631579,
+        "cakupan_out_diterima": null
+       }
+      }
+     }
+    },
+    "100": {
+     "jarak_knn": {
+      "auc": 0.8798449612403101,
+      "beta": {
+       "0.01": {
+        "tolak_out": 0.48,
+        "tolak_in": 0.06569343065693431,
+        "cakupan_in_diterima": 0.953125,
+        "cakupan_out_diterima": 0.0
+       },
+       "0.05": {
+        "tolak_out": 0.56,
+        "tolak_in": 0.1386861313868613,
+        "cakupan_in_diterima": 0.9576271186440678,
+        "cakupan_out_diterima": 0.0
+       },
+       "0.1": {
+        "tolak_out": 0.64,
+        "tolak_in": 0.15328467153284672,
+        "cakupan_in_diterima": 0.9655172413793104,
+        "cakupan_out_diterima": 0.0
+       },
+       "0.2": {
+        "tolak_out": 0.96,
+        "tolak_in": 0.21897810218978103,
+        "cakupan_in_diterima": 0.9906542056074766,
+        "cakupan_out_diterima": 0.0
+       }
+      }
+     },
+     "konformal": {
+      "auc": 0.8907274895646989,
+      "beta": {
+       "0.01": {
+        "tolak_out": 0.48,
+        "tolak_in": 0.058394160583941604,
+        "cakupan_in_diterima": 0.9534883720930233,
+        "cakupan_out_diterima": 0.0
+       },
+       "0.05": {
+        "tolak_out": 0.48,
+        "tolak_in": 0.058394160583941604,
+        "cakupan_in_diterima": 0.9534883720930233,
+        "cakupan_out_diterima": 0.0
+       },
+       "0.1": {
+        "tolak_out": 0.96,
+        "tolak_in": 0.24817518248175183,
+        "cakupan_in_diterima": 0.970873786407767,
+        "cakupan_out_diterima": 0.0
+       },
+       "0.2": {
+        "tolak_out": 0.96,
+        "tolak_in": 0.27007299270072993,
+        "cakupan_in_diterima": 0.97,
+        "cakupan_out_diterima": 0.0
+       }
+      }
+     },
+     "gabungan": {
+      "auc": 0.9519976147883125,
+      "beta": {
+       "0.01": {
+        "tolak_out": 0.48,
+        "tolak_in": 0.058394160583941604,
+        "cakupan_in_diterima": 0.9534883720930233,
+        "cakupan_out_diterima": 0.0
+       },
+       "0.05": {
+        "tolak_out": 0.92,
+        "tolak_in": 0.12408759124087591,
+        "cakupan_in_diterima": 0.975,
+        "cakupan_out_diterima": 0.0
+       },
+       "0.1": {
+        "tolak_out": 0.96,
+        "tolak_in": 0.15328467153284672,
+        "cakupan_in_diterima": 0.9741379310344828,
+        "cakupan_out_diterima": 0.0
+       },
+       "0.2": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.22627737226277372,
+        "cakupan_in_diterima": 0.9716981132075472,
+        "cakupan_out_diterima": null
+       }
+      }
+     }
+    },
+    "200": {
+     "jarak_knn": {
+      "auc": 0.8548387096774193,
+      "beta": {
+       "0.01": {
+        "tolak_out": 0.92,
+        "tolak_in": 0.0948905109489051,
+        "cakupan_in_diterima": 0.8709677419354839,
+        "cakupan_out_diterima": 0.0
+       },
+       "0.05": {
+        "tolak_out": 0.94,
+        "tolak_in": 0.1386861313868613,
+        "cakupan_in_diterima": 0.8898305084745762,
+        "cakupan_out_diterima": 0.0
+       },
+       "0.1": {
+        "tolak_out": 0.94,
+        "tolak_in": 0.22627737226277372,
+        "cakupan_in_diterima": 0.9339622641509434,
+        "cakupan_out_diterima": 0.0
+       },
+       "0.2": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.3284671532846715,
+        "cakupan_in_diterima": 0.9565217391304348,
+        "cakupan_out_diterima": null
+       }
+      }
+     },
+     "konformal": {
+      "auc": 0.9233870967741935,
+      "beta": {
+       "0.01": {
+        "tolak_out": 0.92,
+        "tolak_in": 0.0948905109489051,
+        "cakupan_in_diterima": 0.8709677419354839,
+        "cakupan_out_diterima": 0.0
+       },
+       "0.05": {
+        "tolak_out": 0.92,
+        "tolak_in": 0.0948905109489051,
+        "cakupan_in_diterima": 0.8709677419354839,
+        "cakupan_out_diterima": 0.0
+       },
+       "0.1": {
+        "tolak_out": 0.92,
+        "tolak_in": 0.0948905109489051,
+        "cakupan_in_diterima": 0.8709677419354839,
+        "cakupan_out_diterima": 0.0
+       },
+       "0.2": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.31386861313868614,
+        "cakupan_in_diterima": 0.9468085106382979,
+        "cakupan_out_diterima": null
+       }
+      }
+     },
+     "gabungan": {
+      "auc": 0.9294354838709677,
+      "beta": {
+       "0.01": {
+        "tolak_out": 0.92,
+        "tolak_in": 0.10218978102189781,
+        "cakupan_in_diterima": 0.8780487804878049,
+        "cakupan_out_diterima": 0.0
+       },
+       "0.05": {
+        "tolak_out": 0.98,
+        "tolak_in": 0.1678832116788321,
+        "cakupan_in_diterima": 0.9122807017543859,
+        "cakupan_out_diterima": 0.0
+       },
+       "0.1": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.22627737226277372,
+        "cakupan_in_diterima": 0.9339622641509434,
+        "cakupan_out_diterima": null
+       },
+       "0.2": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.3284671532846715,
+        "cakupan_in_diterima": 0.9565217391304348,
+        "cakupan_out_diterima": null
+       }
+      }
+     }
+    },
+    "400": {
+     "jarak_knn": {
+      "auc": 0.9291338582677166,
+      "beta": {
+       "0.01": {
+        "tolak_out": 0.98,
+        "tolak_in": 0.072992700729927,
+        "cakupan_in_diterima": 0.937007874015748,
+        "cakupan_out_diterima": 0.0
+       },
+       "0.05": {
+        "tolak_out": 0.98,
+        "tolak_in": 0.10218978102189781,
+        "cakupan_in_diterima": 0.943089430894309,
+        "cakupan_out_diterima": 0.0
+       },
+       "0.1": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.1386861313868613,
+        "cakupan_in_diterima": 0.9491525423728814,
+        "cakupan_out_diterima": null
+       },
+       "0.2": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.23357664233576642,
+        "cakupan_in_diterima": 0.9428571428571428,
+        "cakupan_out_diterima": null
+       }
+      }
+     },
+     "konformal": {
+      "auc": 0.8937007874015748,
+      "beta": {
+       "0.01": {
+        "tolak_out": 0.98,
+        "tolak_in": 0.072992700729927,
+        "cakupan_in_diterima": 0.937007874015748,
+        "cakupan_out_diterima": 0.0
+       },
+       "0.05": {
+        "tolak_out": 0.98,
+        "tolak_in": 0.072992700729927,
+        "cakupan_in_diterima": 0.937007874015748,
+        "cakupan_out_diterima": 0.0
+       },
+       "0.1": {
+        "tolak_out": 0.98,
+        "tolak_in": 0.072992700729927,
+        "cakupan_in_diterima": 0.937007874015748,
+        "cakupan_out_diterima": 0.0
+       },
+       "0.2": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.34306569343065696,
+        "cakupan_in_diterima": 0.9666666666666667,
+        "cakupan_out_diterima": null
+       }
+      }
+     },
+     "gabungan": {
+      "auc": 0.9921259842519685,
+      "beta": {
+       "0.01": {
+        "tolak_out": 0.98,
+        "tolak_in": 0.08029197080291971,
+        "cakupan_in_diterima": 0.9444444444444444,
+        "cakupan_out_diterima": 0.0
+       },
+       "0.05": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.12408759124087591,
+        "cakupan_in_diterima": 0.9583333333333334,
+        "cakupan_out_diterima": null
+       },
+       "0.1": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.1678832116788321,
+        "cakupan_in_diterima": 0.956140350877193,
+        "cakupan_out_diterima": null
+       },
+       "0.2": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.2773722627737226,
+        "cakupan_in_diterima": 0.9797979797979798,
+        "cakupan_out_diterima": null
+       }
+      }
+     }
+    },
+    "600": {
+     "jarak_knn": {
+      "auc": null,
+      "beta": {
+       "0.01": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.12408759124087591,
+        "cakupan_in_diterima": 0.8916666666666667,
+        "cakupan_out_diterima": null
+       },
+       "0.05": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.145985401459854,
+        "cakupan_in_diterima": 0.905982905982906,
+        "cakupan_out_diterima": null
+       },
+       "0.1": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.23357664233576642,
+        "cakupan_in_diterima": 0.9428571428571428,
+        "cakupan_out_diterima": null
+       },
+       "0.2": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.27007299270072993,
+        "cakupan_in_diterima": 0.95,
+        "cakupan_out_diterima": null
+       }
+      }
+     },
+     "konformal": {
+      "auc": null,
+      "beta": {
+       "0.01": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.08759124087591241,
+        "cakupan_in_diterima": 0.856,
+        "cakupan_out_diterima": null
+       },
+       "0.05": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.17518248175182483,
+        "cakupan_in_diterima": 0.8938053097345132,
+        "cakupan_out_diterima": null
+       },
+       "0.1": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.17518248175182483,
+        "cakupan_in_diterima": 0.8938053097345132,
+        "cakupan_out_diterima": null
+       },
+       "0.2": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.2846715328467153,
+        "cakupan_in_diterima": 0.9285714285714286,
+        "cakupan_out_diterima": null
+       }
+      }
+     },
+     "gabungan": {
+      "auc": null,
+      "beta": {
+       "0.01": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.1386861313868613,
+        "cakupan_in_diterima": 0.8898305084745762,
+        "cakupan_out_diterima": null
+       },
+       "0.05": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.1897810218978102,
+        "cakupan_in_diterima": 0.918918918918919,
+        "cakupan_out_diterima": null
+       },
+       "0.1": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.22627737226277372,
+        "cakupan_in_diterima": 0.9339622641509434,
+        "cakupan_out_diterima": null
+       },
+       "0.2": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.2773722627737226,
+        "cakupan_in_diterima": 0.9494949494949495,
+        "cakupan_out_diterima": null
+       }
+      }
+     }
+    },
+    "800": {
+     "jarak_knn": {
+      "auc": null,
+      "beta": {
+       "0.01": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.10948905109489052,
+        "cakupan_in_diterima": 0.8934426229508197,
+        "cakupan_out_diterima": null
+       },
+       "0.05": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.18248175182481752,
+        "cakupan_in_diterima": 0.9285714285714286,
+        "cakupan_out_diterima": null
+       },
+       "0.1": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.2116788321167883,
+        "cakupan_in_diterima": 0.9444444444444444,
+        "cakupan_out_diterima": null
+       },
+       "0.2": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.291970802919708,
+        "cakupan_in_diterima": 0.9484536082474226,
+        "cakupan_out_diterima": null
+       }
+      }
+     },
+     "konformal": {
+      "auc": null,
+      "beta": {
+       "0.01": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.08029197080291971,
+        "cakupan_in_diterima": 0.8968253968253969,
+        "cakupan_out_diterima": null
+       },
+       "0.05": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.08029197080291971,
+        "cakupan_in_diterima": 0.8968253968253969,
+        "cakupan_out_diterima": null
+       },
+       "0.1": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.08029197080291971,
+        "cakupan_in_diterima": 0.8968253968253969,
+        "cakupan_out_diterima": null
+       },
+       "0.2": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.35766423357664234,
+        "cakupan_in_diterima": 0.9545454545454546,
+        "cakupan_out_diterima": null
+       }
+      }
+     },
+     "gabungan": {
+      "auc": null,
+      "beta": {
+       "0.01": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.10218978102189781,
+        "cakupan_in_diterima": 0.9186991869918699,
+        "cakupan_out_diterima": null
+       },
+       "0.05": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.1897810218978102,
+        "cakupan_in_diterima": 0.9369369369369369,
+        "cakupan_out_diterima": null
+       },
+       "0.1": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.291970802919708,
+        "cakupan_in_diterima": 0.9587628865979382,
+        "cakupan_out_diterima": null
+       },
+       "0.2": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.35036496350364965,
+        "cakupan_in_diterima": 0.9775280898876404,
+        "cakupan_out_diterima": null
+       }
+      }
+     }
+    },
+    "1000": {
+     "jarak_knn": {
+      "auc": null,
+      "beta": {
+       "0.01": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.08029197080291971,
+        "cakupan_in_diterima": 0.8809523809523809,
+        "cakupan_out_diterima": null
+       },
+       "0.05": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.12408759124087591,
+        "cakupan_in_diterima": 0.9,
+        "cakupan_out_diterima": null
+       },
+       "0.1": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.15328467153284672,
+        "cakupan_in_diterima": 0.9137931034482759,
+        "cakupan_out_diterima": null
+       },
+       "0.2": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.291970802919708,
+        "cakupan_in_diterima": 0.9484536082474226,
+        "cakupan_out_diterima": null
+       }
+      }
+     },
+     "konformal": {
+      "auc": null,
+      "beta": {
+       "0.01": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.13138686131386862,
+        "cakupan_in_diterima": 0.9159663865546218,
+        "cakupan_out_diterima": null
+       },
+       "0.05": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.1897810218978102,
+        "cakupan_in_diterima": 0.954954954954955,
+        "cakupan_out_diterima": null
+       },
+       "0.1": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.20437956204379562,
+        "cakupan_in_diterima": 0.9541284403669725,
+        "cakupan_out_diterima": null
+       },
+       "0.2": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.26277372262773724,
+        "cakupan_in_diterima": 0.9900990099009901,
+        "cakupan_out_diterima": null
+       }
+      }
+     },
+     "gabungan": {
+      "auc": null,
+      "beta": {
+       "0.01": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.10948905109489052,
+        "cakupan_in_diterima": 0.9016393442622951,
+        "cakupan_out_diterima": null
+       },
+       "0.05": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.145985401459854,
+        "cakupan_in_diterima": 0.9316239316239316,
+        "cakupan_out_diterima": null
+       },
+       "0.1": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.2116788321167883,
+        "cakupan_in_diterima": 0.9722222222222222,
+        "cakupan_out_diterima": null
+       },
+       "0.2": {
+        "tolak_out": 1.0,
+        "tolak_in": 0.25547445255474455,
+        "cakupan_in_diterima": 0.9901960784313726,
+        "cakupan_out_diterima": null
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}

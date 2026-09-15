@@ -137,8 +137,8 @@ def gambar1():
     bawah = ["two potentiostats,<br>one cell", "178 current<br>variables",
              "six base<br>learners", "scale from member<br>disagreement",
              "shape gate then<br>novelty score"]
-    tunjuk = ["Sec. 3.2, Table 1", "Sec. 3.3", "Sec. 3.4",
-              "Sec. 3.5, Eq. (3)-(6)", "Sec. 3.6, Alg. 1"]
+    tunjuk = ["Sec. 3.2, Table 2", "Sec. 3.3", "Sec. 3.4",
+              "Sec. 3.5, Eq. (3)-(7)", "Sec. 3.6, Alg. 1"]
     sel, x = [], 1
     for k in range(5):
         sel.append(teks(f"t{k}", judul[k], x, y - 22, lebar, 18, fs=11))
@@ -176,10 +176,10 @@ def gambar3():
         kotak("fit", "ensemble mean<br>and member spread", 62, 196, 190, 40, fs=11),
         kotak("iv", "report interval", 82, 252, 150, 26, ORNG_ISI, ORNG, 11),
         kotak("rf", "refuse", 268, 110, 58, 26, ORNG_ISI, ORNG, 11),
-        teks("q1", "Eq. (7), (8)", 2, 60, 48, 14, "left", 9),
-        teks("q2", "Eq. (9)", 2, 136, 48, 14, "left", 9),
+        teks("q1", "Eq. (8), (9)", 2, 60, 48, 14, "left", 9),
+        teks("q2", "Eq. (10)", 2, 136, 48, 14, "left", 9),
         teks("q3", "Eq. (3), (4)", 2, 200, 48, 28, "left", 9),
-        teks("q4", "Eq. (6)", 2, 254, 48, 14, "left", 9),
+        teks("q4", "Eq. (7)", 2, 254, 48, 14, "left", 9),
         panah("a1", "in", "g1"),
         panah("a2", "g1", "g2", "yes"),
         panah("a3", "g2", "fit", "yes"),

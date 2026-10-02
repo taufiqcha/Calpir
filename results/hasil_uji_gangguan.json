@@ -1,0 +1,285 @@
+{
+ "LC": {
+  "satuan_gangguan": 2.5305808064844237,
+  "taraf": {
+   "geseran|0.0": {
+    "cakupan": 0.8906666666666668,
+    "lebar": 0.09475087436500887,
+    "tolak": 0.13999999999999999,
+    "cakupan_diterima": 0.9374016576191959,
+    "n_benih_ada_diterima": 20
+   },
+   "geseran|0.25": {
+    "cakupan": 0.6596666666666667,
+    "lebar": 0.22115710850719222,
+    "tolak": 0.14366666666666666,
+    "cakupan_diterima": 0.6750794393028312,
+    "n_benih_ada_diterima": 20
+   },
+   "geseran|0.5": {
+    "cakupan": 0.46033333333333337,
+    "lebar": 0.29286722113549957,
+    "tolak": 0.18833333333333332,
+    "cakupan_diterima": 0.43794287136391236,
+    "n_benih_ada_diterima": 20
+   },
+   "geseran|1.0": {
+    "cakupan": 0.32466666666666666,
+    "lebar": 0.3194847151287518,
+    "tolak": 0.8383333333333335,
+    "cakupan_diterima": 0.4101155950284333,
+    "n_benih_ada_diterima": 20
+   },
+   "geseran|2.0": {
+    "cakupan": 0.1696666666666667,
+    "lebar": 0.3028285373546846,
+    "tolak": 0.9996666666666666,
+    "cakupan_diterima": 1.0,
+    "n_benih_ada_diterima": 1
+   },
+   "geseran|4.0": {
+    "cakupan": 0.12500000000000003,
+    "lebar": 0.3190192362603738,
+    "tolak": 1.0,
+    "cakupan_diterima": null,
+    "n_benih_ada_diterima": 0
+   },
+   "kemiringan|0.0": {
+    "cakupan": 0.8906666666666668,
+    "lebar": 0.09475087436500887,
+    "tolak": 0.13999999999999999,
+    "cakupan_diterima": 0.9374016576191959,
+    "n_benih_ada_diterima": 20
+   },
+   "kemiringan|0.25": {
+    "cakupan": 0.8220000000000001,
+    "lebar": 0.14602064169977588,
+    "tolak": 0.14633333333333332,
+    "cakupan_diterima": 0.8701185299745349,
+    "n_benih_ada_diterima": 20
+   },
+   "kemiringan|0.5": {
+    "cakupan": 0.6940000000000001,
+    "lebar": 0.2083750567469008,
+    "tolak": 0.16233333333333333,
+    "cakupan_diterima": 0.7314922536197872,
+    "n_benih_ada_diterima": 20
+   },
+   "kemiringan|1.0": {
+    "cakupan": 0.5006666666666668,
+    "lebar": 0.2895038589213902,
+    "tolak": 0.348,
+    "cakupan_diterima": 0.5480931747326782,
+    "n_benih_ada_diterima": 20
+   },
+   "kemiringan|2.0": {
+    "cakupan": 0.33299999999999996,
+    "lebar": 0.3895308615227093,
+    "tolak": 0.9870000000000001,
+    "cakupan_diterima": 0.1,
+    "n_benih_ada_diterima": 5
+   },
+   "kemiringan|4.0": {
+    "cakupan": 0.2856666666666667,
+    "lebar": 0.5013600818719863,
+    "tolak": 1.0,
+    "cakupan_diterima": null,
+    "n_benih_ada_diterima": 0
+   },
+   "derau|0.0": {
+    "cakupan": 0.8906666666666668,
+    "lebar": 0.09475087436500887,
+    "tolak": 0.13999999999999999,
+    "cakupan_diterima": 0.9374016576191959,
+    "n_benih_ada_diterima": 20
+   },
+   "derau|0.25": {
+    "cakupan": 0.7763333333333333,
+    "lebar": 0.2342399111097356,
+    "tolak": 0.20766666666666667,
+    "cakupan_diterima": 0.8127812019555988,
+    "n_benih_ada_diterima": 20
+   },
+   "derau|0.5": {
+    "cakupan": 0.6576666666666667,
+    "lebar": 0.35118998593840284,
+    "tolak": 0.74,
+    "cakupan_diterima": 0.8049612579873024,
+    "n_benih_ada_diterima": 20
+   },
+   "derau|1.0": {
+    "cakupan": 0.5393333333333333,
+    "lebar": 0.4696076629034767,
+    "tolak": 0.9996666666666666,
+    "cakupan_diterima": 0.0,
+    "n_benih_ada_diterima": 1
+   },
+   "derau|2.0": {
+    "cakupan": 0.43566666666666665,
+    "lebar": 0.575222368348739,
+    "tolak": 1.0,
+    "cakupan_diterima": null,
+    "n_benih_ada_diterima": 0
+   },
+   "derau|4.0": {
+    "cakupan": 0.3506666666666667,
+    "lebar": 0.710278715791634,
+    "tolak": 1.0,
+    "cakupan_diterima": null,
+    "n_benih_ada_diterima": 0
+   }
+  }
+ },
+ "EM": {
+  "satuan_gangguan": 3.1402840005994985,
+  "taraf": {
+   "geseran|0.0": {
+    "cakupan": 0.9013605442176871,
+    "lebar": 0.1331692862573337,
+    "tolak": 0.14795918367346944,
+    "cakupan_diterima": 0.9288142466147027,
+    "n_benih_ada_diterima": 20
+   },
+   "geseran|0.25": {
+    "cakupan": 0.8656462585034012,
+    "lebar": 0.23393241994265282,
+    "tolak": 0.14795918367346939,
+    "cakupan_diterima": 0.8884097365648363,
+    "n_benih_ada_diterima": 20
+   },
+   "geseran|0.5": {
+    "cakupan": 0.7840136054421769,
+    "lebar": 0.3461443369462843,
+    "tolak": 0.15238095238095242,
+    "cakupan_diterima": 0.7945077054832665,
+    "n_benih_ada_diterima": 20
+   },
+   "geseran|1.0": {
+    "cakupan": 0.6534013605442176,
+    "lebar": 0.49882839534333845,
+    "tolak": 0.3829931972789116,
+    "cakupan_diterima": 0.6444734824080608,
+    "n_benih_ada_diterima": 20
+   },
+   "geseran|2.0": {
+    "cakupan": 0.4809523809523809,
+    "lebar": 0.6311874722545625,
+    "tolak": 0.9625850340136056,
+    "cakupan_diterima": 0.47229324885034224,
+    "n_benih_ada_diterima": 17
+   },
+   "geseran|4.0": {
+    "cakupan": 0.31734693877551023,
+    "lebar": 0.6696514518419756,
+    "tolak": 1.0,
+    "cakupan_diterima": null,
+    "n_benih_ada_diterima": 0
+   },
+   "kemiringan|0.0": {
+    "cakupan": 0.9013605442176871,
+    "lebar": 0.13316928625733374,
+    "tolak": 0.14795918367346944,
+    "cakupan_diterima": 0.9288142466147027,
+    "n_benih_ada_diterima": 20
+   },
+   "kemiringan|0.25": {
+    "cakupan": 0.8833333333333334,
+    "lebar": 0.18190212023430855,
+    "tolak": 0.15068027210884355,
+    "cakupan_diterima": 0.9067465593874291,
+    "n_benih_ada_diterima": 20
+   },
+   "kemiringan|0.5": {
+    "cakupan": 0.8353741496598639,
+    "lebar": 0.25294795005322734,
+    "tolak": 0.16122448979591836,
+    "cakupan_diterima": 0.8579296001779932,
+    "n_benih_ada_diterima": 20
+   },
+   "kemiringan|1.0": {
+    "cakupan": 0.6625850340136055,
+    "lebar": 0.3766600040634625,
+    "tolak": 0.32074829931972787,
+    "cakupan_diterima": 0.7033662997691381,
+    "n_benih_ada_diterima": 20
+   },
+   "kemiringan|2.0": {
+    "cakupan": 0.34931972789115645,
+    "lebar": 0.4468857249309304,
+    "tolak": 0.9690476190476192,
+    "cakupan_diterima": 0.43823529411764706,
+    "n_benih_ada_diterima": 17
+   },
+   "kemiringan|4.0": {
+    "cakupan": 0.27210884353741494,
+    "lebar": 0.5175994528970425,
+    "tolak": 1.0,
+    "cakupan_diterima": null,
+    "n_benih_ada_diterima": 0
+   },
+   "derau|0.0": {
+    "cakupan": 0.9013605442176871,
+    "lebar": 0.13316928625733374,
+    "tolak": 0.14795918367346944,
+    "cakupan_diterima": 0.9288142466147027,
+    "n_benih_ada_diterima": 20
+   },
+   "derau|0.25": {
+    "cakupan": 0.8972789115646259,
+    "lebar": 0.24941874858654076,
+    "tolak": 0.2061224489795918,
+    "cakupan_diterima": 0.9293812210962484,
+    "n_benih_ada_diterima": 20
+   },
+   "derau|0.5": {
+    "cakupan": 0.8833333333333332,
+    "lebar": 0.37906725998462865,
+    "tolak": 0.8193877551020409,
+    "cakupan_diterima": 0.9687979528100495,
+    "n_benih_ada_diterima": 20
+   },
+   "derau|1.0": {
+    "cakupan": 0.8360544217687075,
+    "lebar": 0.569634206224144,
+    "tolak": 1.0,
+    "cakupan_diterima": null,
+    "n_benih_ada_diterima": 0
+   },
+   "derau|2.0": {
+    "cakupan": 0.7306122448979592,
+    "lebar": 0.7952700132009196,
+    "tolak": 1.0,
+    "cakupan_diterima": null,
+    "n_benih_ada_diterima": 0
+   },
+   "derau|4.0": {
+    "cakupan": 0.5812925170068026,
+    "lebar": 0.9737507411865336,
+    "tolak": 1.0,
+    "cakupan_diterima": null,
+    "n_benih_ada_diterima": 0
+   }
+  }
+ },
+ "catatan": {
+  "alpha": 0.1,
+  "beta": 0.05,
+  "buang_gerbang": 0.1,
+  "n_benih": 20,
+  "taraf": [
+   0.0,
+   0.25,
+   0.5,
+   1.0,
+   2.0,
+   4.0
+  ],
+  "bentuk": [
+   "geseran",
+   "kemiringan",
+   "derau"
+  ],
+  "satuan": "kelipatan simpangan baku di dalam tingkat kadar",
+  "catatan_uji": "gangguan hanya dikenakan pada himpunan uji"
+ }
+}

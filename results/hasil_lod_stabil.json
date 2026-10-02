@@ -1,0 +1,329 @@
+{
+ "LC": {
+  "geser_tiap_replikat": {
+   "KCL_LECSENS_01.xlsx": 23.85,
+   "KCL_LECSENS_021.xlsx": 20.48,
+   "KCL_LECSENS_03.xlsx": 17.13,
+   "KCL_LECSENS_022.xlsx": 16.78,
+   "KCL_LECSENS_017.xlsx": 14.85,
+   "KCL_LECSENS_04.xlsx": 13.51,
+   "KCL_LECSENS_025.xlsx": 3.67,
+   "KCL_LECSENS_024.xlsx": 3.61,
+   "KCL_LECSENS_023.xlsx": 2.13,
+   "KCL_LECSENS_06.xlsx": 2.11,
+   "KCL_LECSENS_026.xlsx": 2.06,
+   "KCL_LECSENS_018.xlsx": 1.12,
+   "KCL_LECSENS_05.xlsx": -0.44,
+   "KCL_LECSENS_029.xlsx": -0.72,
+   "KCL_LECSENS_012.xlsx": -1.18,
+   "KCL_LECSENS_013.xlsx": -1.37,
+   "KCL_LECSENS_07.xlsx": -1.78,
+   "KCL_LECSENS_034.xlsx": -2.15,
+   "KCL_LECSENS_030.xlsx": -2.25,
+   "KCL_LECSENS_020.xlsx": -2.36,
+   "KCL_LECSENS_027.xlsx": -2.47,
+   "KCL_LECSENS_048.xlsx": -2.68,
+   "KCL_LECSENS_036.xlsx": -2.98,
+   "KCL_LECSENS_028.xlsx": -3.07,
+   "KCL_LECSENS_08.xlsx": -3.22,
+   "KCL_LECSENS_047.xlsx": -3.32,
+   "KCL_LECSENS_033.xlsx": -3.35,
+   "KCL_LECSENS_011.xlsx": -3.35,
+   "KCL_LECSENS_019.xlsx": -3.39,
+   "KCL_LECSENS_010.xlsx": -3.48,
+   "KCL_LECSENS_037.xlsx": -3.53,
+   "KCL_LECSENS_035.xlsx": -3.66,
+   "KCL_LECSENS_014.xlsx": -3.67,
+   "KCL_LECSENS_02.xlsx": -3.69,
+   "KCL_LECSENS_032.xlsx": -3.72,
+   "KCL_LECSENS_016.xlsx": -3.8,
+   "KCL_LECSENS_042.xlsx": -3.83,
+   "KCL_LECSENS_046.xlsx": -3.9,
+   "KCL_LECSENS_015.xlsx": -4.03,
+   "KCL_LECSENS_039.xlsx": -4.1,
+   "KCL_LECSENS_040.xlsx": -4.49,
+   "KCL_LECSENS_031.xlsx": -4.57,
+   "KCL_LECSENS_050.xlsx": -4.61,
+   "KCL_LECSENS_09.xlsx": -4.96,
+   "KCL_LECSENS_045.xlsx": -5.23,
+   "KCL_LECSENS_044.xlsx": -5.48,
+   "KCL_LECSENS_038.xlsx": -5.52,
+   "KCL_LECSENS_041.xlsx": -5.74,
+   "KCL_LECSENS_043.xlsx": -5.86,
+   "KCL_LECSENS_049.xlsx": -6.76
+  },
+  "per_ambang": {
+   "semua": {
+    "n_dipakai": 50,
+    "n_dibuang": 0,
+    "dibuang": [],
+    "sigma": 3.671291938437842,
+    "rata": -34.792989820333354,
+    "lod": {
+     "0.95": {
+      "dari_ppm": 10.0,
+      "sampai_ppm": 200.0,
+      "R2": 0.950679261833128,
+      "LOD_ppm": 59.72431156783459,
+      "LOQ_ppm": 199.08103855944867
+     }
+    }
+   },
+   "geser<=5.0": {
+    "n_dipakai": 44,
+    "n_dibuang": 6,
+    "dibuang": [
+     "KCL_LECSENS_01.xlsx",
+     "KCL_LECSENS_017.xlsx",
+     "KCL_LECSENS_021.xlsx",
+     "KCL_LECSENS_022.xlsx",
+     "KCL_LECSENS_03.xlsx",
+     "KCL_LECSENS_04.xlsx"
+    ],
+    "sigma": 1.5226428987294507,
+    "rata": -33.69521453244952,
+    "lod": {
+     "0.95": {
+      "dari_ppm": 10.0,
+      "sampai_ppm": 200.0,
+      "R2": 0.950679261833128,
+      "LOD_ppm": 24.770244484823934,
+      "LOQ_ppm": 82.56748161607979
+     }
+    }
+   },
+   "geser<=0.0": {
+    "n_dipakai": 38,
+    "n_dibuang": 12,
+    "dibuang": [
+     "KCL_LECSENS_01.xlsx",
+     "KCL_LECSENS_017.xlsx",
+     "KCL_LECSENS_018.xlsx",
+     "KCL_LECSENS_021.xlsx",
+     "KCL_LECSENS_022.xlsx",
+     "KCL_LECSENS_023.xlsx",
+     "KCL_LECSENS_024.xlsx",
+     "KCL_LECSENS_025.xlsx",
+     "KCL_LECSENS_026.xlsx",
+     "KCL_LECSENS_03.xlsx",
+     "KCL_LECSENS_04.xlsx",
+     "KCL_LECSENS_06.xlsx"
+    ],
+    "sigma": 0.9828990554019593,
+    "rata": -33.24409544824564,
+    "lod": {
+     "0.95": {
+      "dari_ppm": 10.0,
+      "sampai_ppm": 200.0,
+      "R2": 0.950679261833128,
+      "LOD_ppm": 15.989730702139537,
+      "LOQ_ppm": 53.299102340465126
+     }
+    }
+   }
+  }
+ },
+ "EM": {
+  "geser_tiap_replikat": {
+   "KCL_EMSTAT_27.xlsx": 25.23,
+   "KCL_EMSTAT_01.xlsx": 23.47,
+   "KCL_EMSTAT_02.xlsx": 23.44,
+   "KCL_EMSTAT_30.xlsx": 22.19,
+   "KCL_EMSTAT_28.xlsx": 21.8,
+   "KCL_EMSTAT_29.xlsx": 21.42,
+   "KCL_EMSTAT_37.xlsx": 21.09,
+   "KCL_EMSTAT_48.xlsx": 12.99,
+   "KCL_EMSTAT_07.xlsx": 11.74,
+   "KCL_EMSTAT_04.xlsx": 9.34,
+   "KCL_EMSTAT_36.xlsx": 6.55,
+   "KCL_EMSTAT_25.xlsx": 5.87,
+   "KCL_EMSTAT_32.xlsx": 5.33,
+   "KCL_EMSTAT_03.xlsx": 5.03,
+   "KCL_EMSTAT_06.xlsx": 5.01,
+   "KCL_EMSTAT_31.xlsx": 4.41,
+   "KCL_EMSTAT_05.xlsx": 3.63,
+   "KCL_EMSTAT_08.xlsx": 3.57,
+   "KCL_EMSTAT_38.xlsx": 3.27,
+   "KCL_EMSTAT_43.xlsx": 1.81,
+   "KCL_EMSTAT_33.xlsx": 1.74,
+   "KCL_EMSTAT_13.xlsx": 1.43,
+   "KCL_EMSTAT_39.xlsx": 1.18,
+   "KCL_EMSTAT_45.xlsx": 1.16,
+   "KCL_EMSTAT_34.xlsx": 0.81,
+   "KCL_EMSTAT_09.xlsx": 0.64,
+   "KCL_EMSTAT_41.xlsx": 0.43,
+   "KCL_EMSTAT_50.xlsx": 0.39,
+   "KCL_EMSTAT_46.xlsx": 0.12,
+   "KCL_EMSTAT_40.xlsx": 0.1,
+   "KCL_EMSTAT_11.xlsx": 0.03,
+   "KCL_EMSTAT_44.xlsx": -0.04,
+   "KCL_EMSTAT_26.xlsx": -0.08,
+   "KCL_EMSTAT_35.xlsx": -0.19,
+   "KCL_EMSTAT_42.xlsx": -0.24,
+   "KCL_EMSTAT_10.xlsx": -0.32,
+   "KCL_EMSTAT_22.xlsx": -0.33,
+   "KCL_EMSTAT_47.xlsx": -0.33,
+   "KCL_EMSTAT_20.xlsx": -0.53,
+   "KCL_EMSTAT_19.xlsx": -0.66,
+   "KCL_EMSTAT_49.xlsx": -0.76,
+   "KCL_EMSTAT_14.xlsx": -0.8,
+   "KCL_EMSTAT_15.xlsx": -0.82,
+   "KCL_EMSTAT_21.xlsx": -0.83,
+   "KCL_EMSTAT_18.xlsx": -0.98,
+   "KCL_EMSTAT_12.xlsx": -1.03,
+   "KCL_EMSTAT_16.xlsx": -1.15,
+   "KCL_EMSTAT_17.xlsx": -1.38,
+   "KCL_EMSTAT_23.xlsx": -1.56,
+   "KCL_EMSTAT_24.xlsx": -1.82
+  },
+  "per_ambang": {
+   "semua": {
+    "n_dipakai": 50,
+    "n_dibuang": 0,
+    "dibuang": [],
+    "sigma": 5.31374889316522,
+    "rata": -37.44484450999999,
+    "lod": {
+     "0.99": {
+      "dari_ppm": 6.0,
+      "sampai_ppm": 20.0,
+      "R2": 0.9930989282974866,
+      "LOD_ppm": 13.253487092798412,
+      "LOQ_ppm": 44.17829030932804
+     },
+     "0.98": {
+      "dari_ppm": 6.0,
+      "sampai_ppm": 20.0,
+      "R2": 0.9930989282974866,
+      "LOD_ppm": 13.253487092798412,
+      "LOQ_ppm": 44.17829030932804
+     },
+     "0.95": {
+      "dari_ppm": 2.0,
+      "sampai_ppm": 20.0,
+      "R2": 0.9712771820089173,
+      "LOD_ppm": 11.83108409033015,
+      "LOQ_ppm": 39.436946967767156
+     }
+    }
+   },
+   "geser<=5.0": {
+    "n_dipakai": 35,
+    "n_dibuang": 15,
+    "dibuang": [
+     "KCL_EMSTAT_01.xlsx",
+     "KCL_EMSTAT_02.xlsx",
+     "KCL_EMSTAT_03.xlsx",
+     "KCL_EMSTAT_04.xlsx",
+     "KCL_EMSTAT_06.xlsx",
+     "KCL_EMSTAT_07.xlsx",
+     "KCL_EMSTAT_25.xlsx",
+     "KCL_EMSTAT_27.xlsx",
+     "KCL_EMSTAT_28.xlsx",
+     "KCL_EMSTAT_29.xlsx",
+     "KCL_EMSTAT_30.xlsx",
+     "KCL_EMSTAT_32.xlsx",
+     "KCL_EMSTAT_36.xlsx",
+     "KCL_EMSTAT_37.xlsx",
+     "KCL_EMSTAT_48.xlsx"
+    ],
+    "sigma": 2.0605307237679797,
+    "rata": -34.97035055714285,
+    "lod": {
+     "0.99": {
+      "dari_ppm": 6.0,
+      "sampai_ppm": 20.0,
+      "R2": 0.9930989282974866,
+      "LOD_ppm": 5.139350372182588,
+      "LOQ_ppm": 17.131167907275294
+     },
+     "0.98": {
+      "dari_ppm": 6.0,
+      "sampai_ppm": 20.0,
+      "R2": 0.9930989282974866,
+      "LOD_ppm": 5.139350372182588,
+      "LOQ_ppm": 17.131167907275294
+     },
+     "0.95": {
+      "dari_ppm": 2.0,
+      "sampai_ppm": 20.0,
+      "R2": 0.9712771820089173,
+      "LOD_ppm": 4.587780257167267,
+      "LOQ_ppm": 15.292600857224219
+     }
+    }
+   },
+   "geser<=0.0": {
+    "n_dipakai": 19,
+    "n_dibuang": 31,
+    "dibuang": [
+     "KCL_EMSTAT_01.xlsx",
+     "KCL_EMSTAT_02.xlsx",
+     "KCL_EMSTAT_03.xlsx",
+     "KCL_EMSTAT_04.xlsx",
+     "KCL_EMSTAT_05.xlsx",
+     "KCL_EMSTAT_06.xlsx",
+     "KCL_EMSTAT_07.xlsx",
+     "KCL_EMSTAT_08.xlsx",
+     "KCL_EMSTAT_09.xlsx",
+     "KCL_EMSTAT_11.xlsx",
+     "KCL_EMSTAT_13.xlsx",
+     "KCL_EMSTAT_25.xlsx",
+     "KCL_EMSTAT_27.xlsx",
+     "KCL_EMSTAT_28.xlsx",
+     "KCL_EMSTAT_29.xlsx",
+     "KCL_EMSTAT_30.xlsx",
+     "KCL_EMSTAT_31.xlsx",
+     "KCL_EMSTAT_32.xlsx",
+     "KCL_EMSTAT_33.xlsx",
+     "KCL_EMSTAT_34.xlsx",
+     "KCL_EMSTAT_36.xlsx",
+     "KCL_EMSTAT_37.xlsx",
+     "KCL_EMSTAT_38.xlsx",
+     "KCL_EMSTAT_39.xlsx",
+     "KCL_EMSTAT_40.xlsx",
+     "KCL_EMSTAT_41.xlsx",
+     "KCL_EMSTAT_43.xlsx",
+     "KCL_EMSTAT_45.xlsx",
+     "KCL_EMSTAT_46.xlsx",
+     "KCL_EMSTAT_48.xlsx",
+     "KCL_EMSTAT_50.xlsx"
+    ],
+    "sigma": 1.111522265982475,
+    "rata": -33.93853723684209,
+    "lod": {
+     "0.99": {
+      "dari_ppm": 6.0,
+      "sampai_ppm": 20.0,
+      "R2": 0.9930989282974866,
+      "LOD_ppm": 2.7723451562615513,
+      "LOQ_ppm": 9.241150520871837
+     },
+     "0.98": {
+      "dari_ppm": 6.0,
+      "sampai_ppm": 20.0,
+      "R2": 0.9930989282974866,
+      "LOD_ppm": 2.7723451562615513,
+      "LOQ_ppm": 9.241150520871837
+     },
+     "0.95": {
+      "dari_ppm": 2.0,
+      "sampai_ppm": 20.0,
+      "R2": 0.9712771820089173,
+      "LOD_ppm": 2.474808964726909,
+      "LOQ_ppm": 8.249363215756363
+     }
+    }
+   }
+  }
+ },
+ "catatan": {
+  "sapuan_dipakai": "ketiga sampai kesepuluh",
+  "kriteria": "replikat dipakai bila geseran arus puncak sapuan 3 ke 10 tidak melampaui ambang",
+  "ambang_persen": [
+   5.0,
+   0.0
+  ],
+  "kemiringan": "dari jendela linier pada hasil_rentang_linier.json"
+ }
+}

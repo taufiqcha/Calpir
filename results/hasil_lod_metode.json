@@ -1,0 +1,136 @@
+{
+ "LC": {
+  "batas_atas_blanko_ppm": 26.237987591282952,
+  "per_level": {
+   "2": {
+    "pisah_dari_blanko": 0.0,
+    "faktor_lebar": 1.238300644455265
+   },
+   "4": {
+    "pisah_dari_blanko": 0.005,
+    "faktor_lebar": 1.1826655194008828
+   },
+   "6": {
+    "pisah_dari_blanko": 0.02,
+    "faktor_lebar": 1.4924103624885994
+   },
+   "8": {
+    "pisah_dari_blanko": 0.0,
+    "faktor_lebar": 1.5230789572416121
+   },
+   "10": {
+    "pisah_dari_blanko": 0.045,
+    "faktor_lebar": 1.2343641468092328
+   },
+   "20": {
+    "pisah_dari_blanko": 0.23499999999999996,
+    "faktor_lebar": 1.2226851729438697
+   },
+   "40": {
+    "pisah_dari_blanko": 0.615,
+    "faktor_lebar": 1.585737652461215
+   },
+   "60": {
+    "pisah_dari_blanko": 0.9049999999999999,
+    "faktor_lebar": 1.3812029441391096
+   },
+   "80": {
+    "pisah_dari_blanko": 1.0,
+    "faktor_lebar": 1.5037635180872928
+   },
+   "100": {
+    "pisah_dari_blanko": 1.0,
+    "faktor_lebar": 1.1389193575429646
+   },
+   "200": {
+    "pisah_dari_blanko": 0.96,
+    "faktor_lebar": 1.3673761612755078
+   },
+   "400": {
+    "pisah_dari_blanko": 1.0,
+    "faktor_lebar": 1.3311651971877794
+   },
+   "600": {
+    "pisah_dari_blanko": 1.0,
+    "faktor_lebar": 1.164541949406666
+   },
+   "800": {
+    "pisah_dari_blanko": 1.0,
+    "faktor_lebar": 1.069293272694587
+   },
+   "1000": {
+    "pisah_dari_blanko": 0.9400000000000001,
+    "faktor_lebar": 1.8453149300968004
+   }
+  },
+  "lod_metode_ppm": 80,
+  "syarat": "kadar terendah yang 95 persen replikatnya terpisah dari blanko"
+ },
+ "EM": {
+  "batas_atas_blanko_ppm": 42.45202416027127,
+  "per_level": {
+   "2": {
+    "pisah_dari_blanko": 0.0,
+    "faktor_lebar": 1.1564061291051555
+   },
+   "4": {
+    "pisah_dari_blanko": 0.0,
+    "faktor_lebar": 1.2414266623304875
+   },
+   "6": {
+    "pisah_dari_blanko": 0.0,
+    "faktor_lebar": 1.7593417175690207
+   },
+   "8": {
+    "pisah_dari_blanko": 0.045,
+    "faktor_lebar": 1.6603848879178826
+   },
+   "10": {
+    "pisah_dari_blanko": 0.0,
+    "faktor_lebar": 1.481738072410765
+   },
+   "20": {
+    "pisah_dari_blanko": 0.0,
+    "faktor_lebar": 1.5408910733369576
+   },
+   "40": {
+    "pisah_dari_blanko": 0.17,
+    "faktor_lebar": 1.7419386803533132
+   },
+   "60": {
+    "pisah_dari_blanko": 0.3944444444444445,
+    "faktor_lebar": 1.930373963992918
+   },
+   "80": {
+    "pisah_dari_blanko": 0.91875,
+    "faktor_lebar": 1.2602447265264956
+   },
+   "100": {
+    "pisah_dari_blanko": 1.0,
+    "faktor_lebar": 1.2950713309774975
+   },
+   "200": {
+    "pisah_dari_blanko": 1.0,
+    "faktor_lebar": 1.3684036044857906
+   },
+   "400": {
+    "pisah_dari_blanko": 1.0,
+    "faktor_lebar": 1.1877743749835263
+   },
+   "600": {
+    "pisah_dari_blanko": 1.0,
+    "faktor_lebar": 1.2021977568865012
+   },
+   "800": {
+    "pisah_dari_blanko": 1.0,
+    "faktor_lebar": 1.076160365409065
+   },
+   "1000": {
+    "pisah_dari_blanko": 0.93,
+    "faktor_lebar": 3.3491263149151242
+   }
+  },
+  "lod_metode_ppm": 100,
+  "syarat": "kadar terendah yang 95 persen replikatnya terpisah dari blanko"
+ }
+}

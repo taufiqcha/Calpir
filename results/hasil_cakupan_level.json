@@ -1,0 +1,358 @@
+{
+ "LC": {
+  "per_level": {
+   "2": {
+    "marginal": 0.915,
+    "mondrian": 0.9049999999999999
+   },
+   "4": {
+    "marginal": 0.93,
+    "mondrian": 0.9349999999999999
+   },
+   "6": {
+    "marginal": 0.915,
+    "mondrian": 0.945
+   },
+   "8": {
+    "marginal": 0.975,
+    "mondrian": 0.8950000000000001
+   },
+   "10": {
+    "marginal": 0.85,
+    "mondrian": 0.875
+   },
+   "20": {
+    "marginal": 0.85,
+    "mondrian": 0.89
+   },
+   "40": {
+    "marginal": 0.7849999999999999,
+    "mondrian": 0.8800000000000001
+   },
+   "60": {
+    "marginal": 0.9249999999999998,
+    "mondrian": 0.9099999999999998
+   },
+   "80": {
+    "marginal": 0.82,
+    "mondrian": 0.925
+   },
+   "100": {
+    "marginal": 0.99,
+    "mondrian": 0.8850000000000001
+   },
+   "200": {
+    "marginal": 0.945,
+    "mondrian": 0.9549999999999997
+   },
+   "400": {
+    "marginal": 0.8400000000000001,
+    "mondrian": 0.8649999999999999
+   },
+   "600": {
+    "marginal": 0.89,
+    "mondrian": 0.9
+   },
+   "800": {
+    "marginal": 0.8999999999999998,
+    "mondrian": 0.8899999999999999
+   },
+   "1000": {
+    "marginal": 0.8300000000000001,
+    "mondrian": 0.9
+   }
+  },
+  "cakupan_level": {
+   "marginal": {
+    "rata": 0.8906666666666667,
+    "min": 0.7849999999999999,
+    "maks": 0.99,
+    "simpangan_mutlak_rata": 0.04866666666666667,
+    "level_di_bawah_nominal": 8
+   },
+   "mondrian": {
+    "rata": 0.9036666666666667,
+    "min": 0.8649999999999999,
+    "maks": 0.9549999999999997,
+    "simpangan_mutlak_rata": 0.019666666666666617,
+    "level_di_bawah_nominal": 7
+   }
+  },
+  "lebar_median": {
+   "marginal": 0.09475087436500895,
+   "mondrian": 0.09840032808839708
+  },
+  "uji_cakupan_level": {
+   "nama": "Wilcoxon signed-rank, dua sisi, 15 tingkat lawan 0,90",
+   "W": 51.0,
+   "p": 0.638671875
+  },
+  "uji_mondrian": {
+   "nama": "Wilcoxon signed-rank, satu sisi, simpangan mutlak",
+   "W": 15.0,
+   "p": 0.004180908203125
+  },
+  "per_ambang": {
+   "15.0": {
+    "cacah": {
+     "n_benar_bawah": 1000,
+     "n_benar_atas": 2000,
+     "salah_lampau": 24,
+     "lampau_terlewat": 12,
+     "ragu": 161,
+     "ragu_bawah": 90,
+     "ragu_atas": 71,
+     "titik_salah_lampau": 50,
+     "titik_lampau_terlewat": 34,
+     "n": 3000
+    },
+    "laju_salah_lampau": 0.024,
+    "laju_lampau_terlewat": 0.006,
+    "pangsa_ragu": 0.05366666666666667,
+    "titik_laju_salah_lampau": 0.05,
+    "titik_laju_lampau_terlewat": 0.017
+   },
+   "50.0": {
+    "cacah": {
+     "n_benar_bawah": 1400,
+     "n_benar_atas": 1600,
+     "salah_lampau": 18,
+     "lampau_terlewat": 20,
+     "ragu": 130,
+     "ragu_bawah": 26,
+     "ragu_atas": 104,
+     "titik_salah_lampau": 24,
+     "titik_lampau_terlewat": 38,
+     "n": 3000
+    },
+    "laju_salah_lampau": 0.012857142857142857,
+    "laju_lampau_terlewat": 0.0125,
+    "pangsa_ragu": 0.043333333333333335,
+    "titik_laju_salah_lampau": 0.017142857142857144,
+    "titik_laju_lampau_terlewat": 0.02375
+   },
+   "150.0": {
+    "cacah": {
+     "n_benar_bawah": 2000,
+     "n_benar_atas": 1000,
+     "salah_lampau": 11,
+     "lampau_terlewat": 16,
+     "ragu": 148,
+     "ragu_bawah": 73,
+     "ragu_atas": 75,
+     "titik_salah_lampau": 37,
+     "titik_lampau_terlewat": 35,
+     "n": 3000
+    },
+    "laju_salah_lampau": 0.0055,
+    "laju_lampau_terlewat": 0.016,
+    "pangsa_ragu": 0.04933333333333333,
+    "titik_laju_salah_lampau": 0.0185,
+    "titik_laju_lampau_terlewat": 0.035
+   },
+   "500.0": {
+    "cacah": {
+     "n_benar_bawah": 2400,
+     "n_benar_atas": 600,
+     "salah_lampau": 0,
+     "lampau_terlewat": 13,
+     "ragu": 130,
+     "ragu_bawah": 30,
+     "ragu_atas": 100,
+     "titik_salah_lampau": 1,
+     "titik_lampau_terlewat": 53,
+     "n": 3000
+    },
+    "laju_salah_lampau": 0.0,
+    "laju_lampau_terlewat": 0.021666666666666667,
+    "pangsa_ragu": 0.043333333333333335,
+    "titik_laju_salah_lampau": 0.0004166666666666667,
+    "titik_laju_lampau_terlewat": 0.08833333333333333
+   }
+  }
+ },
+ "EM": {
+  "per_level": {
+   "2": {
+    "marginal": 0.95,
+    "mondrian": 0.915
+   },
+   "4": {
+    "marginal": 1.0,
+    "mondrian": 0.9349999999999999
+   },
+   "6": {
+    "marginal": 0.7350000000000001,
+    "mondrian": 0.89
+   },
+   "8": {
+    "marginal": 0.8799999999999999,
+    "mondrian": 0.9200000000000002
+   },
+   "10": {
+    "marginal": 0.845,
+    "mondrian": 0.9199999999999999
+   },
+   "20": {
+    "marginal": 0.8800000000000001,
+    "mondrian": 0.9400000000000001
+   },
+   "40": {
+    "marginal": 0.9549999999999997,
+    "mondrian": 0.9199999999999999
+   },
+   "60": {
+    "marginal": 0.9,
+    "mondrian": 0.8944444444444445
+   },
+   "80": {
+    "marginal": 1.0,
+    "mondrian": 0.90625
+   },
+   "100": {
+    "marginal": 0.9049999999999999,
+    "mondrian": 0.9199999999999999
+   },
+   "200": {
+    "marginal": 0.9650000000000001,
+    "mondrian": 0.9049999999999999
+   },
+   "400": {
+    "marginal": 0.8899999999999999,
+    "mondrian": 0.875
+   },
+   "600": {
+    "marginal": 0.96,
+    "mondrian": 0.8950000000000001
+   },
+   "800": {
+    "marginal": 0.95,
+    "mondrian": 0.82
+   },
+   "1000": {
+    "marginal": 0.7249999999999999,
+    "mondrian": 0.9199999999999999
+   }
+  },
+  "cakupan_level": {
+   "marginal": {
+    "rata": 0.9026666666666665,
+    "min": 0.7249999999999999,
+    "maks": 1.0,
+    "simpangan_mutlak_rata": 0.06199999999999998,
+    "level_di_bawah_nominal": 6
+   },
+   "mondrian": {
+    "rata": 0.9050462962962962,
+    "min": 0.82,
+    "maks": 0.9400000000000001,
+    "simpangan_mutlak_rata": 0.021787037037037008,
+    "level_di_bawah_nominal": 5
+   }
+  },
+  "lebar_median": {
+   "marginal": 0.13316928625733368,
+   "mondrian": 0.12787318878064674
+  },
+  "uji_cakupan_level": {
+   "nama": "Wilcoxon signed-rank, dua sisi, 15 tingkat lawan 0,90",
+   "W": 44.0,
+   "p": 0.5934362194320348
+  },
+  "uji_mondrian": {
+   "nama": "Wilcoxon signed-rank, satu sisi, simpangan mutlak",
+   "W": 15.0,
+   "p": 0.009283356139867098
+  },
+  "per_ambang": {
+   "15.0": {
+    "cacah": {
+     "n_benar_bawah": 1000,
+     "n_benar_atas": 1940,
+     "salah_lampau": 20,
+     "lampau_terlewat": 7,
+     "ragu": 177,
+     "ragu_bawah": 96,
+     "ragu_atas": 81,
+     "titik_salah_lampau": 51,
+     "titik_lampau_terlewat": 20,
+     "n": 2940
+    },
+    "laju_salah_lampau": 0.02,
+    "laju_lampau_terlewat": 0.0036082474226804126,
+    "pangsa_ragu": 0.06020408163265306,
+    "titik_laju_salah_lampau": 0.051,
+    "titik_laju_lampau_terlewat": 0.010309278350515464
+   },
+   "50.0": {
+    "cacah": {
+     "n_benar_bawah": 1400,
+     "n_benar_atas": 1540,
+     "salah_lampau": 14,
+     "lampau_terlewat": 13,
+     "ragu": 277,
+     "ragu_bawah": 117,
+     "ragu_atas": 160,
+     "titik_salah_lampau": 42,
+     "titik_lampau_terlewat": 45,
+     "n": 2940
+    },
+    "laju_salah_lampau": 0.01,
+    "laju_lampau_terlewat": 0.008441558441558441,
+    "pangsa_ragu": 0.09421768707482993,
+    "titik_laju_salah_lampau": 0.03,
+    "titik_laju_lampau_terlewat": 0.02922077922077922
+   },
+   "150.0": {
+    "cacah": {
+     "n_benar_bawah": 1940,
+     "n_benar_atas": 1000,
+     "salah_lampau": 14,
+     "lampau_terlewat": 1,
+     "ragu": 172,
+     "ragu_bawah": 59,
+     "ragu_atas": 113,
+     "titik_salah_lampau": 31,
+     "titik_lampau_terlewat": 14,
+     "n": 2940
+    },
+    "laju_salah_lampau": 0.007216494845360825,
+    "laju_lampau_terlewat": 0.001,
+    "pangsa_ragu": 0.058503401360544216,
+    "titik_laju_salah_lampau": 0.015979381443298968,
+    "titik_laju_lampau_terlewat": 0.014
+   },
+   "500.0": {
+    "cacah": {
+     "n_benar_bawah": 2340,
+     "n_benar_atas": 600,
+     "salah_lampau": 16,
+     "lampau_terlewat": 11,
+     "ragu": 176,
+     "ragu_bawah": 42,
+     "ragu_atas": 134,
+     "titik_salah_lampau": 36,
+     "titik_lampau_terlewat": 78,
+     "n": 2940
+    },
+    "laju_salah_lampau": 0.006837606837606838,
+    "laju_lampau_terlewat": 0.018333333333333333,
+    "pangsa_ragu": 0.05986394557823129,
+    "titik_laju_salah_lampau": 0.015384615384615385,
+    "titik_laju_lampau_terlewat": 0.13
+   }
+  }
+ },
+ "catatan": {
+  "nominal": 0.9,
+  "n_benih": 20,
+  "ambang_ppm": [
+   15.0,
+   50.0,
+   150.0,
+   500.0
+  ],
+  "satuan_lebar": "desimal log10 ppm",
+  "menit": 0.4
+ }
+}

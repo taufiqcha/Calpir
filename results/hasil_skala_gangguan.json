@@ -1,0 +1,249 @@
+{
+ "LC": {
+  "satuan_gangguan": 2.5305808064844237,
+  "taraf": {
+   "geseran|0.0": {
+    "skala_cakupan": 0.8906666666666668,
+    "polos_cakupan": 0.8930000000000001,
+    "selisih_cakupan": -0.0023333333333333374,
+    "skala_lebar": 0.09475087436500901,
+    "polos_lebar": 0.3704050980387872,
+    "sebar_rata": 0.1458684058526865,
+    "W": 73.0,
+    "p": 0.7072658957587041,
+    "benih_skala_lebih_tinggi": 8
+   },
+   "geseran|0.2": {
+    "skala_cakupan": 0.7123333333333334,
+    "polos_cakupan": 0.7466666666666665,
+    "selisih_cakupan": -0.03433333333333334,
+    "skala_lebar": 0.19370795029178028,
+    "polos_lebar": 0.3704050980387872,
+    "sebar_rata": 0.22995054343620405,
+    "W": 24.0,
+    "p": 0.9978862759696444,
+    "benih_skala_lebih_tinggi": 5
+   },
+   "geseran|0.5": {
+    "skala_cakupan": 0.46033333333333337,
+    "polos_cakupan": 0.542,
+    "selisih_cakupan": -0.08166666666666664,
+    "skala_lebar": 0.2928672211355,
+    "polos_lebar": 0.3704050980387872,
+    "sebar_rata": 0.3024808263830782,
+    "W": 0.0,
+    "p": 0.9999021247874785,
+    "benih_skala_lebih_tinggi": 0
+   },
+   "geseran|1.0": {
+    "skala_cakupan": 0.32466666666666666,
+    "polos_cakupan": 0.39,
+    "selisih_cakupan": -0.06533333333333333,
+    "skala_lebar": 0.3194847151287522,
+    "polos_lebar": 0.3704050980387872,
+    "sebar_rata": 0.3386758140775045,
+    "W": 8.0,
+    "p": 0.9999818801879883,
+    "benih_skala_lebih_tinggi": 2
+   },
+   "geseran|2.0": {
+    "skala_cakupan": 0.1696666666666667,
+    "polos_cakupan": 0.21666666666666665,
+    "selisih_cakupan": -0.046999999999999986,
+    "skala_lebar": 0.302828537354685,
+    "polos_lebar": 0.3704050980387872,
+    "sebar_rata": 0.33858523957374076,
+    "W": 19.0,
+    "p": 0.998900009084478,
+    "benih_skala_lebih_tinggi": 2
+   },
+   "derau|0.0": {
+    "skala_cakupan": 0.8906666666666668,
+    "polos_cakupan": 0.8930000000000001,
+    "selisih_cakupan": -0.0023333333333333374,
+    "skala_lebar": 0.09475087436500901,
+    "polos_lebar": 0.3704050980387872,
+    "sebar_rata": 0.1458684058526865,
+    "W": 73.0,
+    "p": 0.7072658957587041,
+    "benih_skala_lebih_tinggi": 8
+   },
+   "derau|0.2": {
+    "skala_cakupan": 0.8086666666666666,
+    "polos_cakupan": 0.8109999999999999,
+    "selisih_cakupan": -0.002333333333333332,
+    "skala_lebar": 0.20847361465185116,
+    "polos_lebar": 0.3704050980387872,
+    "sebar_rata": 0.22903327721065897,
+    "W": 85.0,
+    "p": 0.6566137644406083,
+    "benih_skala_lebih_tinggi": 9
+   },
+   "derau|0.5": {
+    "skala_cakupan": 0.6576666666666667,
+    "polos_cakupan": 0.6176666666666666,
+    "selisih_cakupan": 0.039999999999999994,
+    "skala_lebar": 0.3511899859384033,
+    "polos_lebar": 0.3704050980387872,
+    "sebar_rata": 0.34022995055771704,
+    "W": 162.0,
+    "p": 0.0034950195850657973,
+    "benih_skala_lebih_tinggi": 15
+   },
+   "derau|1.0": {
+    "skala_cakupan": 0.5393333333333333,
+    "polos_cakupan": 0.4373333333333334,
+    "selisih_cakupan": 0.10200000000000001,
+    "skala_lebar": 0.46960766290347733,
+    "polos_lebar": 0.3704050980387872,
+    "sebar_rata": 0.44335036623421764,
+    "W": 207.0,
+    "p": 4.76837158203125e-06,
+    "benih_skala_lebih_tinggi": 18
+   },
+   "derau|2.0": {
+    "skala_cakupan": 0.43566666666666665,
+    "polos_cakupan": 0.279,
+    "selisih_cakupan": 0.15666666666666668,
+    "skala_lebar": 0.5752223683487396,
+    "polos_lebar": 0.3704050980387872,
+    "sebar_rata": 0.5453873191138053,
+    "W": 210.0,
+    "p": 9.5367431640625e-07,
+    "benih_skala_lebih_tinggi": 20
+   }
+  }
+ },
+ "EM": {
+  "satuan_gangguan": 3.1402840005994985,
+  "taraf": {
+   "geseran|0.0": {
+    "skala_cakupan": 0.9013605442176871,
+    "polos_cakupan": 0.9044217687074829,
+    "selisih_cakupan": -0.0030612244897959273,
+    "skala_lebar": 0.1331692862573336,
+    "polos_lebar": 0.3988098263584966,
+    "sebar_rata": 0.14751874143808189,
+    "W": 100.0,
+    "p": 0.5795888900756836,
+    "benih_skala_lebih_tinggi": 8
+   },
+   "geseran|0.2": {
+    "skala_cakupan": 0.8775510204081632,
+    "polos_cakupan": 0.884013605442177,
+    "selisih_cakupan": -0.006462585034013602,
+    "skala_lebar": 0.21353998243000297,
+    "polos_lebar": 0.3988098263584966,
+    "sebar_rata": 0.19277104797404992,
+    "W": 76.5,
+    "p": 0.7726690221031053,
+    "benih_skala_lebih_tinggi": 7
+   },
+   "geseran|0.5": {
+    "skala_cakupan": 0.7840136054421769,
+    "polos_cakupan": 0.7625850340136054,
+    "selisih_cakupan": 0.02142857142857143,
+    "skala_lebar": 0.3461443369462839,
+    "polos_lebar": 0.3988098263584966,
+    "sebar_rata": 0.2799605806523261,
+    "W": 115.5,
+    "p": 0.032320015382316665,
+    "benih_skala_lebih_tinggi": 12
+   },
+   "geseran|1.0": {
+    "skala_cakupan": 0.6534013605442176,
+    "polos_cakupan": 0.5431972789115647,
+    "selisih_cakupan": 0.11020408163265308,
+    "skala_lebar": 0.49882839534333795,
+    "polos_lebar": 0.3988098263584966,
+    "sebar_rata": 0.3866844043808893,
+    "W": 200.0,
+    "p": 4.100799560546875e-05,
+    "benih_skala_lebih_tinggi": 18
+   },
+   "geseran|2.0": {
+    "skala_cakupan": 0.4809523809523809,
+    "polos_cakupan": 0.3081632653061225,
+    "selisih_cakupan": 0.17278911564625848,
+    "skala_lebar": 0.6311874722545617,
+    "polos_lebar": 0.3988098263584966,
+    "sebar_rata": 0.4943283129247451,
+    "W": 210.0,
+    "p": 9.5367431640625e-07,
+    "benih_skala_lebih_tinggi": 20
+   },
+   "derau|0.0": {
+    "skala_cakupan": 0.9013605442176871,
+    "polos_cakupan": 0.9044217687074829,
+    "selisih_cakupan": -0.0030612244897959273,
+    "skala_lebar": 0.1331692862573336,
+    "polos_lebar": 0.3988098263584966,
+    "sebar_rata": 0.14751874143808189,
+    "W": 100.0,
+    "p": 0.5795888900756836,
+    "benih_skala_lebih_tinggi": 8
+   },
+   "derau|0.2": {
+    "skala_cakupan": 0.8989795918367347,
+    "polos_cakupan": 0.8921768707482993,
+    "selisih_cakupan": 0.006802721088435387,
+    "skala_lebar": 0.22136315739069437,
+    "polos_lebar": 0.3988098263584966,
+    "sebar_rata": 0.20031682518590083,
+    "W": 118.0,
+    "p": 0.17645458417176957,
+    "benih_skala_lebih_tinggi": 11
+   },
+   "derau|0.5": {
+    "skala_cakupan": 0.8833333333333332,
+    "polos_cakupan": 0.8176870748299321,
+    "selisih_cakupan": 0.06564625850340133,
+    "skala_lebar": 0.3790672599846283,
+    "polos_lebar": 0.3988098263584966,
+    "sebar_rata": 0.2996933233755903,
+    "W": 168.0,
+    "p": 0.00016323914240643324,
+    "benih_skala_lebih_tinggi": 17
+   },
+   "derau|1.0": {
+    "skala_cakupan": 0.8360544217687075,
+    "polos_cakupan": 0.6374149659863946,
+    "selisih_cakupan": 0.19863945578231293,
+    "skala_lebar": 0.5696342062241434,
+    "polos_lebar": 0.3988098263584966,
+    "sebar_rata": 0.423279869539196,
+    "W": 210.0,
+    "p": 9.5367431640625e-07,
+    "benih_skala_lebih_tinggi": 20
+   },
+   "derau|2.0": {
+    "skala_cakupan": 0.7306122448979592,
+    "polos_cakupan": 0.4217687074829932,
+    "selisih_cakupan": 0.30884353741496595,
+    "skala_lebar": 0.7952700132009187,
+    "polos_lebar": 0.3988098263584966,
+    "sebar_rata": 0.5692721974579801,
+    "W": 210.0,
+    "p": 9.5367431640625e-07,
+    "benih_skala_lebih_tinggi": 20
+   }
+  }
+ },
+ "catatan": {
+  "alpha": 0.1,
+  "n_benih": 20,
+  "taraf": [
+   0.0,
+   0.2,
+   0.5,
+   1.0,
+   2.0
+  ],
+  "bentuk": [
+   "geseran",
+   "derau"
+  ],
+  "uji": "Wilcoxon signed-rank, satu sisi, berskala lebih tinggi",
+  "catatan_uji": "gangguan hanya dikenakan pada himpunan uji"
+ }
+}
